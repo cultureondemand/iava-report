@@ -1,8 +1,7 @@
 var slideData = [
 
   {
-    section: "INTRODUCTION",
-     icon: "pcy.svg",
+    section: "",
     header: "",
     bkgImage: {
       small: "intro-small.jpg",
@@ -10,22 +9,16 @@ var slideData = [
       large: "intro-large.jpg"
     },
     body: `
-<p><img src='assets/images/pcy.jpg' alt='PCY' border='0' align='left' class='introimg'>Educators, families, and policymakers have known for some time that the academic achievement gap is in large part due to an opportunity gap. Experts agree that accessible, high quality after school and summer learning programs are an essential set of opportunities that can help to close the achievement gap and create more equitable educational outcomes for kids where differences in race, culture, and family income have too often been predictive of acute disparities. For after school and summer programs to do their work, they need to meet kids where they are: in schools, and where kids live, play, and socialize.  Right now, some of the most important work to meet kids where they are with expanded learning opportunities is happening where they live, in affordable and public housing settings.</p>
-<p>
-The Partnership for Children & Youth (PCY), through our HousED Initiative, has spent years working with housing providers throughout California, enhancing the quality of learning in programs that collectively serve over 40,000 kids. HousED has also partnered with visionary leaders in housing to plan the future of capacity building, quality improvement, and enhanced public support for housing’s role in building greater equity in academic and life outcomes for young people from under-resourced families.</p>
-<p>
-In 2015, we brought together a diverse group of housing agencies and educators to meet an ambitious goal: establish standards for quality expanded learning programs that speak to the unique needs and challenges of prodviding services to youth in public and affordable housing communities. The Quality Standards for Expanded Learning in California produced by the California Department of Education and the California Afterschool Network served as a strong foundation for us and our early partners; the National Afterschool Association, Council of Large Public Housing Authorities, The David P. Weikart Center for Youth Program Quality, and the Housing Development Consortium to use, adapt, and share our work.</p>
-<p>
-These standards are a groundbreaking step forward. We are already seeing the impact these ideas are having on expanded learning programs in housing, and we look forward to hearing how you will use them. Every program is different, and we believe that these standards will serve as a guide that staff at each program will adapt to meet their unique needs.</p>
-<P>
-We hope you will join us, and make these standards your own. Together, we will change the lives of youth in expanded learning programs across the country. Together, we will build pathways out of poverty.
-     `
+Iraq and Afghanistan Veterans
+of America (www.IAVA.org) is the leading post-9/11 veteran empowerment organization (VEO) with the most diverse and rapidly growing membership in America. As a non-profit founded in 2004, IAVA’s mission is to connect, unite and empower post-9/11 veterans. Celebrating its 12th year anniversary, IAVA has connected more than 1.2 million veterans with resources and community, and provided more than 7,300 veterans with personalized support from IAVA’s Master’s level social workers.
+IAVA would like to thank the Psychology Department at George Mason University on their partnership, supporting survey development, distribution and analysis.
+IAVAs Member Survey would also not be possible without the funding support provided by the Barbara Streisand Foundation     `
   },
   
 
 
   {
-    section: "PROGRAMMATIC STANDARDS",
+    section: "INTRODUCTION",
      icon: "pcy.svg",
     header: "",
     bkgImage: {
@@ -34,28 +27,17 @@ We hope you will join us, and make these standards your own. Together, we will c
       large: "1-Cover-large.jpg"
     },
     body: `
-<h3 class='staff'>CLEAR VISION, MISSION, PURPOSE, AND MANAGEMENT</h3>
-<p>
-The program has clearly defined their vision, mission, goals, and measurable outcomes that respond to the needs of the community, reflect broad stakeholder input, and drive program design, implementation, and improvement. It demonstrates sound fiscal and administrative practices that are supported by, and communicated to, staff and stakeholders.
-</p>
-<h3 class='staff'>CONTINUOUS QUALITY IMPROVEMENT</h3>
-The program uses data from multiple sources to assess its strengths and opportunities for growth, in order to continuously improve program design, outcomes, and impact.
-<br />
-<br />
-<h3 class='staff'>QUALITY STAFF</h3>
-The program recruits and retains high quality staff and volunteers. It provides a safe and supportive environment for staff and ongoing professional development based on assessed staff needs and the organization’s vision, mission,  and goals.
-<br />
-<br />
-<h3 class='staff'>COLLABORATIVE PARTNERSHIPS</h3>
-The program intentionally builds and supports collaborative relationships among internal and external constituents, including families, schools, the community, and property stakeholders to achieve program goals.
-<br />
-<br />
-<h3 class='staff'>FAMILY ENGAGEMENT</h3>
-The program uses strength-based strategies to partner with families to manage and sustain their children’s learning and healthy development.
-<br />
-<br />
-<h3 class='staff'>SUSTAINABILITY</h3>
-The program builds enduring partnerships with property stakeholders, internal and external organizations, agencies, neighbors, and the community to secure monetary and in-kind contributions.
+
+    In 2016, IAVA killed $4 billion in cuts to the Post-9/11 GI Bill, a landmark bill that IAVA fought to pass in 2008. IAVA’s member survey was the driver for what became a national call to action and a fight for this critical education benefit. This fight was personal; the road was long—longer than it should’ve been—but together we got it done.
+
+But the fight is far from over. And the stakes have never been higher. With each year, veterans worry about the nation’s attention and support turning away from this community. Thus with each passing year it becomes more crucial that this nation understands and shares in both
+the struggles and successes of this newest generation of veterans.
+
+IAVA’s annual member survey is one of the largest non-governmental surveys of Iraq and Afghanistan combat veterans and is the most comprehensive, asking about employment, education, benefits, health and other emerging issues. Through this survey, the collective voice of IAVA members have influenced the current She Who Borne the Battle Campaign, the 2016 Campaign to Defend the GI Bill, the 2014 Campaign to Combat Suicide, the 2013 Campaign to End the VA Backlog, the Vow to Hire Heroes Act and so much more!
+
+This year’s survey highlights some of the challenges that the fastest growing population of service members and veterans -- women veterans -- face. This survey drove our top policy priority for 2017, to improve recognition and services for women veterans. It also shows that mental health challenges and access to care continue to impact veterans in all facets of their lives. And it highlights a continued need for a focus on finances during the transition period.
+
+Yet it also shows that vets are rising. Twenty-four percent of our members are planning to start their own business and three percent already have. Eighty-eight percent voted in the 2016 Presidential Election, and 41 percent are considering a run for public office themselves. The information from this survey is a major driver for all that IAVA does. It should be a road map for the country too. The post- 9/11 generation of veterans has had the nation’s back for over a decade; it’s time for the nation to have theirs. 
 
     `
   },
@@ -106,7 +88,29 @@ The program promotes the well-being of youth through opportunities to learn abou
       medium: "4-Rec_Uses-medium.jpg",
       large: "4-Rec_Uses-large.jpg"
     },
-    body:"<h3 class='prog'>Recommended Uses?</h3>The Quality Standards for Expanded Learning in Public and Affordable Housing were developed to describe features of a high quality expanded learning program within the unique context of public and affordable housing.<p>The standards are not meant to be a checklist, but should instead be used in the following ways:<ul><li>A framework of clear expectations for all individuals involved.</li><li>A blueprint to inform decision-making for housing agencies looking to start or improve expanded learning programs.</li><li>A guide for youth and families to identify quality programming and to learn about the roles they can play in ensuring it.</li><li>A foundation for program providers to use as a starting place and adapt as needed.</li></ul><p>Every program is different — we believe that these standards will serve as a guide that staff at each program will adapt to meet their individual needs.We hope you will join us, and make these standards your own. Implement a cycle of continuous improvement, and look for ways to integrate these standards into your professional development, policies, procedures, activities, and programming.<br /><br /><br /><h3 class='prog'>What is Expanded Learning?</h3>The term Expanded Learning refers to before-and after-school, summer, and intersession learning programs that focus on developing the academic, social, emotional, and physical needs and interests of students through hands-on, engaging learning experiences. Expanded Learning programs should be student-centered, results-driven, include community partners, and complement but not replicate learning activities in the regular school day/ year. Children and youth spend more time out of school than in, and learning is not restricted to the classroom.<div class='wrap full'><img src='assets/images/cycle.png' border='0' width='436' height='422' alt='Cycle of Quality'></div>"
+    body:`<h3 class='staff'>CLEAR VISION, MISSION, PURPOSE, AND MANAGEMENT</h3>
+<p>
+The program has clearly defined their vision, mission, goals, and measurable outcomes that respond to the needs of the community, reflect broad stakeholder input, and drive program design, implementation, and improvement. It demonstrates sound fiscal and administrative practices that are supported by, and communicated to, staff and stakeholders.
+</p>
+<h3 class='staff'>CONTINUOUS QUALITY IMPROVEMENT</h3>
+The program uses data from multiple sources to assess its strengths and opportunities for growth, in order to continuously improve program design, outcomes, and impact.
+<br />
+<br />
+<h3 class='staff'>QUALITY STAFF</h3>
+The program recruits and retains high quality staff and volunteers. It provides a safe and supportive environment for staff and ongoing professional development based on assessed staff needs and the organization’s vision, mission,  and goals.
+<br />
+<br />
+<h3 class='staff'>COLLABORATIVE PARTNERSHIPS</h3>
+The program intentionally builds and supports collaborative relationships among internal and external constituents, including families, schools, the community, and property stakeholders to achieve program goals.
+<br />
+<br />
+<h3 class='staff'>FAMILY ENGAGEMENT</h3>
+The program uses strength-based strategies to partner with families to manage and sustain their children’s learning and healthy development.
+<br />
+<br />
+<h3 class='staff'>SUSTAINABILITY</h3>
+The program builds enduring partnerships with property stakeholders, internal and external organizations, agencies, neighbors, and the community to secure monetary and in-kind contributions.
+`
 
    },
   {
