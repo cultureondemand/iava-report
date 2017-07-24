@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+              ___          ___         ___          ___          ___          ___      ___
+      ___    /__/\        /  /\       /  /\        /  /\        /  /\        /  /\    /  /\        ___
+     /  /\   \  \:\      /  /::\     /  /:/_      /  /:/_      /  /:/_      /  /::\  /  /::\      /  /\
+    /  /:/    \__\:\    /  /:/\:\   /  /:/ /\    /  /:/ /\    /  /:/ /\    /  /:/\:\/  /:/\:\    /  /:/
+   /  /:/ ___ /  /::\  /  /:/~/:/  /  /:/ /:/_  /  /:/ /:/_  /  /:/ /::\  /  /:/~/:/  /:/  \:\  /  /:/
+  /  /::\/__/\  /:/\:\/__/:/ /:/__/__/:/ /:/ /\/__/:/ /:/ /\/__/:/ /:/\:\/__/:/ /:/__/:/ \__\:\/  /::\
+ /__/:/\:\  \:\/:/__\/\  \:\/:::::|  \:\/:/ /:/\  \:\/:/ /:/\  \:\/:/~/:/\  \:\/:/\  \:\ /  /:/__/:/\:\
+ \__\/  \:\  \::/      \  \::/~~~~ \  \::/ /:/  \  \::/ /:/  \  \::/ /:/  \  \::/  \  \:\  /:/\__\/  \:\
+      \  \:\  \:\       \  \:\      \  \:\/:/    \  \:\/:/    \__\/ /:/    \  \:\   \  \:\/:/      \  \:\
+       \__\/\  \:\       \  \:\      \  \::/      \  \::/       /__/:/      \  \:\   \  \::/        \__\/
+             \__\/        \__\/       \__\/        \__\/        \__\/        \__\/    \__\/
+
+
+
+      This framework and functionality is based on this: https://github.com/vlandham/scroll_demo
+      For a full rundown of the theory behind it, see: http://vallandingham.me/scroller.html
+      We have tweaked to make it populoate more dynamically, and include interactive goodies like
+      WebGL, SVG, etc. in the <vis> div created for the original interactive it was intended for.
+
+     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||| Facebook Sharing Content |||||||||||||||||||||||||||||||||||| -->
+
+  <meta property="og:title" content="IAVA 2017 Member Survey * Iraq Afghanistan Veterans of America ">
+  <!-- <meta property="og:site_name" content="*** [ Your Sitename Here ] ***">
+  <meta property="og:url" content="*** [ Your Link Here ] ***">
+  <meta property="og:description" content="*** [ Your Description Here ] ***">
+  <meta property="fb:app_id" content="*** [ Your FB App ID Here ] ***">
+  <meta property="og:type" content="website"> -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- ||||||||||||||| Twitter Sharing Content |||||||||||||||||||||| -->
+
+ <!--  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@threespot" />
+  <meta name="twitter:creator" content="@threespot" />
+  <meta property="og:image" content="http://cultureondemand.com/stories/3./scrolly/0.jpg" /> -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <meta name="Description" content="IAVA">
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <title>IAVA 2017 Member Survey * Iraq Afghanistan Veterans of America</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/scrolly.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/step.css" />
+  <link href='https://fonts.googleapis.com/css?family=Trocchi|Vast+Shadow' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+  <script type="text/javascript" src="assets/js/modernizr.min.js"></script>
+  <script type="text/javascript" src="assets/js/content.js"></script>
+
+</head>
+
+<body>
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||| VIDEO ELEMENT ACTIVATE IN daddy .js file |||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||| Uncomment to use vid & make changes to function  |||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ <video autoplay playsinline muted loop poster="1.jpg" id="bgvid0" class="videobig" style="display: none;">
+     <source src="images/wb_shoot.webm" type="video/webm">
+     <source src="images/wb_shoot.mp4" type="video/mp4">
+</video>
+
+     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||| SITE FURNITURE |||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||  LOADER |||||||||||||||||||||||||||||||||||| -->
+  <div id="play">
+    <div id="loader">
+    </div>
+  </div>
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| TOP RIGHT MENU |||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| BOTTOM LEFT DIV ||||||||||||||||||||||||||||||||| -->
+  <div id="output">
+  </div>
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| TOP LEFT LOGO ||||||||||||||||||||||||||||||||||| -->
+  <div id="logobar" data-toggle="toc" style="display: none;">
+  <div id="pmnglogo">
+    <a href="#" data-toggle="toc" style="background-color: none; background: none; "><img src='assets/images/iava.png' border='0' alt='House ED' style='width:10em; min-width:80px;'></a>
+  </div>
+  <span class="tagline">2017 IAVA Member Survey</span> 
+  <div id="menu">
+    <img src="assets/images/menu.png" alt="Threespot" border="0" height="100%" align="right" alt="table of contents">
+  </div>
+</div>
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| TABLE OF CONTENTS ||||||||||||||||||||||||||||||| -->
+  <div id="toc" data-toggle="toc">
+    Table of Contents:
+    <br />
+  </div>
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| This is where the content lives ||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| Main container div |||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| Graphic div is the parent for scrolling ||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- |||||||||||| Containers have bgs and top bars |||||||||||||||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+  <!-- ||||| Section contains steps which are the scrolling text |||| -->
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||| add a static title container |||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+ <div id="titleCloser">
+<a href='http://partnerforchildren.org/' target='_blank' style="background-color: none; background: none;color:#fff; "><img src="assets/images/iava.png" border="0" alt="IAVA" align="left" width="10%"></a>IAVA
+</div>
+
+
+               <div id='logoOpener'>
+<div class='imgcontainer' data-toggle="toc"><a href="#" style="background-color: none; background: none; "><img src='iava_logo.png' width='90%' border='0' alt='IAVA' style='max-width:200px;'></a></div>
+</div>
+
+<div class='tagblues'><a href='http://iava.org/' target='_blank' style="background-color: none; background: none;color:#fff; ">&copy;2017 IAVA</a></div>
+
+
+
+  <div class="container" id="container">
+  
+           <div class="bgbg js-background-image" id="openerimg">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="assets/images/cover.png" media="(min-width: 400px)">
+              <!--[if IE 9]></video><![endif]-->
+              <img srcset="assets/images/cover.png">
+            </picture>
+          </div>
+          
+   <div id="graphic">
+
+
+   
+
+ 
+
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+      <div id="sections">
+
+
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||| add a static step container ||||||||||||||||||||| -->
+        <!-- |||||||||||| the title slide with scroll prompt |||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+        <!-- ### 0 ### -->
+        <section class="step" style="background: none !important; ">
+          <div id="titleOpener">2017 Member Survey
+          <div class="subline">Iraq Afghanistan Veterans of America</div>
+         </div>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> 
+          <span id="scrollimg">
+            <a href="#step-0" style="background: none !important; z-index: 9999999; ">
+              <img src="assets/images/scrolldown.png" border="0" alt="Scroll Down For More" style="text-align: center; ">
+            </a>
+          </span>
+         </section>
+
+
+
+
+
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||| OUTPUT THE REST OF THE STEPS |||||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||| FIND THE CONTENT IN content.js |||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||| CALCULATES ARRAY OF TITLES FOR OUTPUT ||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+        <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+
+ 
+
+
+
+
+
+      </div>
+      <!-- |||||||||||| The vis div that holds interactive goodies |||||| -->
+
+      <div id="vis"></div>
+
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      <!-- |||||||||||| Close container and graphic ||||||||||||||||||||| -->
+
+    </div>
+  </div>
+
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="assets/js/picturefill.min.js"></script>
+  <script type="text/javascript" src="assets/js/background-picture.js"></script>
+  <script type="text/javascript" src="assets/js/queue.js"></script>
+  <script type="text/javascript" src="assets/js/scroller.js"></script>
+  <script type="text/javascript" src="assets/js/toggle.js"></script>
+  <script type="text/javascript" src="assets/js/preload.js"></script>
+  <script type="text/javascript" src="assets/js/slide.js"></script>
+  <script type="text/javascript" src="assets/js/table-of-contents.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+  <script src="assets/js/scrolly.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+<!-- |||||||||||| Preloader |||||||||||||||||||||||||||||||||||||||
+
+<div class="hidden">
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+ 
+      var images = new Array()
+      function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+          images[i] = new Image()
+          images[i].src = preload.arguments[i]
+        }
+        
+          
+
+
+
+
+      }
+images.onload = notify();
+
+      function notify()  {
+
+        setTimeout(function(){ 
+
+          document.getElementById('play').style.display = 'none'; 
+ 
+ 
+        }, 6000);
+
+        
+}
+
+
+      preload(
+        "assets/images/bkg/1-Cover-large.jpg",
+        "assets/images/bkg/2-Intro-large.jpg",
+        "assets/images/bkg/4-Rec_Uses-large.jpg",
+        "assets/images/bkg/5-Clear_Vision-large.jpg",
+        "assets/images/bkg/6-Continuous_Quality_Improvement-large.jpg",
+        "assets/images/bkg/8-Collab_Partnerships-large.jpg",
+        "assets/images/bkg/9-Family_Engagement-large.jpg",
+        "assets/images/bkg/10-Sustainability-large.jpg",
+        "assets/images/bkg/11-Diversity_Access_Inclusivity-large.jpg",
+        "assets/images/bkg/12-Safe-and-Supporting-Environment-large.jpg",
+        "assets/images/bkg/13-Active_Engaged_Learning-large.jpg",
+        "assets/images/bkg/14-Skill_Building-large.jpg",
+        "assets/images/bkg/15-Youth_Voice_Leadership-large.jpg",
+        "assets/images/bkg/16-Healthy_Choice_Behavior-large.jpg",
+        "assets/images/bkg/17-Work_Group_Process-large.jpg",
+        "assets/images/bkg/19-Last-large.jpg",
+        "assets/images/bkg/intro-large.jpg"
+
+      )
+    //--><!]]>
+  </script>
+</div>
+
+ -->
+
+
+
+</body>
+</html>
