@@ -1039,7 +1039,7 @@ background-color: #fff;
   left: 0;
   border-top: 1px solid #000;
   text-transform: uppercase;
-background:none;
+background:none !important;
   font-family: "HelveticaNeueLight",
     "HelveticaNeue-Light",
     "Helvetica Neue Light",
@@ -1081,7 +1081,7 @@ background:none;
   left: 0;
   border-top: 1px solid #000;
   text-transform: uppercase;
-background:none;
+background:none !important;
 
   font-family: "HelveticaNeueLight",
     "HelveticaNeue-Light",
@@ -1123,7 +1123,7 @@ background:none;
   left: 0;
   border-top: 1px solid #000;
   text-transform: uppercase;
-background:none;
+background:none !important;
 
   font-family: "HelveticaNeueLight",
     "HelveticaNeue-Light",
