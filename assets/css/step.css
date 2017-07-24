@@ -23,7 +23,10 @@
   margin: 0 auto 10vh;
    background-color: #fff;
   position: relative;
-  padding: 6vw;
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-top: 22px;
+  padding-bottom: 22px;
   z-index: 2;
 }
 
