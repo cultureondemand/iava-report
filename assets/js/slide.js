@@ -123,11 +123,11 @@
 
     this.content = document.createElement("div");
     this.content.className = "step-content";
-    !!this.header && this.content.appendChild(this.header);
     this.content.appendChild(this.body);
 
     this.slide.appendChild(this.bkg);
     !!this.sectionHeader && this.slide.appendChild(this.sectionHeader);
+    !!this.header && this.content.appendChild(this.header);
     !!this.icon && this.slide.appendChild(this.icon);
     this.slide.appendChild(this.content);
 
