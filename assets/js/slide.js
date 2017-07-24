@@ -127,7 +127,7 @@
 
     this.slide.appendChild(this.bkg);
     !!this.sectionHeader && this.slide.appendChild(this.sectionHeader);
-    !!this.header && this.content.appendChild(this.header);
+    !!this.header && this.slide.appendChild(this.header);
     !!this.icon && this.slide.appendChild(this.icon);
     this.slide.appendChild(this.content);
 
