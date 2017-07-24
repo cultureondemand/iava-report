@@ -93,7 +93,7 @@ div.tooltip {
   display: inline-block;
   position: fixed;
   right: .6em;
-  top: .6em;
+  top: .2em;
   cursor: pointer;
 }
 
