@@ -19,13 +19,7 @@ In 2015, we brought together a diverse group of housing agencies and educators t
 These standards are a groundbreaking step forward. We are already seeing the impact these ideas are having on expanded learning programs in housing, and we look forward to hearing how you will use them. Every program is different, and we believe that these standards will serve as a guide that staff at each program will adapt to meet their unique needs.</p>
 <P>
 We hope you will join us, and make these standards your own. Together, we will change the lives of youth in expanded learning programs across the country. Together, we will build pathways out of poverty.
-<!-- <div class='wrap full'><img src='assets/images/logos/CLPHA-Logo.png' border='0' width='417' height='183' alt='HouseED Housing and Education'></div>
-<div class='wrap full'><img src='assets/images/logos/ca-dept-education.png' width='420' height='250' border='0' alt='HouseED Housing and Education'></div>
-<div class='wrap full'><img src='assets/images/logos/HDC_horiz_rgb.png' width='417' height='86' border='0' alt='HouseED Housing and Education'></div>
-<div class='wrap full'><img src='assets/images/logos/CYPQ_RGB.png' width='417' height='183' border='0' alt='HouseED Housing and Education'></div>
-<div class='wrap full'><img src='assets/images/logos/NAALogo_2013Colors.png' width='417' height='102' border='0' alt='HouseED Housing and Education'></div>
- -->
-    `
+     `
   },
   
 
