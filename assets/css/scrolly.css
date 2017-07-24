@@ -236,7 +236,7 @@ video#bgvid02 {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #3871C1;
+  background-color: #284635;
   display: block;
   width: 100%;
   height: 100%;
@@ -252,12 +252,12 @@ video#bgvid02 {
   top: 50%;
   z-index: 99999999;
   width: 250px;
-  height: 250px;
-  margin: -125px 0 0 -125px;
-  border: 16px solid #fff;
+  height: 150px;
+  margin: -125px 0 0 -75px;
+  border: 16px solid #dbf529;
   border-radius: 0;
-  border-top: 16px solid #efefef;
-background-color:#3871C1;
+  border-top: 16px solid #dbf529;
+background-color:#284635;
   -webkit-animation-name: spin;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: 1;
