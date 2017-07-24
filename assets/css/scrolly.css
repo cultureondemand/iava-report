@@ -473,12 +473,12 @@ polyline {
   margin: 0;
   background-color: #284635;
 font-family:'Oswald', sans-serif;
-   font-size: .7em;
+   font-size: 1em;
   font-weight: 800;
   text-align: left;
   padding-top: 1.3em;
   padding-right: .9em;
-  padding-left: 13em;
+  padding-left: 15em;
   cursor: pointer;
     height: 40px;
 
