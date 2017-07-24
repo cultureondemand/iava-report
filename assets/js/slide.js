@@ -16,7 +16,7 @@
    * @param {string} header - text
    * @return {object} node - DOM element
    */
-  function createHeader(header) {
+  function createHeader(id, header) {
     if (typeof header !== "unidefined" && header.length > 0) {
       var node = document.createElement("div");
       node.className = "title";
