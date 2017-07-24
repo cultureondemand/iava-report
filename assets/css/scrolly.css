@@ -604,7 +604,8 @@ font-family:'Oswald', sans-serif;
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   .step {
-     font-family: "HelveticaNeue",
+    margin-bottom: 96vh;
+    font-family: "HelveticaNeue",
       "Helvetica Neue",
       'TeXGyreHerosRegular',
       "Helvetica",
@@ -630,7 +631,8 @@ font-family:'Oswald', sans-serif;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .step {
-     font-family: "HelveticaNeue",
+    margin-bottom: 96vh;
+    font-family: "HelveticaNeue",
       "Helvetica Neue",
       'TeXGyreHerosRegular',
       "Helvetica",
@@ -656,7 +658,8 @@ font-family:'Oswald', sans-serif;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .step {
-     font-family: "HelveticaNeue",
+    margin-bottom: 96vh;
+    font-family: "HelveticaNeue",
       "Helvetica Neue",
       'TeXGyreHerosRegular',
       "Helvetica",
