@@ -16,12 +16,11 @@
    * @param {string} header - text
    * @return {object} node - DOM element
    */
-  function createHeader(id, header) {
+  function createHeader(header) {
     if (typeof header !== "unidefined" && header.length > 0) {
       var node = document.createElement("div");
       node.className = "title";
-       node.setAttribute("id", "title-" + id);
-
+ 
       var text = document.createTextNode(header);
       node.appendChild(text);
 
