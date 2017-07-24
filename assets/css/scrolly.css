@@ -1402,8 +1402,8 @@ left: 25%;
   font-size: 1.3em;
 display: inline-block;
 position: fixed;
-left: 125px;
-top:5.3em;
+  padding-left: 82px;
+top:5.1em;
   font-family:
     "HelveticaNeue",
     "Helvetica Neue",
