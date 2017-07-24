@@ -1401,8 +1401,8 @@ left: 25%;
   font-size: 1.3em;
 display: inline-block;
 position: fixed;
-left: 150px;
-top:2em;
+left: 130px;
+top:4em;
   font-family:
     "HelveticaNeue",
     "Helvetica Neue",
@@ -1417,6 +1417,7 @@ top:2em;
   margin-bottom: .1em;
 
   line-height: 1.3em;
+  width:80%;
 }
 
 
