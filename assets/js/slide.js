@@ -18,10 +18,14 @@
    */
   function createHeader(header) {
     if (typeof header !== "unidefined" && header.length > 0) {
-      var node = document.createElement("h2");
+      var node = document.createElement("div");
       node.className = "title";
+       node.setAttribute("id", "title-" + id);
+
       var text = document.createTextNode(header);
       node.appendChild(text);
+
+
       return node;
     } else {
       return false;

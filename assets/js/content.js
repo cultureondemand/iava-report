@@ -114,9 +114,8 @@ The program builds enduring partnerships with property stakeholders, internal an
 
    },
   {
-    section: "CLEAR VISION, MISSION, PURPOSE, AND MANAGEMENT",
-    icon: "pcy-housed-icons-final2_clear vision 2.svg",
-   header: "The program has clearly defined their vision, mission, goals, and desired outcomes that respond to the needs of the community, reflect broad stakeholder input, and drive program design, implementation, and improvement. It demonstrates sound fiscal and administrative practices that are supported by, and communicated to, staff and stakeholders.",
+    section: "POLITICAL ENGAGEMENT",
+    header: "Veterans are generally more civically engaged than civilians, volunteering in their local community and engaging in politics and elections. This section asks IAVA members about their participation inpolitics, the issues that matter to them and their propensity to engage in the electoral process.",
     bkgImage: {
       small: "5-Clear_Vision-small.jpg",
       medium: "5-Clear_Vision-medium.jpg",
