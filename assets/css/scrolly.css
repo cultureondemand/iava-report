@@ -622,10 +622,7 @@ text-align: left;
     height: 100%;
     color: #000;
     margin-left: 0;
-    padding-right: 82px;
-    padding-left: 82px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding:0;
     z-index: 1;
     overflow: visible;
    }
@@ -652,10 +649,7 @@ text-align: left;
     height: 100%;
     color: #000;
     margin-left: 0;
-    padding-right: 82px;
-    padding-left: 82px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+padding:0;
     z-index: 1;
     overflow: visible;
  
