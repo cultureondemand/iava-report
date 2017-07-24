@@ -550,7 +550,7 @@ font-family:'Oswald', sans-serif;
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #sections {
-    position: absolute;
+    position: fixed;
     color: #000;
 
     top: 0px;
@@ -568,7 +568,7 @@ font-family:'Oswald', sans-serif;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   #sections {
-    position: absolute;
+    position: fixed;
     color: #000;
 
     top: 0px;
@@ -586,7 +586,7 @@ font-family:'Oswald', sans-serif;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   #sections {
-    position: absolute;
+    position: fixed;
     color: #000;
 
     top: 0px;
