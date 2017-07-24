@@ -475,10 +475,9 @@ polyline {
 font-family:'Oswald', sans-serif;
    font-size: 1.6em;
   font-weight: 800;
-  text-align: left;
+  text-align: center;
   padding-top: .1em;
-  padding-right: .9em;
-  padding-left: 10em;
+
   cursor: pointer;
     height: 40px;
 
