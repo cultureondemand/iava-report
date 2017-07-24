@@ -704,7 +704,7 @@ font-family:'Oswald', sans-serif;
 
 #logoOpener {
 
-    background-color: #fff;
+    background-color: #284635;
 
 top: 0;
 left: 0;
@@ -743,7 +743,7 @@ position: fixed;
 
 #logoOpener {
 
-    background-color: #fff;
+    background-color: #284635;
 
 top: 0;
 left: 0;
@@ -783,7 +783,7 @@ position: fixed;
 
 #logoOpener {
 
-    background-color: #fff;
+    background-color: #284635;
 
 top: 0;
 left: 0;
@@ -1282,7 +1282,7 @@ background:none !important;
 @media only screen and (max-width: 400px) {
 
 #titleOpener {
-  background-color: rgba(56, 113, 193, .9);
+  background-color: rgba(40, 70, 53, .9);
   display: inline-block;
 top: 0;
 left: 30%;
@@ -1311,7 +1311,7 @@ left: 30%;
 @media only screen and (min-width: 401px) and (max-width: 960px) {
  
 #titleOpener {
-  background-color: rgba(56, 113, 193, .9);
+  background-color: rgba(40, 70, 53, .9);
   display: inline-block;
 top: 0;
 left: 30%;
@@ -1345,7 +1345,7 @@ left: 30%;
 @media only screen and (min-width: 961px) {
 
 #titleOpener {
-  background-color: rgba(56, 113, 193, .9);
+  background-color: rgba(40, 70, 53, .9);
   display: inline-block;
 top: 0;
 left: 25%;
