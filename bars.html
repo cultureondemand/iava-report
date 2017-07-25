@@ -114,7 +114,7 @@
     color.domain(d3.keys(dataset[0]).filter(function(key) { return key !== "label"; }));
     dataset.forEach(function(d) {
         var y0 = 0;
-        d.values = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
+        d.values = color.domain().map(function(name) { return {name: name, x0: y0, x1: y0 += +d[name]}; });
         d.total = d.values[d.values.length - 1].y1;
     });
     x.domain(dataset.map(function(d) { return d.label; }));
