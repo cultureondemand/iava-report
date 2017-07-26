@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.tooltip .circle{
+  fill: none;
+}
+</style>
+<body>
+  <div id="line-1"></div>
+  <div id="line-2"></div>
+  <div id="line-3"></div>
+  <div id="line-4"></div>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="d3.line.js"></script>
+<script>
+
+// Method used for generate random data.
+var getData = function(){
+  var data = [];
+  for(var i=0; i<100; i++){
+    data.push({
+      x: i,
+      y: Math.round(Math.random() * 100)
+    });
+  };
+  return data;
+};
+
+
+/*
+* Create graphs
+*/
+var line1 = line()
+              .$el(d3.select("#line-1"))
+              .height(100) // Set height
+              .data(getData()) // Set data
+              .render();
+
+var line2 = line()
+              .$el(d3.select("#line-2"))
+              .height(100) // Set height
+              .color("green") // Set color
+              .data(getData()) // Set data
+              .render();
+
+var line3 = line()
+              .$el(d3.select("#line-3"))
+              .height(100) // Set height
+              .color("red") // Set color
+              .data(getData()) // Set data
+              .render();
+
+var line4 = line()
+              .$el(d3.select("#line-4"))
+              .height(100) // Set height
+              .color("gray") // Set color
+              .data(getData()) // Set data
+              .render();
+/*
+* Refresh graphs repeatedly
+*/
+///setInterval(function(){
+////  line1.data(getData()).render();
+///  line2.data(getData()).render();
+////  line3.data(getData()).render();
+ /// line4.data(getData()).render();
+//// }, 3000);
+</script>
+
