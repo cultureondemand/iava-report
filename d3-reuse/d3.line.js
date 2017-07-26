@@ -8,7 +8,7 @@ function line(){
   var height = 500;
   var color = "steelblue";
   var margin = {top: 10, right: 30, bottom: 30, left: 30};
-  var data = [
+  var dataset = [
     {'age': '16-25',
     'values': 
     [
@@ -64,7 +64,7 @@ function line(){
     if(!svg){ // Render first time
 
 
-data = data.map(function (d) {
+dataset = dataset.map(function (d) {
         return d.values.map(function (o, i) {
             // Structure it so that your numeric
             // axis (the stacked amount) is y
@@ -82,10 +82,10 @@ stack = d3.layout.stack();
 
 
 
-stack(data);  //d3 stack function on the dataset defined & modified above
+stack(dataset);  //d3 stack function on the dataset defined & modified above
 
 
-        var data = data.map(function(group) {
+        var dataset = dataset.map(function(group) {
             return group.map(function(d) {
                 // Invert the x and y values, and y0 becomes x0
                 return {
