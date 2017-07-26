@@ -56,14 +56,6 @@ function line(){
 
 
 
-
-  var object = {};
-
-  // Method for render/refresh graph
-  object.render = function(){
-    if(!svg){ // Render first time
-
-
 dataset = dataset.map(function (d) {
         return d.values.map(function (o, i) {
             // Structure it so that your numeric
@@ -76,13 +68,21 @@ dataset = dataset.map(function (d) {
                 n: o.names_list
             };
         });
-    }),
+    });
 
 stack = d3.layout.stack();
 
 
 
 stack(dataset);  //d3 stack function on the dataset defined & modified above
+
+
+
+  var object = {};
+
+  // Method for render/refresh graph
+  object.render = function(){
+    if(!svg){ // Render first time
 
 
         var dataset = dataset.map(function(group) {
