@@ -15,33 +15,17 @@ function stacked(){
 
 
 
-var data = data.map(function (d) {
-        return d.values.map(function (o, i) {
-            // Structure it so that your numeric
-            // axis (the stacked amount) is y
-            return {
-                //all the data that's going to be used in the chart
-                //y-axis has the count; x-axis has the year; also passing in names for tooltips
-                y: o.count,
-                x: o.year,
-                n: o.names_list
-            };
-        });
-    });
+  var object = {};
 
+  // Method for render/refresh graph
+  object.render = function(){
+    if(!svg){ // Render first time
 stack = d3.layout.stack();
 
 
 
 stack(data);  //d3 stack function on the dataset defined & modified above
 
-
-
-  var object = {};
-
-  // Method for render/refresh graph
-  object.render = function(){
-    if(!svg){ // Render first time
 
 
         var data = data.map(function(group) {
@@ -129,6 +113,12 @@ yAxis = d3.svg.axis()
   };
 
   // Getter and setter methods
+
+
+
+
+
+
   object.data = function(value){
     if (!arguments.length) return data;
     data = value;
@@ -147,6 +137,12 @@ yAxis = d3.svg.axis()
     return object;
   };
 
+
+
+
+
+
+
   object.height = function(value){
     if (!arguments.length) return height;
     height = value;
@@ -163,5 +159,44 @@ yAxis = d3.svg.axis()
     x = value;
     return object;
   }
+
+
+
+
+
+  object.x = function(value){
+    if (!arguments.length) return x;
+    x = value;
+    return object;
+  }
+
+
+
+
+object.data = function (value) {
+        return value.values.map(function (o, i) {
+            // Structure it so that your numeric
+            // axis (the stacked amount) is y
+            return {
+                //all the data that's going to be used in the chart
+                //y-axis has the count; x-axis has the year; also passing in names for tooltips
+                y: o.count,
+                x: o.year,
+                n: o.names_list
+            };
+                return object;
+
+        });
+    };
+
+
+
+
+
+
+
+
+
+
   return object;
 };
