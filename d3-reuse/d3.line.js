@@ -1,62 +1,21 @@
 /*
-* Define line graph 
+* Define horizontal stacked bar graph 
 */
-function line(){
+function stacked(){
   // Default settings
   var $el = d3.select("body")
   var width = 960;
   var height = 500;
   var color = "steelblue";
   var margin = {top: 10, right: 30, bottom: 30, left: 30};
-  var dataset = [
-    {'age': '16-25',
-    'values': 
-    [
-        {'count': 1, 'names_list': ['16-25'], 'year': 2016}
-    ]},
-    
-    {'age': '26-30',
-    'values': 
-    [
-        {'count': 8, 'names_list': ['26-30'], 'year': 2016}
-    ]},
-    
-    {'age': '31-35', 
-     'values': 
-    [
-       {'count': 24, 'names_list': ['31-35'], 'year': 2016}
-    ]},
-    
-    {'age': '36-40', 
-     'values':
-     [
-      {'count': 18, 'names_list': ['36-40'], 'year': 2016}
-    ]},
 
-    {'age': '41-45', 
-     'values':
-     [
-      {'count': 13, 'names_list': ['41-45'], 'year': 2016}
-    ]},
 
-    {'age': '46-50', 
-     'values':
-     [
-      {'count': 15, 'names_list': ['46-50'], 'year': 2016}
-    ]},
-
-    {'age': '51+', 
-     'values':
-     [
-      {'count': 21, 'names_list': ['51+'], 'year': 2016}
-    ]}
- ]//end of dataset;
   var svg, xScale, yScale, xAxis, yAxis, line, years;
 /////////////////////////  var x = d3.scale.linear().range([0, width]);
 
 
 
-dataset = dataset.map(function (d) {
+var data = data.map(function (d) {
         return d.values.map(function (o, i) {
             // Structure it so that your numeric
             // axis (the stacked amount) is y
@@ -74,7 +33,7 @@ stack = d3.layout.stack();
 
 
 
-stack(dataset);  //d3 stack function on the dataset defined & modified above
+stack(data);  //d3 stack function on the dataset defined & modified above
 
 
 
@@ -85,7 +44,7 @@ stack(dataset);  //d3 stack function on the dataset defined & modified above
     if(!svg){ // Render first time
 
 
-        var dataset = dataset.map(function(group) {
+        var data = data.map(function(group) {
             return group.map(function(d) {
                 // Invert the x and y values, and y0 becomes x0
                 return {
@@ -111,7 +70,7 @@ var xScale = d3.scale.linear()
 
 
 
-years = dataset[0].map(function (d) {
+years = data[0].map(function (d) {
     return d.y;
 });
        yScale = d3.scale.ordinal()
@@ -194,11 +153,11 @@ yAxis = d3.svg.axis()
     return object;
   };
 
-  object.color = function(value){
-    if (!arguments.length) return color;
-    color = value;
-    return object;
-  };
+ //// object.color = function(value){
+ ///   if (!arguments.length) return color;
+ ////   color = value;
+  ////  return object;
+ ////// };
   object.x = function(value){
     if (!arguments.length) return x;
     x = value;
