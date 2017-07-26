@@ -64,7 +64,7 @@ function line(){
     if(!svg){ // Render first time
 
 
-dataset = dataset.map(function (d) {
+data = data.map(function (d) {
         return d.values.map(function (o, i) {
             // Structure it so that your numeric
             // axis (the stacked amount) is y
@@ -82,10 +82,10 @@ stack = d3.layout.stack();
 
 
 
-stack(dataset);  //d3 stack function on the dataset defined & modified above
+stack(data);  //d3 stack function on the dataset defined & modified above
 
 
-        var dataset = dataset.map(function(group) {
+        var data = data.map(function(group) {
             return group.map(function(d) {
                 // Invert the x and y values, and y0 becomes x0
                 return {
