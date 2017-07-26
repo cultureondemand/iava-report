@@ -37,47 +37,80 @@ body {
 <script>
 
 // Method used for generate random data.
-var getData = function(){
-  var data = [];
-  for(var i=0; i<100; i++){
-    data.push({
-      x: i,
-      y: Math.round(Math.random() * 100)
-    });
-  };
-  return data;
-};
+  var dataset = [
+    {'age': '16-25',
+    'values': 
+    [
+        {'count': 1, 'names_list': ['16-25'], 'year': 2016}
+    ]},
+    
+    {'age': '26-30',
+    'values': 
+    [
+        {'count': 8, 'names_list': ['26-30'], 'year': 2016}
+    ]},
+    
+    {'age': '31-35', 
+     'values': 
+    [
+       {'count': 24, 'names_list': ['31-35'], 'year': 2016}
+    ]},
+    
+    {'age': '36-40', 
+     'values':
+     [
+      {'count': 18, 'names_list': ['36-40'], 'year': 2016}
+    ]},
+
+    {'age': '41-45', 
+     'values':
+     [
+      {'count': 13, 'names_list': ['41-45'], 'year': 2016}
+    ]},
+
+    {'age': '46-50', 
+     'values':
+     [
+      {'count': 15, 'names_list': ['46-50'], 'year': 2016}
+    ]},
+
+    {'age': '51+', 
+     'values':
+     [
+      {'count': 21, 'names_list': ['51+'], 'year': 2016}
+    ]}
+ ]//end of dataset;
 
 
 /*
 * Create graphs
 */
-var line1 = line()
+var line1 = stacked()
               .$el(d3.select("#line-1"))
               .height(100) // Set height
-              .data(getData()) // Set data
+              .data(dataset) // Set data
               .render();
 
 var line2 = line()
               .$el(d3.select("#line-2"))
               .height(100) // Set height
-              .color("green") // Set color
-              .data(getData()) // Set data
-              .render();
+              .color("green"); // Set color
+          //    .data(getData()) // Set data
+           //   .render();
 
 var line3 = line()
               .$el(d3.select("#line-3"))
               .height(100) // Set height
-              .color("red") // Set color
-              .data(getData()) // Set data
-              .render();
+              .color("red"); // Set color
+          //    .data(getData()) // Set data
+          //    .render();
 
 var line4 = line()
               .$el(d3.select("#line-4"))
               .height(100) // Set height
-              .color("gray") // Set color
-              .data(getData()) // Set data
-              .render();
+              .color("gray"); // Set color
+          ///    .data(getData()) // Set data
+          ///    .render();
 /*
 * Refresh graphs repeatedly
 */
