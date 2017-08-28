@@ -37,6 +37,14 @@ var data_c = [
 
 
 
+var dataset = {
+  apples: [53245, 28479, 19697, 24037, 40245],
+};
+
+
+
+
+
 
 var scrollVis = function() {
   // constants to define the size
@@ -253,7 +261,7 @@ drawStackChart(data_a);
 drawStackChart(data_b);
 
 //gender
-drawStackChart(data_c);
+drawPieChart(dataset);
 
  
   
