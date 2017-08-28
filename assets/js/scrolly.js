@@ -209,7 +209,7 @@ var scrollVis = function() {
     
     
 
-if (this.iii < 2) {
+if (this.iii == "") {
     
     
     
@@ -222,6 +222,8 @@ drawStackChart(this.data_b);
 drawStackChart(this.data_c);
 }
   
+    
+    console.log(this.iii);
   }
 
   /////////////
