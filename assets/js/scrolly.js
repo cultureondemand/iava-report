@@ -211,7 +211,7 @@ var scrollVis = function() {
     
     
 
-if (this.countslides == "0") {
+if (countslides == 0) {
     
     
     
@@ -223,9 +223,9 @@ drawStackChart(this.data_b);
 //gender
 drawStackChart(this.data_c);
 }
-  this.countslides=this.countslides+1;
+  countslides++;
     
-    console.log(this.countslides);
+    console.log(countslides);
   }
 
   /////////////
