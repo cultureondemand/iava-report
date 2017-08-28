@@ -51,7 +51,7 @@
    */
   function createBody(body) {
     var node = document.createElement("div");
-   //////////////////// node.className = "example example-dotted";
+  node.className = "example example-dotted";
     node.innerHTML = body;
     return node;
   }
