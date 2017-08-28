@@ -42,7 +42,7 @@ var iii=0;
 
 
 
-    function drawStackChart(this.data) {
+    function drawStackChart(data) {
 
 
 var x = d3.scale.ordinal()
@@ -64,7 +64,7 @@ var width = "100%",
 
 
 //console.log(d3.sum(data));
-var total_time = d3.sum(this.data);
+var total_time = d3.sum(data);
 var bar_x = 0;
 var chart = d3.select("#"+name)
 	.attr("width", "100%")
