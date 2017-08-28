@@ -142,8 +142,11 @@ var donut = chart.selectAll("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var path = donut.selectAll("path")
-    .data(data)
-    .enter().append("path")
+
+///////    .data(data)
+    .data(pie(data.apples))
+
+.enter().append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
 
