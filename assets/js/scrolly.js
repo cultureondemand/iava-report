@@ -222,12 +222,12 @@ var scrollVis = function() {
   ////  slide.className = "step";
     slide.setAttribute("id", "svg" + "2");
 
-            var slides2 = document.getElementById("titleCloser");
+            var slide2 = document.getElementById("slide2");
 
     
-        this.slides2.appendChild(this.slide0);
-        this.slides2.appendChild(this.slide1);
-        this.slides2.appendChild(this.slide2);
+        this.slide2.appendChild(this.slide0);
+        this.slide2.appendChild(this.slide1);
+        this.slide2.appendChild(this.slide2);
 
     
     
