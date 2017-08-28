@@ -223,7 +223,7 @@ drawStackChart(this.data_b);
 //gender
 drawStackChart(this.data_c);
 }
-  countslides++;
+  countslides=countslides+1;
     
     console.log(this.countslides);
   }
