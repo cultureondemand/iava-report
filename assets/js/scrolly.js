@@ -37,9 +37,15 @@ var data_c = [
 
 
 
-var dataset = {
-  apples: [53245, 28479, 19697, 24037, 40245],
-};
+var dataset =  [
+{a:"a",b:69},
+{a:"b",b:12},
+{a:"c",b:6},
+{a:"d",b:2},
+{a:"American Indian of Alaska Native",b:1},
+{a:"Native Hawaiian or Pacific Islander",b:3},
+{a:"Other",b:4}
+               ];
 
 
 
