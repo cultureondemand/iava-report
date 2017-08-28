@@ -206,20 +206,30 @@ var scrollVis = function() {
    
    
   function showTitle2() {
-      var slide = document.createElement("svg");
+    
+    
+      var slide0 = document.createElement("svg");
  /////   slide.className = "step";
     slide.setAttribute("id", "svg" + "0");
 
     
-        var slide = document.createElement("svg");
+        var slide1 = document.createElement("svg");
  /////   slide.className = "step";
     slide.setAttribute("id", "svg" + "1");
 
     
-        var slide = document.createElement("svg");
+        var slide2 = document.createElement("svg");
   ////  slide.className = "step";
     slide.setAttribute("id", "svg" + "2");
 
+            var slides2 = document.getElementById("titleCloser");
+
+    
+        this.slides2.appendChild(this.slide0);
+        this.slides2.appendChild(this.slide1);
+        this.slides2.appendChild(this.slide2);
+
+    
     
     
   //age  
