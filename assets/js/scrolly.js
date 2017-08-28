@@ -18,6 +18,8 @@ var scrollVis = function() {
     right: 10
   };
 
+  /////
+  var countslides =0;
   // Keep track of which visualization
   // we are on and which was the last
   // index activated. When user scrolls
@@ -209,7 +211,7 @@ var scrollVis = function() {
     
     
 
-if (this.iii == "") {
+if (countslides == "0") {
     
     
     
@@ -221,9 +223,9 @@ drawStackChart(this.data_b);
 //gender
 drawStackChart(this.data_c);
 }
-  
+  countslides++;
     
-    console.log(this.iii);
+    console.log(this.countslides);
   }
 
   /////////////
