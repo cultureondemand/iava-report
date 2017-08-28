@@ -209,21 +209,7 @@ var scrollVis = function() {
    
   function showTitle2() {
     
-    
-  
-  }
-
-  /////////////
-  //////////
-
-  /**
-   *
-   */
-  function showTitle3() {
-  
-  
-  
-  
+      
    
     
     
@@ -237,6 +223,20 @@ drawStackChart(this.data_c);
 countslides++;
     
     console.log(countslides);
+
+  
+  }
+
+  /////////////
+  //////////
+
+  /**
+   *
+   */
+  function showTitle3() {
+  
+  
+  
 
  
   
