@@ -88,7 +88,101 @@ bar.append("text")
 
 	iii++;
 
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function drawPieChart(data) {
+
+
+
+
+
+name = "svg"+iii;
+
+
+
+var dataset = {
+  apples: [53245, 28479, 19697, 24037, 40245],
+};
+
+var width = 460,
+    height = 300,
+    radius = Math.min(width, height) / 2;
+
+
+
+
+
+var chart = d3.select("#"+name)
+	.attr("width", width)
+	.attr("height", height);
+
+
+
+
+
+
+///////////////var color = d3.scale.category20();
+
+var color = d3.scale.ordinal()
+  .range(["#78933f", "#436f61", "#4a683a", "#e4af34", "#e2d497", "#417a4f", "#cddeb7", "#284635"]);
+
+
+
+
+var pie = d3.layout.pie()
+    .sort(null);
+
+var arc = d3.svg.arc()
+    .innerRadius(radius - 100)
+    .outerRadius(radius - 50);
+
+ 
+
+var donut = chart.selectAll("g")
+ 
+
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+var path = svg.selectAll("path")
+    .data(pie(data))
+  .enter().append("path")
+    .attr("fill", function(d, i) { return color(i); })
+    .attr("d", arc);
+
+
+
+
+
+
+
+
+
+ 
+	iii++;
+
 };	
+
+
+
+
+
+
+
 		
 d3.select(window).on('resize', resize);
 
