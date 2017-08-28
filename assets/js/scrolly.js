@@ -19,7 +19,7 @@ var scrollVis = function() {
   };
 
   /////
-  var countslides =0;
+  var countslides = 0;
   // Keep track of which visualization
   // we are on and which was the last
   // index activated. When user scrolls
@@ -224,10 +224,7 @@ var scrollVis = function() {
   
   
   
-  
-
-if (countslides == 0) {
-    
+   
     
     
   //age  
@@ -241,8 +238,7 @@ countslides++;
     
     console.log(countslides);
 
-}
-  
+ 
   
   }
 
