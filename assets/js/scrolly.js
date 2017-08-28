@@ -208,26 +208,7 @@ var scrollVis = function() {
   function showTitle2() {
     
     
-      var svg0 = document.createElement("svg");
- /////   slide.className = "step";
-    slide.setAttribute("id", "svg" + "0");
 
-    
-        var svg1 = document.createElement("svg");
- /////   slide.className = "step";
-    slide.setAttribute("id", "svg" + "1");
-
-    
-        var svg2 = document.createElement("svg");
-  ////  slide.className = "step";
-    slide.setAttribute("id", "svg" + "2");
-
-            var slide2 = document.getElementById("slide2");
-
-    
-        this.slide2.appendChild(this.svg0);
-        this.slide2.appendChild(this.svg1);
-        this.slide2.appendChild(this.svg2);
 
     
     
