@@ -209,7 +209,7 @@ var scrollVis = function() {
     
     
 
-if (this.iii =<2) {
+if (this.iii < 2) {
     
     
     
