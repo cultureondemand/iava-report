@@ -58,7 +58,9 @@ Yet it also shows that vets are rising. Twenty-four percent of our members are p
  
 <svg id="svg0"></svg>
 <svg id="svg1"></svg>
-<svg id="svg2"></svg>    `
+<svg id="svg2"></svg>    
+
+`
   },
   
 
@@ -177,12 +179,13 @@ the program.
 program’s vision, mission, goals, and outcomes.
 </li></ul> 
 <blockquote>
-WITH THIS PLATFORM OF AFFORDABLE HOUSING, WE HAVE A WINDOW OF OPPORTUNITY WHERE WE CAN ENGAGE WITH FAMILIES AND INVEST IN THE RESOURCE THAT THEY CARE ABOUT THE MOST, WHICH IS YOUNG PEOPLE.</blockquote>   `
+WITH THIS PLATFORM OF AFFORDABLE HOUSING, WE HAVE A WINDOW OF OPPORTUNITY WHERE WE CAN ENGAGE WITH FAMILIES AND INVEST IN THE RESOURCE THAT THEY CARE ABOUT THE MOST, WHICH IS YOUNG PEOPLE.</blockquote>   
+`
   },
 
     {
     section: "CONTINUOUS QUALITY IMPROVEMENT",
-   icon: "pcy-housed-icons-final2_clear vision 2.svg",
+   icon: "",
     header: "The program uses data from multiple sources to assess its strengths and opportunities for growth, in order to continuously improve program design, outcomes, and impact.",
     bkgImage: {
       small: "6-Continuous_Quality_Improvement-small.jpg",
@@ -190,37 +193,8 @@ WITH THIS PLATFORM OF AFFORDABLE HOUSING, WE HAVE A WINDOW OF OPPORTUNITY WHERE 
       large: "6-Continuous_Quality_Improvement-large.jpg"
     },
     body: `
-      <h3 class='prog'>
-      Programmatic Level
-      </h3>
-      <ul>
-        <li>
-          The program establishes a clearly defined process for
-continuous quality improvement, which:
-          <ul>
-            <li>Determines the information or data that will be collected and how it will best support program quality, align to goals and outcomes, and meet participant needs</li>
-            <li>Identifies and uses credible assessment tools</li>
-            <li>Incorporates feedback from staff, youth, families, and K-12 partners</li>
-            <li>Keeps the program informed about best practices and new research in the expanded learning
-field and uses this information to inform quality
-improvement</li>
-            <li>Includes a timeline with dates for action steps and quality improvement discussions</li>
-            <li>Clearly describes the roles and responsibilities for each person on the improvement team</li>
-          </ul>
-        </li>
-        <li>The program develops a set of guiding questions that are related to the program design, desired outcomes, and impact.</li>
-        <li>
-          The program creates a plan for gathering information
-from multiple sources to answer the guiding questions, determine who should be asked, and set a timeline for collecting responses.
-             <li>The program establishes a clear procedure for getting consent to collect information from stakeholders, which addresses the purpose of collecting information and how it will be used.</li>
-            <li>The program shares lessons learned and key outcomes from the quality improvement process with stakeholders and requests feedback.</li>
-          </ul>
-       </ul>
-
-<blockquote>
-
-WE ARE USING PROGRAM DATA TO MEASURE IMPACT OF OUR AFTERSCHOOL PROGRAMMING. THIS INCLUDES COLLECTING AND MEASURING DAILY
-ATTENDANCE, COLLECTING REPORTS CARDS TO MEASURE PARTICIPANT PROGRESS IN SCHOOL, AND ANNUAL ON-SITE PROGRAM ASSESSMENTS. WE SHARE PROGRAM DATA WITH POTENTIAL FUNDERS, DEVELOPERS, COMMUNITY STAKEHOLDERS, AND ON GRANT APPLICATIONS.</blockquote>   `
+     test test test test
+`
     
   },
   {
