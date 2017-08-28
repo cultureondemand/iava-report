@@ -33,12 +33,12 @@ var data_c = [
 var iii=0;
 
 //age  
-drawStackChart(data_a);
+/////drawStackChart(data_a);
 //gender
-drawStackChart(data_b);
+////drawStackChart(data_b);
 
 //gender
-drawStackChart(data_c);
+////////drawStackChart(data_c);
 
 
 
