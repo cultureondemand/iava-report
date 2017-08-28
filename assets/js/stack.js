@@ -138,12 +138,12 @@ var arc = d3.svg.arc()
 var donut = chart.selectAll("g")
     .attr("width", width)
     .attr("height", height)
-	.enter().append("g");
+	.append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var path = donut.selectAll("path")
     .data(data)
-  .enter().append("path")
+  .append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
 
