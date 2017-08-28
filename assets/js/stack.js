@@ -105,22 +105,13 @@ bar.append("text")
     function drawPieChart(data) {
 
 
-
-
-
 name = "svg"+iii;
 
 
 
-var dataset = {
-  apples: [53245, 28479, 19697, 24037, 40245],
-};
-
 var width = 460,
     height = 300,
     radius = Math.min(width, height) / 2;
-
-
 
 
 
@@ -131,13 +122,7 @@ var chart = d3.select("#"+name)
 
 
 
-
-
-///////////////var color = d3.scale.category20();
-
-var color = d3.scale.ordinal()
-  .range(["#78933f", "#436f61", "#4a683a", "#e4af34", "#e2d497", "#417a4f", "#cddeb7", "#284635"]);
-
+var color = d3.scale.category20();
 
 
 
@@ -159,7 +144,7 @@ var donut = chart.selectAll("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var path = donut.selectAll("path")
-    .data(pie(data))
+    .data(data)
   .enter().append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
