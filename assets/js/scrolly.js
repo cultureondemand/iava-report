@@ -210,6 +210,21 @@ var scrollVis = function() {
   function showTitle2() {
     
     
+  
+  }
+
+  /////////////
+  //////////
+
+  /**
+   *
+   */
+  function showTitle3() {
+  
+  
+  
+  
+  
 
 if (countslides == 0) {
     
@@ -228,15 +243,8 @@ countslides++;
 
 }
   
+  
   }
-
-  /////////////
-  //////////
-
-  /**
-   *
-   */
-  function showTitle3() {}
 
   ///////
   ///////
