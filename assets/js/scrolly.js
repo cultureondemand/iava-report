@@ -214,12 +214,12 @@ var scrollVis = function() {
     
     
   //age  
-drawStackChart(data_a);
+drawStackChart(this.data_a);
 //gender
-drawStackChart(data_b);
+drawStackChart(this.data_b);
 
 //gender
-drawStackChart(data_c);
+drawStackChart(this.data_c);
   
   }
 
