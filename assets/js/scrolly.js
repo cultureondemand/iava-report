@@ -211,19 +211,8 @@ var scrollVis = function() {
     
       
    
-    
-    
-  //age  
-drawStackChart(this.data_a);
-//gender
-drawStackChart(this.data_b);
 
-//gender
-drawStackChart(this.data_c);
-countslides++;
-    
-    console.log(countslides);
-
+ 
   
   }
 
@@ -236,7 +225,15 @@ countslides++;
   function showTitle3() {
   
   
-  
+      
+    
+  //age  
+drawStackChart(this.data_a);
+//gender
+drawStackChart(this.data_b);
+
+//gender
+drawStackChart(this.data_c);
 
  
   
