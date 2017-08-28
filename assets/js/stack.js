@@ -158,7 +158,7 @@ var donut = chart.selectAll("g")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-var path = svg.selectAll("path")
+var path = donut.selectAll("path")
     .data(pie(data))
   .enter().append("path")
     .attr("fill", function(d, i) { return color(i); })
