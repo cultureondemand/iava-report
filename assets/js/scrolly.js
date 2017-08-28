@@ -4,6 +4,40 @@
  * using reusable charts pattern:
  * http://bost.ocks.org/mike/chart/
  */
+
+
+var data_a = [
+{a:"18-25",b:1},
+{a:"26-30",b:8},
+{a:"31-35",b:24},
+{a:"36-40",b:18},
+{a:"31-45",b:13},
+{a:"46-50",b:15},
+{a:"51+",b:21}
+];
+
+
+var data_b = [
+{a:"Male",b:86},
+{a:"Female",b:13},
+{a:"Transgender/Gender Variant/Nonconforming",b:.5},
+{a:"Prefer Not To Answer",b:.5}
+];
+
+
+var data_c = [
+{a:"White",b:69},
+{a:"Hispanic or Latino",b:12},
+{a:"Black or African American",b:6},
+{a:"Asian",b:2},
+{a:"American Indian of Alaska Native",b:1},
+{a:"Native Hawaiian or Pacific Islander",b:3},
+{a:"Other",b:4}
+];
+
+
+
+
 var scrollVis = function() {
   // constants to define the size
   // and margins of the vis area.
