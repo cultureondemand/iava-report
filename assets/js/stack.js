@@ -136,11 +136,9 @@ var arc = d3.svg.arc()
  
 
 var donut = chart.selectAll("g")
- 
-
     .attr("width", width)
     .attr("height", height)
-    .append("g")
+	.enter().append("g");
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var path = donut.selectAll("path")
