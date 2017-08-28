@@ -143,7 +143,7 @@ var donut = chart.selectAll("g")
 
 var path = donut.selectAll("path")
     .data(data)
-  .append("path")
+    .enter().append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
 
