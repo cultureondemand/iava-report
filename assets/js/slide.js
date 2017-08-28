@@ -123,7 +123,7 @@
 
     this.content = document.createElement("div");
     this.content.className = "step-content";
-          this.content.setAttribute("id", "slide" + id);
+          this.content.setAttribute("id", "slide" + this.id);
 
     this.content.appendChild(this.body);
 
