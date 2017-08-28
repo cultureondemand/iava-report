@@ -222,10 +222,12 @@ drawStackChart(this.data_b);
 
 //gender
 drawStackChart(this.data_c);
-}
-  countslides++;
+countslides++;
     
     console.log(countslides);
+
+}
+  
   }
 
   /////////////
