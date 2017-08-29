@@ -67,12 +67,12 @@ var donutchart = d3.select("#"+name)
         // Attach current value to g so that we can use it for animation
         .each(function(d) { this._current = d; })
         .attr("d", arc)
-        .style("fill", function(d) { return color(d.data.key); });
+        .style("fill", function(d) { return color(d.dataset.key); });
       g.append("text")
           .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
           .attr("dy", ".35em")
           .style("text-anchor", "middle");
-      g.select("text").text(function(d) { return d.data.key; });
+      g.select("text").text(function(d) { return d.dataset.key; });
 
 	    
 	    
