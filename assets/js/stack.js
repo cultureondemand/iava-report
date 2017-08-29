@@ -132,12 +132,15 @@ var donutchart = d3.select("#"+name)
 .attr("class","donut")
     .attr("transform", "translate(" + donutchart_width / 2 + "," + donutchart_height / 2 + ")");
 	    
-	
 
 	    
-var path = g.selectAll("path")
+	    
+var slice = donutchart.selectAll("g")
     .data(pie(dataset.apples))
-  .enter().append("path")
+ 	.enter().append("g")
+
+	    
+slice.append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
  
