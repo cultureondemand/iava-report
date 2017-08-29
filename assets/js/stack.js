@@ -102,7 +102,7 @@ bar.append("text")
 
 
 
-    function drawPieChart(data) {
+    function drawPieChart(dataset) {
 
 
 var name = "svg"+iii;
@@ -110,7 +110,7 @@ var name = "svg"+iii;
 var width = "30%",
     height = "30%",
     radius = Math.min(width, height) / 2;
-
+console.log("radius");
 
 var color = d3.scale.category20();
 
@@ -130,17 +130,16 @@ var donutchart = d3.select("#"+name)
 
 
 
+	    
 
-
- var path = donutchart.selectAll("g")
-  .data(pie(data.apples))
- 
- ///////   .data(data)
-.enter().append("path")
-    .attr("fill", function(d, i) { return color(i); 
-				 })
+	    
+var path = svg.selectAll("path")
+    .data(pie(dataset.apples))
+  .enter().append("path")
+    .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
-
+ 
+ 
  
 	iii++;
 
