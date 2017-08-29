@@ -258,7 +258,11 @@ drawStackChart(data_a);
 //gender
 drawStackChart(data_b);
 
-//gender
+//?
+drawStackChart(data_c);
+
+    
+//donut
 drawPieChart(dataset);
 
  
