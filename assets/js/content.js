@@ -59,6 +59,7 @@ Yet it also shows that vets are rising. Twenty-four percent of our members are p
 <svg id="svg0"></svg>
 <svg id="svg1"></svg>
 <svg id="svg2"></svg>    
+<svg id="svg3"></svg>    
 
 `
   },
@@ -69,36 +70,17 @@ Yet it also shows that vets are rising. Twenty-four percent of our members are p
 
   {
     section: "RECOMMENDED USES AND EXPANDED LEARNING DEFINITIONS",
-      icon: "pcy.svg",
+      icon: "",
    header: "",
     bkgImage: {
        small: "4-Rec_Uses-small.jpg",
       medium: "4-Rec_Uses-medium.jpg",
       large: "4-Rec_Uses-large.jpg"
     },
-    body:`<h3 class='staff'>CLEAR VISION, MISSION, PURPOSE, AND MANAGEMENT</h3>
-<p>
-The program has clearly defined their vision, mission, goals, and measurable outcomes that respond to the needs of the community, reflect broad stakeholder input, and drive program design, implementation, and improvement. It demonstrates sound fiscal and administrative practices that are supported by, and communicated to, staff and stakeholders.
-</p>
-<h3 class='staff'>CONTINUOUS QUALITY IMPROVEMENT</h3>
-The program uses data from multiple sources to assess its strengths and opportunities for growth, in order to continuously improve program design, outcomes, and impact.
-<br />
-<br />
-<h3 class='staff'>QUALITY STAFF</h3>
-The program recruits and retains high quality staff and volunteers. It provides a safe and supportive environment for staff and ongoing professional development based on assessed staff needs and the organization’s vision, mission,  and goals.
-<br />
-<br />
-<h3 class='staff'>COLLABORATIVE PARTNERSHIPS</h3>
-The program intentionally builds and supports collaborative relationships among internal and external constituents, including families, schools, the community, and property stakeholders to achieve program goals.
-<br />
-<br />
-<h3 class='staff'>FAMILY ENGAGEMENT</h3>
+    body:` 
 The program uses strength-based strategies to partner with families to manage and sustain their children’s learning and healthy development.
 <br />
-<br />
-<h3 class='staff'>SUSTAINABILITY</h3>
-The program builds enduring partnerships with property stakeholders, internal and external organizations, agencies, neighbors, and the community to secure monetary and in-kind contributions.
-`
+ `
 
    },
   {
