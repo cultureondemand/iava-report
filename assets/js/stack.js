@@ -1,6 +1,6 @@
 var half_perc;
 
-
+var name;
 
 var iii=0;
 
@@ -105,17 +105,15 @@ bar.append("text")
     function drawPieChart(data) {
 
 
-name = "svg"+iii;
+var name = "svg"+iii;
 
-
-
-var width = 460,
-    height = 300,
+var width = "30%",
+    height = "30%",
     radius = Math.min(width, height) / 2;
 
 
 
-var chart = d3.select("#"+name)
+var donutchart = d3.select("#"+name)
 	.attr("width", width)
 	.attr("height", height);
 
@@ -133,20 +131,24 @@ var arc = d3.svg.arc()
     .innerRadius(radius - 100)
     .outerRadius(radius - 50);
 
- 
+ var donut = donutchart.selectAll("g")
+	.data(data)
+    .attr("width", width)
+    .attr("height", height)
+	.enter().append("g");
+	console.log(donut);
 
-var donut = chart.selectAll("g")
+var donut = donutchart.selectAll("g")
     .attr("width", width)
     .attr("height", height)
 	.append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-var path = donut.selectAll("path")
+//////var path = donutchart.selectAll("path")
+ ///////    .data(pie(data.apples))
 
-///////    .data(data)
-    .data(pie(data.apples))
-
-.enter().append("path")
+donut.append("path")
+   .data(data)
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
 
