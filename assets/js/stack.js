@@ -130,7 +130,9 @@ var donutchart = d3.select("#"+name)
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 	    
 	
-    
+/////////    var donutchart_width = parseInt(d3.select("#"+name).style("width"));
+/////////    var donutchart_height = parseInt(d3.select("#"+name).style("width"));
+
 
 	    
 var path = svg.selectAll("path")
