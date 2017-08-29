@@ -52,14 +52,14 @@ var donutchart = d3.select("#"+name)
     .attr("width", width)
     .attr("height", height)
     .append("g")
-    .attr("transform", "translate(" + donutchart_width / 2 + "," + donutchart_height / 2 + ")");
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 	    
 
 	    
 	    
-var slice = donutchart.selectAll("g")
+var path = donutchart.selectAll("path")
     .data(pie(dataset.apples))
- 	///////.enter().append("g")
+ 	 .enter().append("path")
 .attr("class","donut")
 
 	    
