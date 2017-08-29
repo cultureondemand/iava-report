@@ -134,9 +134,9 @@ var donutchart = d3.select("#"+name)
 
 
  var path = donutchart.selectAll("path")
- ///////    .data(pie(data.apples))
+  .data(pie(data.apples))
  
- .data(data)
+ ///////   .data(data)
 .enter().append("path")
     .attr("fill", function(d, i) { return color(i); 
 				 })
