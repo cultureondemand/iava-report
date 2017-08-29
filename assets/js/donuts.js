@@ -44,10 +44,10 @@ var pie = d3.layout.pie()
     .sort(null);
 
 var arc = d3.svg.arc()
- /////   .innerRadius(radius - 100)
- /////   .outerRadius(radius - 50);
-       .outerRadius(radius)
-      .innerRadius(radius - (radius/2.5));
+  .innerRadius(radius - 100)
+  .outerRadius(radius - 50);
+  /////       .outerRadius(radius)
+ /////       .innerRadius(radius - (radius/2.5));
 
 
 var donutchart = d3.select("#"+name)
