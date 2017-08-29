@@ -112,14 +112,6 @@ var width = "30%",
     radius = Math.min(width, height) / 2;
 
 
-
-var donutchart = d3.select("#"+name)
-	.attr("width", width)
-	.attr("height", height);
-
-
-
-
 var color = d3.scale.category20();
 
 
@@ -131,39 +123,29 @@ var arc = d3.svg.arc()
     .innerRadius(radius - 100)
     .outerRadius(radius - 50);
 
- var donut = donutchart.selectAll("g")
-	.data(data)
-    .attr("width", width)
-    .attr("height", height)
-	.enter().append("g");
-	console.log(donut);
+var donutchart = d3.select("#"+name)
+	.attr("width", width)
+	.attr("height", height)
+.attr("class","donut")
+    .append("g");
 
 
-//////var path = donutchart.selectAll("path")
+
+
+
+ var path = donutchart.selectAll("path")
  ///////    .data(pie(data.apples))
-
-donut.append("path")
-   .data(data)
-    .attr("fill", function(d, i) { return color(i); })
+ 
+ .data(data)
+.enter().append("path")
+    .attr("fill", function(d, i) { return color(i); 
+				 })
     .attr("d", arc);
-
-
-
-
-
-
-
-
 
  
 	iii++;
 
 };	
-
-
-
-
-
 
 
 		
