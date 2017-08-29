@@ -44,8 +44,10 @@ var pie = d3.layout.pie()
     .sort(null);
 
 var arc = d3.svg.arc()
-    .innerRadius(radius - 100)
-    .outerRadius(radius - 50);
+ /////   .innerRadius(radius - 100)
+ /////   .outerRadius(radius - 50);
+       .outerRadius(radius)
+      .innerRadius(radius - (radius/2.5));
 
 
 var donutchart = d3.select("#"+name)
@@ -54,15 +56,40 @@ var donutchart = d3.select("#"+name)
 .attr("class","donut")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-	    	    
+
 	    
-var path = donutchart.selectAll("path")
+ var g = donutchart.selectAll(".arc")
     .data(pie(dataset.apples))
- 	 .enter().append("path")
+      .enter().append("g")
+      .attr("class", "arc");
+
+      g.append("path")
+        // Attach current value to g so that we can use it for animation
+        .each(function(d) { this._current = d; })
+        .attr("d", arc)
+        .style("fill", function(d) { return color(d.data.key); });
+      g.append("text")
+          .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+          .attr("dy", ".35em")
+          .style("text-anchor", "middle");
+      g.select("text").text(function(d) { return d.data.key; });
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+///////////////////////////////////////////////	var path = donutchart.selectAll("path")
+ /////////////////////////////////////////////   .data(pie(dataset.apples))
+ ////////////////////////////////////////	 .enter().append("path")
 	    
 /////////slice.append("path")
-    .attr("fill", function(d, i) { return color(i); })
-    .attr("d", arc);
+  ///////////////////////////////////////////  .attr("fill", function(d, i) { return color(i); })
+/////////////////////////////////////////////    .attr("d", arc);
  
 	iii++;
 
