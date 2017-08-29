@@ -1743,3 +1743,9 @@ picture.js-background-image {
 .no-objectfit .js-background-image img {
   display: none;
 }
+
+
+.donut {
+width:30% !important;
+  display:inline-block;
+}
