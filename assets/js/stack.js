@@ -138,11 +138,6 @@ var arc = d3.svg.arc()
 	.enter().append("g");
 	console.log(donut);
 
-var donut = donutchart.selectAll("g")
-    .attr("width", width)
-    .attr("height", height)
-	.append("g")
-    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 //////var path = donutchart.selectAll("path")
  ///////    .data(pie(data.apples))
