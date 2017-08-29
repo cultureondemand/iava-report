@@ -105,6 +105,9 @@ bar.append("text")
     function drawPieChart(dataset) {
 
 
+    var donutchart_width = parseInt(d3.select("#sections").style("width"));
+    var donutchart_height = parseInt(d3.select("#sections").style("height"));
+
 var name = "svg"+iii;
 
 var width = "30%",
@@ -127,12 +130,9 @@ var donutchart = d3.select("#"+name)
     .attr("height", height)
     .append("g")
 .attr("class","donut")
-    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+    .attr("transform", "translate(" + donutchart_width / 2 + "," + donutchart_height / 2 + ")");
 	    
 	
-/////////    var donutchart_width = parseInt(d3.select("#"+name).style("width"));
-/////////    var donutchart_height = parseInt(d3.select("#"+name).style("width"));
-
 
 	    
 var path = svg.selectAll("path")
