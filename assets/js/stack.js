@@ -88,66 +88,6 @@ bar.append("text")
 
 	iii++;
 
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-    function drawPieChart(dataset) {
-
-
-///    var donutchart_width = parseInt(d3.select("#sections").style("width"));
-///    var donutchart_height = parseInt(d3.select("#sections").style("height"));
-
-var name = "svg"+iii;
-
-var width = 300,
-    height = 300,
-    radius = Math.min(width, height) / 2;
-console.log("radius");
-
-var color = d3.scale.category20();
-
-var pie = d3.layout.pie()
-    .sort(null);
-
-var arc = d3.svg.arc()
-    .innerRadius(radius - 100)
-    .outerRadius(radius - 50);
-
-
-var donutchart = d3.select("#"+name)
-    .attr("width", width)
-    .attr("height", height)
-    .append("g")
-.attr("class","donut")
-    .attr("transform", "translate(" + donutchart_width / 2 + "," + donutchart_height / 2 + ")");
-	    
-
-	    
-	    
-var slice = donutchart.selectAll("g")
-    .data(pie(dataset.apples))
- 	.enter().append("g")
-
-	    
-slice.append("path")
-    .attr("fill", function(d, i) { return color(i); })
-    .attr("d", arc);
- 
- 
- 
-	iii++;
-
 };	
 
 
