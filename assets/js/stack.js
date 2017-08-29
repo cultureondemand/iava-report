@@ -123,14 +123,14 @@ var arc = d3.svg.arc()
 
 
 var donutchart = d3.select("#"+name)
-	.attr("width", width)
-	.attr("height", height)
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
 .attr("class","donut")
-    .append("g");
-
-
-
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 	    
+	
+    
 
 	    
 var path = svg.selectAll("path")
