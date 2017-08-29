@@ -105,13 +105,13 @@ bar.append("text")
     function drawPieChart(dataset) {
 
 
-    var donutchart_width = parseInt(d3.select("#sections").style("width"));
-    var donutchart_height = parseInt(d3.select("#sections").style("height"));
+///    var donutchart_width = parseInt(d3.select("#sections").style("width"));
+///    var donutchart_height = parseInt(d3.select("#sections").style("height"));
 
 var name = "svg"+iii;
 
-var width = "30%",
-    height = "30%",
+var width = 300,
+    height = 300,
     radius = Math.min(width, height) / 2;
 console.log("radius");
 
