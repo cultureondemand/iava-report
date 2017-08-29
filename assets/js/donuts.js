@@ -51,28 +51,22 @@ var arc = d3.svg.arc()
 var donutchart = d3.select("#"+name)
     .attr("width", width)
     .attr("height", height)
+.attr("class","donut")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-	    
-
-	    
+	    	    
 	    
 var path = donutchart.selectAll("path")
     .data(pie(dataset.apples))
  	 .enter().append("path")
-.attr("class","donut")
-
 	    
 /////////slice.append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
  
- 
- 
 	iii++;
 
 };	
-
 
 		
 d3.select(window).on('resize', resize);
