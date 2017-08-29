@@ -114,14 +114,13 @@ var width = "30%",
 
 var color = d3.scale.category20();
 
-
-
 var pie = d3.layout.pie()
     .sort(null);
 
 var arc = d3.svg.arc()
     .innerRadius(radius - 100)
     .outerRadius(radius - 50);
+
 
 var donutchart = d3.select("#"+name)
 	.attr("width", width)
@@ -133,7 +132,7 @@ var donutchart = d3.select("#"+name)
 
 
 
- var path = donutchart.selectAll("path")
+ var path = donutchart.selectAll("g")
   .data(pie(data.apples))
  
  ///////   .data(data)
