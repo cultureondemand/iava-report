@@ -52,7 +52,6 @@ var donutchart = d3.select("#"+name)
     .attr("width", width)
     .attr("height", height)
     .append("g")
-.attr("class","donut")
     .attr("transform", "translate(" + donutchart_width / 2 + "," + donutchart_height / 2 + ")");
 	    
 
@@ -60,10 +59,11 @@ var donutchart = d3.select("#"+name)
 	    
 var slice = donutchart.selectAll("g")
     .data(pie(dataset.apples))
- 	.enter().append("g")
+ 	///////.enter().append("g")
+.attr("class","donut")
 
 	    
-slice.append("path")
+/////////slice.append("path")
     .attr("fill", function(d, i) { return color(i); })
     .attr("d", arc);
  
