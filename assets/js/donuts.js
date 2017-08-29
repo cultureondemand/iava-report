@@ -58,7 +58,8 @@ var donutchart = d3.select("#"+name)
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 	    
- var g = donutchart.selectAll(".arc")
+///////// var g = donutchart.selectAll(".arc")
+var g = donutchart.selectAll("g")
     .data(pie(dataset.apples))
       .enter().append("g")
       .attr("class", "arc");
