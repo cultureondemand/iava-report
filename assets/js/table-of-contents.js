@@ -10,8 +10,19 @@
     var anchor = document.createElement("a");
     anchor.setAttribute("href", "#step-" + id);
     anchor.innerHTML = data.section;
+
+    anchor.className = "mdc-list-item";
+
     li.appendChild(anchor);
     return li;
+
+
+
+       
+
+
+
+
   }
 
   /**
@@ -50,7 +61,7 @@
   // };
 
   window.tableOfContents = new TableOfContents({
-    el: document.getElementById("toc"),
+    el: document.getElementById("icon-with-text-demo"),
     data: window.slideData
   });
 })();

@@ -54,10 +54,11 @@ var data_c = [
 {a:"White",b:69},
 {a:"Hisp / Latino",b:12},
 {a:"Black / Afr. Amer.",b:6},
-{a:"Asian",b:2},
-{a:"Amer. Indian / Alaska Native",b:1},
-{a:"Native Hawaiian / Pac. Islander",b:3},
-{a:"Other",b:4}
+{a:"Asian",b:3},
+{a:"Amer. Indian / Alaska Native",b:2},
+{a:"Native Hawaiian / Pac. Islander",b:1},
+{a:"Other",b:3},
+{a:"Prefer Not to Answer",b:4}
 ];
 
 
@@ -69,7 +70,8 @@ var dummydata_c = [
 {a:"Asian",b:1},
 {a:"Amer. Indian / Alaska Native",b:90},
 {a:"Native Hawaiian / Pac. Islander",b:1},
-{a:"Other",b:1}
+{a:"Other",b:1},
+{a:"Prefer Not to Answer",b:1}
 ];
 
 
@@ -303,10 +305,10 @@ var dummydata_k = [
 
 var data_l = [
 {a:"Iraq",b:66},
-{a:"CONUS",b:1},
+{a:"CONUS",b:41},
 {a:"Afghanistan",b:13},
 {a:"Kuwait",b:12},
-{a:"Central Command AOR",b:10},
+{a:"Cent. Comm. AOR",b:10},
 {a:"Qatar",b:9},
 {a:"Bahrain",b:7},
 {a:"Guantanamo Bay",b:3},
@@ -320,7 +322,7 @@ var dummydata_l = [
 {a:"CONUS",b:1},
 {a:"Afghanistan",b:1},
 {a:"Kuwait",b:2},
-{a:"Central Command AOR",b:1},
+{a:"Cent. Comm. AOR",b:1},
 {a:"Qatar",b:24},
 {a:"Bahrain",b:23},
 {a:"Guantanamo Bay",b:3},
@@ -662,6 +664,47 @@ var numero_guns = [58];
 
 
 
+
+
+var data_guns_own_aa = [
+{a:"Locked, Unloaded, Ammunition Stored Separately",b:29},
+{a:"Locked and Loaded",b:19},
+{a:"Unlocked, Unloaded, Ammunition Stored Separately",b:17},
+{a:"would rather not say",b:15},
+{a:"Unlocked, Loaded",b:14},
+{a:"Other",b:4},
+{a:"Unlocked, Unloaded, No Ammunition in Home",b:1},
+{a:"Locked, Unloaded, No Ammunition in Home",b:1} 
+
+
+];
+
+
+
+var dummydata_guns_own_aa = [
+{a:"Locked, Unloaded, Ammunition Stored Separately",b:19},
+{a:"Locked and Loaded",b:1},
+{a:"Unlocked, Unloaded, Ammunition Stored Separately",b:27},
+{a:"would rather not say",b:15},
+{a:"Unlocked, Loaded",b:14},
+{a:"Other",b:14},
+{a:"Unlocked, Unloaded, No Ammunition in Home",b:1},
+{a:"Locked, Unloaded, No Ammunition in Home",b:1} 
+];
+
+////
+///////////////
+
+
+
+
+
+
+
+
+
+
+
 var data_guns_own_a = [
 {a:"Strongly Support",b:41},
 {a:"Support",b:27},
@@ -759,10 +802,10 @@ var dummydata_milserve_d = [
 
 var data_milserve_e = [
 {a:"Strongly Support",b:35},
-{a:"Support",b:27},
-{a:"Neutral",b:18},
-{a:"Oppose",b:8},
-{a:"Strongly Oppose",b:6}
+{a:"Support",b:35},
+{a:"Neutral",b:16},
+{a:"Oppose",b:7},
+{a:"Strongly Oppose",b:7}
 
 ];
 
@@ -801,46 +844,46 @@ var dummydata_equality_a = [
 
 var data_equality_b = [
 {a:"Yes",b:28},
-{a:"No Opinion",b:22},
-{a:"No",b:50}
+{a:"No",b:50},
+{a:"No Opinion",b:22}
 ];
 
 var dummydata_equality_b = [
 {a:"Yes",b:41},
-{a:"No Opinion",b:18},
-{a:"No",b:27}
+{a:"No",b:27},
+{a:"No Opinion",b:18}
 ];
 
 
 
 
 var data_equality_c = [
+{a:"Positive",b:16},
 {a:"Negative",b:25},
-{a:"Neutral",b:59},
-{a:"Positive",b:15}
+{a:"Neutral",b:59}
 ];
 
 var dummydata_equality_c = [
+{a:"Positive",b:22},
 {a:"Negative",b:28},
-{a:"Neutral",b:50},
-{a:"Positive",b:22}
+{a:"Neutral",b:50}
 ];
 
 
 
 
 var data_equality_d = [
+{a:"Positive",b:6},
 {a:"Negative",b:45},
 {a:"Neutral",b:28},
-{a:"Unsure",b:21},
-{a:"Positive",b:6}
+{a:"Unsure",b:21}
 ];
 
 var dummydata_equality_d = [
+{a:"Positive",b:22},
 {a:"Negative",b:20},
 {a:"Neutral",b:50},
-{a:"Unsure",b:5},
-{a:"Positive",b:22}
+{a:"Unsure",b:5}
 ];
 
 
@@ -970,27 +1013,27 @@ var data_wom_a = [
 
 
 var dummydata_wom_b = [
-{a:"Disagree",b:9},
 {a:"Agree",b:6},
+{a:"Disagree",b:9},
 {a:"No Opinion",b:22}
 ];
 
 var data_wom_b = [
-{a:"Disagree",b:75},
-{a:"Agree",b:15},
+{a:"Agree",b:75},
+{a:"Disagree",b:15},
 {a:"No Opinion",b:10} 
 ];
 
 
 var data_wom_c = [
-{a:"Disagree",b:50},
 {a:"Agree",b:39},
+{a:"Disagree",b:50},
 {a:"No Opinion",b:11} 
 ];
 
 var dummydata_wom_c = [
-{a:"Disagree",b:62},
 {a:"Agree",b:30},
+{a:"Disagree",b:62},
 {a:"No Opinion",b:8} 
 ];
 
@@ -998,14 +1041,14 @@ var dummydata_wom_c = [
 
 
 var dummydata_wom_d = [
-{a:"Disagree",b:9},
 {a:"Agree",b:6},
+{a:"Disagree",b:9},
 {a:"No Opinion",b:22} 
 ];
 
 var data_wom_d = [
-{a:"Disagree",b:62},
-{a:"Agree",b:30},
+{a:"Agree",b:62},
+{a:"Disagree",b:30},
 {a:"No Opinion",b:8} 
 ];
 
@@ -1013,14 +1056,14 @@ var data_wom_d = [
 
 
 var dummydata_wom_e = [
-{a:"Disagree",b:9},
 {a:"Agree",b:6},
+{a:"Disagree",b:9},
 {a:"No Opinion",b:22} 
 ];
 
 var data_wom_e = [
-{a:"Disagree",b:33},
-{a:"Agree",b:56},
+{a:"Agree",b:33},
+{a:"Disagree",b:56},
 {a:"No Opinion",b:11} 
 ];
 
@@ -1034,8 +1077,8 @@ var dummydata_wom_f = [
 ];
 
 var data_wom_f = [
-{a:"Agree",b:33},
-{a:"Disagree",b:53},
+{a:"Agree",b:53},
+{a:"Disagree",b:33},
 {a:"No Opinion",b:14} 
 ];
 
@@ -1050,8 +1093,8 @@ var dummydata_wom_g = [
 ];
 
 var data_wom_g = [
-{a:"Agree",b:46},
-{a:"Disagree",b:39},
+{a:"Agree",b:39},
+{a:"Disagree",b:46},
 {a:"No Opinion",b:15} 
 ];
 
@@ -1065,19 +1108,19 @@ var data_wom_g = [
 ////The civilian public treats women veterans with respect
 
 var dummydata_wom_g_ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_g_ = [
-{a:"Strongly Disagree",b:10},
-{a:"Disagree",b:31},
+{a:"Strongly Agree",b:3},
+{a:"Agree",b:24},
 {a:"Neutral",b:32},
-{a:"Agree",b:3},
-{a:"Strongly Agree",b:24}
+{a:"Disagree",b:31},
+{a:"Strongly Disagree",b:10}
 ];
 
 /////////////////////
@@ -1085,19 +1128,19 @@ var data_wom_g_ = [
 
 
 var dummydata_wom_h_ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_h_ = [
-{a:"Strongly Disagree",b:4},
-{a:"Disagree",b:10},
+{a:"Strongly Agree",b:25},
+{a:"Agree",b:49},
 {a:"Neutral",b:12},
-{a:"Agree",b:25},
-{a:"Strongly Agree",b:49}
+{a:"Disagree",b:10},
+{a:"Strongly Disagree",b:4}
 ];
 
 
@@ -1106,19 +1149,19 @@ var data_wom_h_ = [
 ////// Male military service members treat women service members with respect
 
 var dummydata_wom_i_ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:2},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:49},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:2},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_i_ = [
-{a:"Strongly Disagree",b:7},
-{a:"Disagree",b:23},
+{a:"Strongly Agree",b:7},
+{a:"Agree",b:36},
 {a:"Neutral",b:27},
-{a:"Agree",b:7},
-{a:"Strongly Agree",b:36}
+{a:"Disagree",b:23},
+{a:"Strongly Disagree",b:7}
 ];
 
 
@@ -1128,19 +1171,19 @@ var data_wom_i_ = [
 //// VA employees treat women veterans with respect
 
 var dummydata_wom_j_ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_j_ = [
-{a:"Strongly Disagree",b:5},
-{a:"Disagree",b:16},
+{a:"Strongly Agree",b:7},
+{a:"Agree",b:37},
 {a:"Neutral",b:35},
-{a:"Agree",b:7},
-{a:"Strongly Agree",b:37}
+{a:"Disagree",b:16},
+{a:"Strongly Disagree",b:5}
 ];
 
 
@@ -1493,8 +1536,8 @@ var dummydata_wom_p= [
 ];
 
 var data_wom_p = [
-{a:"Yes",b:53},
-{a:"No",b:47}
+{a:"Yes",b:52},
+{a:"No",b:48}
 ];
 
 
@@ -1533,7 +1576,7 @@ var numero_wom_c = [83];
 
 var numero_wom_d = [33];
 
-var numero_wom_e = [58];
+var numero_wom_e = [57];
 
 var numero_wom_f = [8];
 
@@ -1553,19 +1596,19 @@ var numero_wom_g = [50];
 
 
 var dummydata_wom_s = [
-{a:"Very Poor",b:13},
-{a:"Poor",b:26},
-{a:"Fair",b:39},
+{a:"Very Good",b:3},
 {a:"Good",b:19},
-{a:"Very Good",b:3}
+{a:"Fair",b:39},
+{a:"Poor",b:26},
+{a:"Very Poor",b:13}
 ];
 
 var data_wom_s = [
-{a:"Very Poor",b:13},
-{a:"Poor",b:26},
-{a:"Fair",b:39},
-{a:"Good",b:19},
-{a:"Very Good",b:3}
+{a:"Very Good",b:13},
+{a:"Good",b:20},
+{a:"Fair",b:33},
+{a:"Poor",b:15},
+{a:"Very Poor",b:10}
 ];
 
 
@@ -1668,25 +1711,50 @@ var data_wom_x = [
 ///// sexual assault
 var dummydata_wom_y = [
 {a:"DoD Effectively Addressing",b:19}, 
-{a:"Not Effectively Addressing",b:81} 
+{a:"Not Effectively Addressing",b:81},
+{a:"No Opinion",b:1} 
 ];
 
 var data_wom_y = [
 {a:"DoD Effectively Addressing",b:19}, 
-{a:"Not Effectively Addressing",b:81} 
+{a:"Not Effectively Addressing",b:68},
+{a:"No Opinion",b:13} 
+
 ];
 
 
 
 var dummydata_wom_z = [
 {a:"DoD Effectively Addressing",b:33}, 
-{a:"Not Effectively Addressing",b:67} 
+{a:"Not Effectively Addressing",b:67},
+{a:"No Opinion",b:1} 
+
 ];
 
 var data_wom_z = [
 {a:"DoD Effectively Addressing",b:33}, 
-{a:"Not Effectively Addressing",b:67} 
+{a:"Not Effectively Addressing",b:42},
+{a:"No Opinion",b:25} 
+
 ];
+
+
+
+
+
+
+
+var dummydata_wom_aaa = [
+{a:"Women",b:45},
+{a:"Men",b:55}
+];
+
+var data_wom_aaa = [
+{a:"Women",b:35},
+{a:"Men",b:15}
+];
+
+
 
 
 
@@ -1742,23 +1810,27 @@ var data_wom_dd = [
 
 var dummydata_wom_ee = [
 {a:"Experienced Retaliation",b:21},
-{a:"No Retaliation",b:79}
+{a:"Did not experience retaliation",b:79},
+{a:"Prefer not to answer",b:79}
 ];
 
 var data_wom_ee = [
 {a:"Experienced Retaliation",b:71},
-{a:"No Retaliation",b:29}
+{a:"Did not experience retaliation",b:22},
+{a:"Prefer not to answer",b:7}
 ];
 
 
 var dummydata_wom_ff = [
 {a:"Experienced Retaliation",b:14},
-{a:"No Retaliation",b:76}
+{a:"Did not experience retaliation",b:76},
+{a:"Prefer not to answer",b:79}
 ];
 
 var data_wom_ff = [
 {a:"Experienced Retaliation",b:64},
-{a:"No Retaliation",b:36}
+{a:"Did not experience retaliation",b:27},
+{a:"Prefer not to answer",b:9}
 ];
 
 ///////////
@@ -1775,9 +1847,9 @@ var dummydata_wom_gg = [
 ];
 
 var data_wom_gg = [
-{a:"Less of an Authority Figure",b:18},
-{a:"Would Not Impact View",b:77},
-{a:"More of an Authority Figure",b:5} 
+{a:"Less of an Authority Figure",b:10},
+{a:"Would Not Impact View",b:84},
+{a:"More of an Authority Figure",b:6} 
 ];
 
 
@@ -1791,9 +1863,9 @@ var dummydata_wom_hh = [
 ];
 
 var data_wom_hh = [
-{a:"Less of an Authority Figure",b:10},
-{a:"Would Not Impact View",b:84},
-{a:"More of an Authority Figure",b:6} 
+{a:"Less of an Authority Figure",b:18},
+{a:"Would Not Impact View",b:77},
+{a:"More of an Authority Figure",b:5} 
 ];
 
  ///////////
@@ -1802,26 +1874,30 @@ var data_wom_hh = [
  /////////////
 
 var dummydata_wom_ii = [
-{a:"More Likely",b:56},
-{a:"Less Likely",b:44}
+{a:"More likely to report",b:56},
+{a:"Less likely to report",b:44},
+{a:"No impact",b:44}
 ];
 
 var data_wom_ii = [
-{a:"More Likely",b:46},
-{a:"Less Likely",b:54}
+{a:"More likely to report",b:46},
+{a:"Less likely to report",b:1},
+{a:"No impact",b:53}
 ];
 
  
 
 
 var dummydata_wom_jj = [
-{a:"More Likely",b:65},
-{a:"Less Likely",b:35}
+{a:"More likely to report",b:65},
+{a:"Less likely to report",b:35},
+{a:"No impact",b:44}
 ];
 
 var data_wom_jj = [
-{a:"More Likely",b:35},
-{a:"Less Likely",b:65}
+{a:"More likely to report",b:35},
+{a:"Less likely to report",b:2},
+{a:"No impact",b:63}
 ];
 
 
@@ -2047,18 +2123,17 @@ var data_ed_b = [
 
 /// satisfaction with ed program
 var dummydata_ed_c = [
-{a:"Post-9/11 GI Bill",b:69},
-{a:"Montgomery GI Bill",b:9},
-{a:"Vocational Rehabilitation",b:7},
-{a:"Reserve Education Assistance Program",b:3},
-{a:"Other",b:4}
+{a:"Very Satisfied",b:34},
+{a:"Satisfied",b:45},
+{a:"Neither Satisfied or Dissatisfied",b:13},
+{a:"Dissatisfied",b:8}
 ];
 
 var data_ed_c = [
 {a:"Very Satisfied",b:34},
 {a:"Satisfied",b:45},
-{a:"Dissatisfied",b:8},
-{a:"Neither Satisfied or Dissatisfied",b:13} 
+{a:"Neither Satisfied or Dissatisfied",b:13}, 
+{a:"Dissatisfied",b:8}
 ];
 
 /// amount of debt
@@ -2243,16 +2318,46 @@ var data_va_c = [
 
 ];
 
+///////////////
+/// forms of care
+var dummydata_va_bars= [
+{a:"VA health care exclusively",b:5},
+{a:"TRICARE and VA health care",b:5},
+{a:"VA supplemented by private insurance",b:5},
+{a:"VA supplemented by Medicaid/Medicare",b:5},
+{a:"DOD and VA health care",b:5},
+{a:"Private insurance exclusively",b:5},
+{a:"TRICARE exclusively",b:5},
+{a:"DOD health care exclusively",b:5},
+{a:"Don’t have health insurance",b:5},
+{a:"DOD supplemented by private insurance",b:55},
+
+];
+
+var data_va_bars = [
+{a:"VA health care exclusively",b:28},
+{a:"TRICARE and VA health care",b:17},
+{a:"VA supplemented by private insurance",b:15},
+{a:"VA supplemented by Medicaid/Medicare",b:4},
+{a:"DOD and VA health care",b:2},
+{a:"Private insurance exclusively",b:18},
+{a:"TRICARE exclusively",b:10},
+{a:"DOD health care exclusively",b:3},
+{a:"Don’t have health insurance",b:2},
+{a:"DOD supplemented by private insurance",b:1},
+
+];
+
 
 
 
 ////
 //// loans number
-var numero_va_a = [25];
+var numero_va_a = [28];
 
 ////
 //// loans number
-var numero_va_b = [32];
+var numero_va_b = [36];
 ////
 //// loans number
 var numero_va_c = [90];
@@ -2322,8 +2427,8 @@ var data_va_f = [
 {a:"Agree",b:26},
 {a:"Neither Agree Nor Disagree",b:15},
 {a:"Disagree",b:31},
-{a:"Strongly Disagree",b:2},
-{a:"No Opinion",b:20}
+{a:"Strongly Disagree",b:20},
+{a:"No Opinion",b:2}
 ];
 ///////////////
 
@@ -2340,7 +2445,7 @@ var dummydata_va_g = [
 var data_va_g = [
 {a:"Strongly Agree",b:15},
 {a:"Agree",b:45},
-{a:"Neither Agree Nor Disagree",b:27},
+{a:"Neither Agree Nor Disagree",b:22},
 {a:"Disagree",b:7},
 {a:"Strongly Disagree",b:3},
 {a:"No Opinion",b:3}
@@ -2416,20 +2521,16 @@ var dummydata_va_j = [
 {a:"Above Average",b:4},
 {a:"Average",b:6},
 {a:"Below Average",b:21},
-{a:"Very Poor",b:36},
-{a:"No Opinion",b:9}
-
-
+{a:"Very Poor",b:36}
 ];
 
 var data_va_j = [
-{a:"Excellent",b:4},
-{a:"Above Average",b:24},
-{a:"Average",b:36},
-{a:"Below Average",b:21},
-{a:"Very Poor",b:6},
-{a:"No Opinion",b:9}
-];
+{a:"Excellent",b:15},
+{a:"Above Average",b:22},
+{a:"Average",b:15},
+{a:"Below Average",b:13},
+{a:"Very Poor",b:15}
+ ];
 
 
 ////
@@ -2624,30 +2725,27 @@ var data_suicide_a = [
 ////////// 2016
 ////
 
-var dummydata_suicide_b = [
-{a:"Prior to joining the military",b:5},
-{a:"Since joining the military",b:40}
+
+var dummydata_suicide_aa = [
+{a:"2017 Prior to joining",b:5},
+{a:"2017 Since joining",b:37},
+ {a:"2015 Prior to joining",b:6},
+{a:"2015 Since joining",b:40},
+ {a:"2014 Prior to joining",b:6},
+{a:"2014 Since joining",b:31} 
 ];
 
-var data_suicide_b = [
-{a:"Prior to joining the military",b:6},
-{a:"Since joining the military",b:40}
+var data_suicide_aa = [
+{a:"2017 Prior to joining",b:5},
+{a:"2017 Since joining",b:37},
+ {a:"2015 Prior to joining",b:6},
+{a:"2015 Since joining",b:40},
+ {a:"2014 Prior to joining",b:6},
+{a:"2014 Since joining",b:31} 
 ];
+
 
 //
-////////// 2015
-////
-
-var dummydata_suicide_c = [
-{a:"Prior to joining the military",b:6},
-{a:"Since joining the military",b:40}
-];
-
-var data_msuicide_c = [
-{a:"Prior to joining the military",b:6},
-{a:"Since joining the military",b:31}
-];
-
 //
 ////////// When asked whether they had ever considered taking their own lives...
 ////
@@ -2790,9 +2888,9 @@ var numero_health_f = [80];
  //// before
 
 var dummydata_health_c = [
-{a:"Fair",b:3},
+{a:"Fair",b:55},
 {a:"Good",b:5},
-{a:"Excellent",b:5}
+{a:"Excellent",b:40}
 ];
 
 var data_health_c = [
@@ -3077,7 +3175,7 @@ var scrollVis = function() {
     ////////////////////////////////////////////
     /////////////////////////////
   
-
+ 
 
 
 ///////////
@@ -3137,26 +3235,27 @@ qSVG.selectAll(".txttxt")
   //age  
 drawPieChart(dummydata_a);
 
-//gender
-drawPieChart(dummydata_b);
-
-//ethnicity
-drawPieChart(dummydata_c);
 
 //marital
 drawPieChart(dummydataset);
 
-//employment
-drawPieChart(dummydata_f);
 //community
 drawPieChart(dummydata_h);
 
+//employment
+drawHBarChart(data_f);
+
+//ethnicity
+drawHBarChart(data_c);
+
+//gender
+drawHBarChartsm(data_b);
 
 //education
-drawStackChart(data_g);
+drawHBarChart(data_g);
 
 //household income  
-drawStackChart(data_e);
+drawHBarChart(data_e);
 
  ///////////
  /////////
@@ -3182,7 +3281,7 @@ drawPieChart(dummydata_k);
 
 
   //where did you serve?  
-drawStackChart(data_l);
+drawHBarChart(data_l);
 
 
 
@@ -3272,7 +3371,7 @@ drawStackChart(data_y);
 
 startsmallnumerosA(numero_guns);
 
-drawStackChart(data_guns_own_a);
+drawHBarChart(data_guns_own_aa);
 
 
 //////////
@@ -3299,9 +3398,9 @@ drawStackChart(data_milserve_e);
 //   
 drawStackChart(data_equality_a);
 //   
-drawStackChart(data_equality_b);
-//   
 drawStackChart(data_equality_c);
+//   
+drawStackChart(data_equality_b);
 // impact  
 drawStackChart(data_equality_d);
 
@@ -3523,7 +3622,7 @@ drawStackChart(data_ed_c);
 
 
 
-drawStackChart(data_ed_d);
+drawHBarChart(data_ed_d);
 
  //////////
 /////
@@ -3537,6 +3636,8 @@ drawStackChart(data_employ_b);
 drawStackChart(data_employ_c);
 
 drawStackChart(data_employ_d);
+
+drawHBarChart(data_employ_e);
 
 startnumerosA(numero_employ_a);
 
@@ -3561,6 +3662,7 @@ drawPieChart(dummydata_va_b);
 drawPieChart(dummydata_va_c);
 
 
+drawHBarChart(data_va_bars);
 
 
 startnumerosA(numero_va_a);
@@ -3635,8 +3737,64 @@ drawStackChart(data_mental_a);
 drawStackChart(data_mental_b);
 
 
+
+
+/////
+///////
+//// suicide 
+startnumerosA(numero_suicide_a);
+
+ 
+drawHBarChart(data_suicide_aa);
+
+///////////drawHBarChartsm(data_suicide_b);
+///////drawHBarChartsm(data_suicide_c);
+drawHBarChartsm(data_suicide_d);
+drawHBarChartsm(data_suicide_e);
+
+
+/////
+//// general health
+// 
+/// service related injuries
+///
+drawHBarChart(data_health_a);
+
+
+drawHBarChart(data_health_b);
+
+
+startnumerosA(numero_health_a);
+startnumerosB(numero_health_b);
+startnumerosC(numero_health_c);
+startnumerosA(numero_health_d);
+startnumerosB(numero_health_e);
+startnumerosC(numero_health_f);
+
+
+drawStackChart(data_health_c);
+drawStackChart(data_health_d);
+
+
+drawHBarChartsm(data_health_e);
+
 ///
 //////
+///////////////
+/// transition experiences
+///////////
+
+drawStackChart(data_tran_a);
+startnumerosA(numero_tran_a);
+startnumerosB(numero_tran_b);
+startnumerosC(numero_tran_c);
+startnumerosA(numero_tran_d);
+startnumerosB(numero_tran_e);
+
+
+
+
+
 ///
 /////
 /*
@@ -3648,7 +3806,7 @@ drawStackChart(data_mental_b);
 ///////////////
 //////////////////
  trigger=1;
-
+iii='';
 } else {
 
 
@@ -3956,35 +4114,35 @@ drawStackChart(dummydata_wom_jj,"svg48");
 /// demographic pie charts
 ///////////////////
 
-  
-//donut refresh
-changePieChart(dataset,"svg3");
-
-//donut refresh
-changePieChart(data_c,"svg2");
-  
-//donut refresh
-changePieChart(data_b,"svg1");
- 
 //donut refresh
 changePieChart(data_a,"svg0");
  
+  
+//donut refresh
+changePieChart(dataset,"svg1");
 
   //gender
-changePieChart(data_f,"svg4");
+changePieChart(data_h,"svg2");
 
+  
 
   //gender
-changePieChart(data_h,"svg5");
+changeHBarChart(data_f,"svg3");
 
 
+//donut refresh
+changeHBarChart(data_c,"svg4");
 
+
+//donut refresh
+changeHBarChartsm(data_b,"svg5");
+ 
 //?
-changeStackChart(data_g,"svg6");
+changeHBarChart(data_g,"svg6");
 
     
 //donut
-changeStackChart(data_e,"svg7");
+changeHBarChart(data_e,"svg7");
 
 /**/
 
@@ -4029,7 +4187,7 @@ changePieChart(data_k,"svg10");
 
     
 //Where did you serve
- changeStackChart(data_l,"svg11");
+ changeHBarChart(data_l,"svg11");
 
  
   //number of deployments
@@ -4138,7 +4296,7 @@ changeStackChart(data_y,"svg27");
 
 startsmallnumerosA(numero_guns,"svg28");
 
-changeStackChart(data_guns_own_a,"svg29");
+changeHBarChart(data_guns_own_aa,"svg29");
 
 
 
@@ -4189,9 +4347,9 @@ changeStackChart(data_milserve_e,"svg34");
 //   
 changeStackChart(data_equality_a,"svg35");
 //   
-changeStackChart(data_equality_b,"svg36");
+changeStackChart(data_equality_c,"svg36");
 //   
-changeStackChart(data_equality_c,"svg37");
+changeStackChart(data_equality_b,"svg37");
 // impact  
 changeStackChart(data_equality_d,"svg38");
 
@@ -4504,7 +4662,7 @@ changeStackChart(data_ed_c,"svg98");
 
 
 
-changeStackChart(data_ed_d,"svg99");
+changeHBarChart(data_ed_d,"svg99");
 
  //////////
 /////
@@ -4531,15 +4689,21 @@ changeStackChart(data_employ_b,"svg101");
 
 changeStackChart(data_employ_c,"svg102");
 
-changeStackChart(data_employ_d,"svg103");
 
-startnumerosA(numero_employ_a,"svg104");
 
-startnumerosB(numero_employ_b,"svg105");
 
-startnumerosC(numero_employ_c,"svg106");
+ changeStackChart(data_employ_d,"svg103");
 
-startnumerosA(numero_employ_d,"svg107");
+
+changeHBarChart(data_employ_e,"svg104");
+
+startnumerosA(numero_employ_a,"svg105");
+
+startnumerosB(numero_employ_b,"svg106");
+
+startnumerosC(numero_employ_c,"svg107");
+
+startnumerosA(numero_employ_d,"svg108");
 
 
 
@@ -4562,43 +4726,47 @@ startnumerosA(numero_employ_d,"svg107");
 ///////
 
   //age  
-changePieChart(data_va_a,"svg108");
+changePieChart(data_va_a,"svg109");
 //gender
-changePieChart(data_va_b,"svg109");
+changePieChart(data_va_b,"svg110");
 
 //?
-changePieChart(data_va_c,"svg110");
+changePieChart(data_va_c,"svg111");
+
+
+/// bar chart
+changeHBarChart(data_va_bars,"svg112");
+
+
+startnumerosA(numero_va_a,"svg113");
 
 
 
+startnumerosB(numero_va_b,"svg114");
 
-startnumerosA(numero_va_a,"svg111");
-
-startnumerosB(numero_va_b,"svg112");
-
-startnumerosC(numero_va_c,"svg113");
+startnumerosC(numero_va_c,"svg115");
 
 
 //////////
 ////
 //// va health care utilization
 
-changeStackChart(data_va_d,"svg114");
+changeStackChart(data_va_d,"svg116");
 
-changeStackChart(data_va_e,"svg115");
+changeStackChart(data_va_e,"svg117");
 
-changeStackChart(data_va_f,"svg116");
+changeStackChart(data_va_f,"svg118");
 
-changeStackChart(data_va_g,"svg117");
+changeStackChart(data_va_g,"svg119");
 
-changeStackChart(data_va_h,"svg118");
+changeStackChart(data_va_h,"svg120");
 
-changeStackChart(data_va_i,"svg119");
-changeStackChart(data_va_j,"svg120");
+changeStackChart(data_va_i,"svg121");
+changeStackChart(data_va_j,"svg122");
 
-startsmallnumerosA(numero_va_d,"svg121");
+startsmallnumerosA(numero_va_d,"svg123");
 
-startsmallnumerosA(numero_va_e,"svg122");
+startsmallnumerosA(numero_va_e,"svg124");
 
 ////
 
@@ -4617,29 +4785,29 @@ startsmallnumerosA(numero_va_e,"svg122");
 ////
 
 
-startnumerosA(numero_va_f,"svg123");
+startnumerosA(numero_va_f,"svg125");
 
 
 
-changeStackChart(data_va_k,"svg124");
+changeStackChart(data_va_k,"svg126");
 
 
-changeStackChart(data_va_l,"svg125");
+changeStackChart(data_va_l,"svg127");
 
 
-changeStackChart(data_va_m,"svg126");
+changeStackChart(data_va_m,"svg128");
 
 
-changeStackChart(data_va_n,"svg127");
+changeStackChart(data_va_n,"svg129");
 
 
-changeStackChart(data_va_o,"svg128");
+changeStackChart(data_va_o,"svg130");
 
 
-changeStackChart(data_va_p,"svg129");
+changeStackChart(data_va_p,"svg131");
 
 
-changeStackChart(data_va_q,"svg130");
+changeStackChart(data_va_q,"svg132");
 
 /////
 ///////
@@ -4659,17 +4827,17 @@ changeStackChart(data_va_q,"svg130");
     /////
 ///////
 //// mental health
-startnumerosA(numero_mental_a,"svg131");
+startnumerosA(numero_mental_a,"svg133");
 
-startnumerosB(numero_mental_b,"svg132");
+startnumerosB(numero_mental_b,"svg134");
 
-startnumerosC(numero_mental_c,"svg133");
+startnumerosC(numero_mental_c,"svg135");
 
  
-changeStackChart(data_mental_a,"svg134");
+changeStackChart(data_mental_a,"svg136");
 
 
-changeStackChart(data_mental_b,"svg135");
+changeStackChart(data_mental_b,"svg137");
 
 
 
@@ -4681,14 +4849,52 @@ changeStackChart(data_mental_b,"svg135");
   ///////////////////////
 
 
-  function showTitle20() {}
+  function showTitle20() {
+
+
+    startnumerosA(numero_suicide_a,"svg138");
+
+ 
+changeHBarChart(data_suicide_aa,"svg139");
+
+/////////////// changeHBarChartsm(data_suicide_b,"svg140");
+/////////////// changeHBarChartsm(data_suicide_c,"svg141");
+changeHBarChartsm(data_suicide_d,"svg140");
+changeHBarChartsm(data_suicide_e,"svg141");
+
+
+
+  }
 
   ////////////////
   /////////////////////////
   ///////////////////////
 
 
-  function showTitle21() {}
+  function showTitle21() {
+
+
+    changeHBarChart(data_health_a,"svg142");
+
+
+changeHBarChart(data_health_b,"svg143");
+
+
+startnumerosA(numero_health_a,"svg144");
+startnumerosB(numero_health_b,"svg145");
+startnumerosC(numero_health_c,"svg146");
+startnumerosA(numero_health_d,"svg147");
+startnumerosB(numero_health_e,"svg148");
+startnumerosC(numero_health_f,"svg149");
+
+
+
+changeStackChart(data_health_c,"svg150");
+changeStackChart(data_health_d,"svg151");
+ 
+    changeHBarChartsm(data_health_e,"svg152");
+
+  }
 
   ////////////////
   /////////////////////////
@@ -4697,7 +4903,28 @@ changeStackChart(data_mental_b,"svg135");
 
   function showTitle22() {
 
-          
+      
+
+
+///
+//////
+///////////////
+/// transition experiences
+///////////
+
+changeStackChart(data_tran_a,"svg153");
+startnumerosA(numero_tran_a,"svg154");
+startnumerosB(numero_tran_b,"svg155");
+startnumerosC(numero_tran_c,"svg156");
+startnumerosA(numero_tran_d,"svg157");
+startnumerosB(numero_tran_e,"svg158");
+
+
+d3.select("#mapcontain").select("svg").remove();
+d3.select("#mapcontain").select("g").remove();
+
+
+    
 
   }
 
@@ -4708,6 +4935,107 @@ changeStackChart(data_mental_b,"svg135");
 
   function showTitle23() {
  
+
+
+
+
+
+
+
+  //Width and height
+      var w = 960;
+      var h = 600;
+
+      //Define map projection
+      var projection = d3.geo.albersUsa()
+                   .translate([w/2, h/2])
+                   .scale([1280]);
+
+      //Define path generator
+      var path = d3.geo.path()
+               .projection(projection);
+
+      //Define quantize scale to sort data values into buckets of color
+      var color = d3.scale.quantize()
+
+      ///      .range(["#9aada6", "#c2cec9","#efefef","#888888","#333333","#294636", "#3a634d", "#000000", "#e2d497", "#417a4f", "#cddeb7", "#78933f", "#284635"]);
+    .range(["#dcf428","#9aada6", "#c2cec9","#efefef","#888888","#333333","#294636", "#3a634d", "#000000", "#e2d497", "#417a4f", "#cddeb7", "#78933f", "#284635"]);
+
+              //////////  .range(["#fef0d9","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#990000"]);
+                //Colors taken from colorbrewer.js, included in the D3 download
+
+      //Create SVG element
+      var svg = d3.select("#mapcontain")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+      //Load in agriculture data
+      d3.csv("states.csv", function(data) {
+
+        //Set input domain for color scale
+        color.domain([
+          d3.min(data, function(d) { return d.ValidPercent; }),
+          d3.max(data, function(d) { return d.ValidPercent; })
+        ]);
+
+        //Load in GeoJSON data
+        d3.json("us_states.json", function(json) {
+
+          //Merge the ag. data and GeoJSON
+          //Loop through once for each ag. data value
+          for (var i = 0; i < data.length; i++) {
+
+            //Grab state name
+            var dataState = data[i].Name;
+
+            //Grab data value, and convert from string to float
+            var dataValue = parseFloat(data[i].ValidPercent);
+
+            //Find the corresponding state inside the GeoJSON
+            for (var j = 0; j < json.features.length; j++) {
+
+              var jsonState = json.features[j].properties.name;
+
+              if (dataState == jsonState) {
+
+                //Copy the data value into the JSON
+                json.features[j].properties.value = dataValue;
+
+                //Stop looking through the JSON
+                break;
+
+              }
+            }
+          }
+
+          //Bind data and create one path per GeoJSON feature
+          svg.selectAll("path")
+             .data(json.features)
+             .enter()
+             .append("path")
+             .attr("d", path)
+             .style("fill", function(d) {
+                //Get data value
+                var value = d.properties.value;
+
+                if (value) {
+                  //If value exists…
+                  return color(value);
+                } else {
+                  //If value is undefined…
+                  return "#ccc";
+                }
+             });
+
+        });
+
+      });
+
+
+
+
+
 
 
   }
@@ -4722,6 +5050,10 @@ changeStackChart(data_mental_b,"svg135");
 
   function showTitle24() {
  
+
+d3.select("#mapcontain").select("svg").remove();
+d3.select("#mapcontain").select("g").remove();
+
 
  
 

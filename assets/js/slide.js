@@ -6,8 +6,12 @@
    */
   function createSlide(id) {
     var slide = document.createElement("section");
-    slide.className = "step";
     slide.setAttribute("id", "step-" + id);
+    slide.className = "step";
+          var spanNode = document.createElement("span");
+      spanNode.className = "stepspan";
+      slide.appendChild(spanNode);
+
     return slide;
   }
 
@@ -82,7 +86,10 @@
    * @return {object} node - DOM element
    */
   function createBkg(bkgImage) {
-    var node = document.createElement("div");
+  
+      if (!!bkgImage) {
+
+  var node = document.createElement("div");
     node.className = "bgbg js-background-image";
     var innerHTML =
       "<picture>" +
@@ -98,7 +105,10 @@
     // node.style.backgroundImage = "url(assets/images/bkg/" + id + ".jpg)";
     node.innerHTML = innerHTML;
     return node;
-  }
+  }    else {
+      return false;
+    }
+}
 
   // Slide Instance
   var Slide = function() {};
@@ -120,14 +130,22 @@
     this.header = createHeader(config.data.header);
     this.body = createBody(config.data.body);
     this.icon = createIcon(config.data.icon);
+  
+
+ 
+   this.content = document.createElement("div");
+  this.content.className = "stripes";
+ /////    !!this.sectionHeader && this.content.appendChild(this.sectionHeader);
+  //////   this.content.appendChild(this.section);
+
 
     this.content = document.createElement("div");
     this.content.className = "step-content";
-          this.content.setAttribute("id", "slide" + this.id);
+    this.content.setAttribute("id", "slide" + this.id);
 
     this.content.appendChild(this.body);
 
-    this.slide.appendChild(this.bkg);
+    !!this.slide.appendChild(this.bkg);
     !!this.sectionHeader && this.slide.appendChild(this.sectionHeader);
     !!this.header && this.slide.appendChild(this.header);
     !!this.icon && this.slide.appendChild(this.icon);
