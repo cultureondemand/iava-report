@@ -41,6 +41,8 @@
       this.data[i];
       var link = createLink(i, this.data[i]);
      /// ul.appendChild(link);
+
+     this.el.appendChild(link);
     }
 
    //// this.el.appendChild(ul);
