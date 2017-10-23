@@ -1545,12 +1545,12 @@ overflow: visible !important;
 
 #titleOpener {
    display: inline-block;
-top: 158px;
+top: 138px;
 left: 24px;
   text-transform: uppercase;
  /*  color: #e8ddac; */
   color: #fff;
-  font-size: 60px;
+  font-size: 72px;
 
   /* font-family: 'din_regular-webfont', sans-serif; */
   font-family: 'din_bold-webfont', serif;
@@ -1573,7 +1573,7 @@ left: 24px;
  
 #titleOpener {
    display: inline-block;
-top: 158px;
+top: 138px;
 left: 24px;
   text-transform: uppercase;
   color: #fff;
