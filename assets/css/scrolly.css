@@ -2090,8 +2090,7 @@ color:#dbf529;
 
 .mdc-toolbar__title  {
 
-margin-left: 216px !important;
-}
+ }
 
 
 
@@ -2520,25 +2519,6 @@ display: inline-block;
 vertical-align: top;
 }
 
-
-
-.numerosA-words {
-
-   font-family: "din_bold-webfont", "Arial", sans-serif;
-     font-size: 24px;
- font-size: 24px;
-    margin-top: .6em;
-    margin-bottom: .3em;
-    text-align: left;
-    display: block;
-    width: 220px;
-    padding-right: 8px;
-
-padding-bottom: 0;
-color: #294636;
-  }
-
-
 .numerosA-words-h {
 
 /* display: inline-block;
@@ -2554,6 +2534,96 @@ color: #294636;
      text-align: left;
 color: #294636;
  }
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+
+
+.numerosA-words {
+
+   font-family: "din_bold-webfont", "Arial", sans-serif;
+  font-size: 18px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+     padding-right: 1px;
+
+padding-bottom: 0;
+color: #294636;
+  }
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+/* Center the loader */
+
+
+
+.numerosA-words {
+
+   font-family: "din_bold-webfont", "Arial", sans-serif;
+  font-size: 20px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+     padding-right: 1px;
+
+padding-bottom: 0;
+color: #294636;
+  }
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+
+.numerosA-words {
+
+   font-family: "din_bold-webfont", "Arial", sans-serif;
+  font-size: 24px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+    width: 220px;
+    padding-right: 8px;
+
+padding-bottom: 0;
+color: #294636;
+  }
+
+
+
+
+}
+
+
 
 
 
@@ -2581,7 +2651,7 @@ height: 150px;
  padding-bottom: 0; */
      font-family: 'din_bold-webfont', sans-serif;
     line-height: 1em;
-   font-size: 24px;
+   font-size: 18px;
      text-align: left;
 color: #9aada6;
  }
@@ -2599,7 +2669,7 @@ color: #9aada6;
 display: block;
 width: 100%;
 margin-top: 18px;
-margin-bottom: 24px;
+margin-bottom: 20px;
 height: 150px;
 /* display: inline-block;
     width: 70%;
@@ -2653,6 +2723,17 @@ color: #9aada6;
 
 
 
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+
+
+
+
 .numerosB-words {
  
 
@@ -2660,17 +2741,136 @@ color: #9aada6;
      font-family: "din_bold-webfont", "Arial", sans-serif;
     padding-bottom: 0;
     padding-left: 18px;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: .6em;
     margin-bottom: .3em;
     text-align: left;
     display: block;
-    width: 220px;
-    padding-right: 8px;
+     padding-right: 1px;
     color: #9aada6;
 
 
  }
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+
+
+
+.numerosB-words {
+ 
+
+
+     font-family: "din_bold-webfont", "Arial", sans-serif;
+    padding-bottom: 0;
+    padding-left: 18px;
+    font-size: 20px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+     padding-right: 1px;
+    color: #9aada6;
+
+
+ }
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+
+
+
+.numerosB-words {
+ 
+
+
+     font-family: "din_bold-webfont", "Arial", sans-serif;
+    padding-bottom: 0;
+    padding-left: 18px;
+    font-size: 18px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+     padding-right: 1px;
+    color: #9aada6;
+
+
+ }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+
+
+
+
+.numerosC-words {
+display: inline-block;
+
+  font-family: "din_bold-webfont",
+    "Arial",
+    sans-serif;
+ padding-bottom: 0;
+ padding-left: 18px;
+  font-size: 20px;
+margin-top:.6em;
+margin-bottom:.3em;
+text-align: left;
+display: block;
+ padding-right: 1px;
+color: #888888;
+
+ }
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+
 
 
 
@@ -2692,6 +2892,52 @@ padding-right: 8px;
 color: #888888;
 
  }
+
+
+
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+
+
+
+.numerosB-words {
+ 
+
+
+     font-family: "din_bold-webfont", "Arial", sans-serif;
+    padding-bottom: 0;
+    padding-left: 18px;
+    font-size: 24px;
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+    display: block;
+    width: 220px;
+    padding-right: 8px;
+    color: #9aada6;
+
+
+ }
+
+
+
+
+
+}
+
+
+
+
+
 
 
 
