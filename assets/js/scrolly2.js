@@ -4114,6 +4114,9 @@ drawStackChart(dummydata_wom_jj,"svg48");
 /// demographic pie charts
 ///////////////////
 
+
+iii=0;
+
 //donut refresh
 changePieChart(data_a,"svg0");
  
@@ -4167,6 +4170,7 @@ changeHBarChart(data_e,"svg7");
   //////  var greenoverlay = document.getElementById("greenoverlay");
   ///////////  greenoverlay.setAttribute("style", "visibility:hidden; ");
 
+iii=8;
 
   //gender
 changePieChart(data_i,"svg8");
@@ -4226,6 +4230,9 @@ changeStackChart(data_p,"svg15");
    *
    */
   function showTitle4() {
+
+    iii=16;
+
   
 // political ideology
 changePieChart(data_q,"svg16");
@@ -4253,6 +4260,9 @@ startsmallnumerosA(numeroB,"svg19");
  //////////////////
  // THE ISSUES
 /// flag burning
+
+iii=20;
+
     startsmallnumerosA(numeroE,"svg20");
 
 
@@ -4292,6 +4302,11 @@ changeStackChart(data_y,"svg27");
 
   function showTitle6() {
 
+
+iii=28;
+
+
+
 //// guns
 
 startsmallnumerosA(numero_guns,"svg28");
@@ -4311,6 +4326,7 @@ changeHBarChart(data_guns_own_aa,"svg29");
   function showTitle7() {
 
 
+iii=30;
 
 //////////
 ///////////////////
@@ -4340,6 +4356,7 @@ changeStackChart(data_milserve_e,"svg34");
 
   function showTitle8() {
 
+iii=35;
 
     ////////////////////
 ////////// equality
@@ -4364,6 +4381,7 @@ changeStackChart(data_equality_d,"svg38");
   ///////////////////////
 
   function showTitle9() {
+iii=39;
 
 
 
@@ -4399,6 +4417,7 @@ changeStackChart(data_p_congress,"svg44");
   function showTitle10() {
 
 
+iii=45;
 
 
 
@@ -4436,6 +4455,7 @@ changeStackChart(data_wom_g,"svg51");
 
   function showTitle11() {
 
+iii=52;
 
     //womens
 //////
@@ -4497,6 +4517,7 @@ changeStackChart(data_wom_r,"svg64");
 
   function showTitle12() {
 
+iii=65;
 
     //womens
 ///////////////////
@@ -4547,6 +4568,7 @@ startsmallnumerosA(numero_wom_g,"svg73");
   function showTitle13() {
 
 
+iii=74;
 
 
  /////////////
@@ -4601,6 +4623,7 @@ changeStackChart(data_wom_jj,"svg85");
    ///// var greenoverlay = document.getElementById("greenoverlay");
    ///// greenoverlay.setAttribute("style", "visibility:hidden; ");
 
+iii=86;
 
 
 
@@ -4640,6 +4663,7 @@ changeStackChart(data_gib_f,"svg92");
 
   function showTitle15() {
 
+iii=93;
 
     //////////
 /////
@@ -4676,6 +4700,7 @@ changeHBarChart(data_ed_d,"svg99");
 
   function showTitle16() {
 
+iii=100;
 
 
  //////////
@@ -4719,6 +4744,7 @@ startnumerosA(numero_employ_d,"svg108");
   function showTitle17() {
 
 
+iii=109;
 
 
 ////////
@@ -4783,6 +4809,7 @@ startsmallnumerosA(numero_va_e,"svg124");
 
     ////
 ////
+iii=125;
 
 
 startnumerosA(numero_va_f,"svg125");
@@ -4823,6 +4850,7 @@ changeStackChart(data_va_q,"svg132");
 
   function showTitle19() {
 
+iii=133;
 
     /////
 ///////
@@ -4851,6 +4879,7 @@ changeStackChart(data_mental_b,"svg137");
 
   function showTitle20() {
 
+iii=138;
 
     startnumerosA(numero_suicide_a,"svg138");
 
@@ -4873,6 +4902,7 @@ changeHBarChartsm(data_suicide_e,"svg141");
 
   function showTitle21() {
 
+iii=142;
 
     changeHBarChart(data_health_a,"svg142");
 
@@ -4904,6 +4934,7 @@ changeStackChart(data_health_d,"svg151");
   function showTitle22() {
 
       
+iii=153;
 
 
 ///
@@ -5228,6 +5259,594 @@ function onResize(h) {
 
   //////var eBG = document.getElementById("bg" + h);
   /////eBG.style.height = eBG.parentElement.clientHeight;
+
+
+
+
+
+
+
+
+  /////////
+
+ iii='';
+
+  //age  
+drawPieChart(dummydata_a);
+
+
+//marital
+drawPieChart(dummydataset);
+
+//community
+drawPieChart(dummydata_h);
+
+//employment
+drawHBarChart(data_f);
+
+//ethnicity
+drawHBarChart(data_c);
+
+//gender
+drawHBarChartsm(data_b);
+
+//education
+drawHBarChart(data_g);
+
+//household income  
+drawHBarChart(data_e);
+
+ ///////////
+ /////////
+ /////////
+
+ 
+
+  //age  
+drawPieChart(dummydata_i);
+//gender
+drawPieChart(dummydata_j);
+
+//?
+drawPieChart(dummydata_k);
+
+    
+//donut
+//// former where did you serve
+/////////////// drawPieChart(dummydata_l);
+
+
+
+
+
+  //where did you serve?  
+drawHBarChart(data_l);
+
+
+
+
+
+  //deployments  
+drawStackChart(data_m);
+//deploy
+drawStackChart(data_n);
+
+  //deploy  
+drawStackChart(data_o);
+//deploy
+drawStackChart(data_p);
+
+
+
+
+
+//ideology
+drawPieChart(dummydata_q);
+
+    
+//candidate support
+drawPieChart(dummydata_r);
+
+//candidate support
+drawPieChart(dummydata_reg);
+
+ 
+   startsmallnumerosA(numeroB);
+
+ ///////////////////////////////////// startsmallnumerosB(numeroC);
+
+
+
+  ////// startnumerosB(numeroD);
+
+
+
+    startsmallnumerosA(numeroE);
+
+//////
+
+
+//////
+
+
+
+
+  //mj  
+drawStackChart(data_s);
+//mh
+drawStackChart(data_t);
+
+
+  //fa  
+drawStackChart(data_u);
+//fa
+drawStackChart(data_v);
+
+
+
+
+
+  //fa  
+drawStackChart(data_w);
+//fa
+drawStackChart(data_x);
+//fa
+drawStackChart(data_y);
+
+ ////////
+
+ //////
+ //////
+ //////
+ //////////
+
+
+//////////////////////////////
+////////// 
+//////////////////////////////
+////////// Gun Ownership & Storage
+ /////////////////////////////
+ /////////////////////////////
+
+startsmallnumerosA(numero_guns);
+
+drawHBarChart(data_guns_own_aa);
+
+
+//////////
+///////////////////
+//////////////////////////////
+////////// military service
+ /////////////////////////////
+//   
+drawStackChart(data_milserve_a);
+//   
+drawStackChart(data_milserve_b);
+//   
+drawStackChart(data_milserve_c);
+//    
+drawStackChart(data_milserve_d);
+//    
+drawStackChart(data_milserve_e);
+
+
+
+////////////////////
+////////// equality
+ ////////////////
+//   
+drawStackChart(data_equality_a);
+//   
+drawStackChart(data_equality_c);
+//   
+drawStackChart(data_equality_b);
+// impact  
+drawStackChart(data_equality_d);
+
+
+
+
+////
+///// perceptions
+///////perceptions numbers
+  
+
+   startnumerosA(numeroSupport);
+
+   startnumerosB(numeroUnderstand);
+
+   startnumerosC(numeroHire);
+
+
+/////////////
+//////////
+ ////////////////
+//obama  
+drawStackChart(data_p_obama);
+//trump  
+drawStackChart(data_p_trump);
+//congress  
+drawStackChart(data_p_congress);
+
+
+
+
+
+/////
+
+
+
+/////////////
+///////womens
+/////////////////
+  //issues  
+drawStackChart(data_wom_a);
+//////////
+/////////////
+//women in military questions  
+drawStackChart(data_wom_b);
+//womens  
+drawStackChart(data_wom_c);
+//womens  
+drawStackChart(data_wom_d);
+
+//womens  
+drawStackChart(data_wom_e);
+//womens  
+drawStackChart(data_wom_f);
+//womens  
+drawStackChart(data_wom_g);
+//womens
+//////
+/////
+
+///////////////
+ 
+startnumerosA(numero_wom_a);
+///
+startnumerosB(numero_wom_b);
+ /////////////////
+//////////////////////////////////////////////////////////////////
+
+ /////////////
+ /////////////////
+//When asked their level of agreement with the following statement  
+//womens  
+/// The civilian public treats women veterans with respect
+drawStackChart(data_wom_g_);
+//womens  
+//// Fellow service members treat women service members with respect
+drawStackChart(data_wom_h_);
+//womens  
+drawStackChart(data_wom_i_);
+//womens  
+drawStackChart(data_wom_j_);
+//womens  
+drawStackChart(data_wom_k_);
+//womens  
+drawStackChart(data_wom_k__);
+//womens
+
+ /////////////
+ /////////////////
+ ////////////////
+ ///// When asked whether VA adequately provides
+ //////////////////////
+//womens  
+drawStackChart(data_wom_n);
+//womens  
+drawStackChart(data_wom_o);
+//womens  
+drawStackChart(data_wom_p);
+//womens  
+drawStackChart(data_wom_q);
+//womens  
+drawStackChart(data_wom_r);
+//womens
+///////////////////
+///////////////
+
+
+startnumerosA(numero_wom_c);
+///
+startnumerosB(numero_wom_d);
+///
+startnumerosC(numero_wom_e);
+/////////////
+ /////////////////
+
+///////////////////
+//// rate the following
+/// 
+ /////////////
+ /////////////////
+//womens  
+///// va support for women
+drawStackChart(data_wom_s);
+//womens  
+drawStackChart(data_wom_t);
+//womens  
+drawStackChart(data_wom_u);
+//womens  
+//// Quality of VA Benefits
+drawStackChart(data_wom_v);
+/////
+///
+startsmallnumerosA(numero_wom_f);
+///
+startsmallnumerosA(numero_wom_g);
+////
+//////////////////////////////////
+
+
+ /////////////
+ ///// sexuak assault
+ /////////////////
+//womens  
+drawStackChart(data_wom_y);
+//womens  
+drawStackChart(data_wom_z);
+//womens  
+drawStackChart(data_wom_aa);
+//womens  
+drawStackChart(data_wom_bb);
+
+//womens  
+drawStackChart(data_wom_cc);
+//womens  
+drawStackChart(data_wom_dd);
+//womens 
+/// Survivors who experienced retaliation after reporting 
+drawStackChart(data_wom_ee);
+//womens  
+// Survivors who experienced retaliation after reporting
+drawStackChart(data_wom_ff);
+/////////
+//////
+drawStackChart(data_wom_gg);
+//////////
+/////
+drawStackChart(data_wom_hh);
+//////////
+/////
+drawStackChart(data_wom_ii);
+//////////
+/////
+drawStackChart(data_wom_jj);
+//////////
+/////
+
+
+///////////////////
+//// post 9/11 gi bill
+/////
+
+drawPieChart(dummydata_gib_a);
+
+drawPieChart(dummydata_gib_b);
+
+drawPieChart(dummydata_gib_c);
+
+//////////
+startsmallnumerosA(numero_gib_nocuts);
+
+/////
+drawStackChart(data_gib_d);
+
+
+drawStackChart(data_gib_e);
+
+
+drawStackChart(data_gib_f);
+
+
+ //////////
+/////
+////// education
+///
+ //////////
+startnumerosA(numero_ed_a);
+
+startnumerosB(numero_ed_b);
+
+startnumerosC(numero_ed_c);
+
+
+drawStackChart(data_ed_a);
+
+drawStackChart(data_ed_b);
+
+drawStackChart(data_ed_c);
+
+
+
+
+drawHBarChart(data_ed_d);
+
+ //////////
+/////
+//////////
+//// employment
+
+drawStackChart(data_employ_a);
+
+drawStackChart(data_employ_b);
+
+drawStackChart(data_employ_c);
+
+drawStackChart(data_employ_d);
+
+drawHBarChart(data_employ_e);
+
+startnumerosA(numero_employ_a);
+
+startnumerosB(numero_employ_b);
+
+startnumerosC(numero_employ_c);
+
+startnumerosA(numero_employ_d);
+
+
+
+////////
+/// va health care utilization
+///////
+
+  //age  
+drawPieChart(dummydata_va_a);
+//gender
+drawPieChart(dummydata_va_b);
+
+//?
+drawPieChart(dummydata_va_c);
+
+
+drawHBarChart(data_va_bars);
+
+
+startnumerosA(numero_va_a);
+
+startnumerosB(numero_va_b);
+
+startnumerosC(numero_va_c);
+
+
+//////////
+////
+//// va health care utilization
+
+drawStackChart(data_va_d);
+
+drawStackChart(data_va_e);
+
+drawStackChart(data_va_f);
+
+drawStackChart(data_va_g);
+
+drawStackChart(data_va_h);
+
+drawStackChart(data_va_i);
+
+
+drawStackChart(data_va_j);
+
+
+
+startnumerosA(numero_va_d);
+
+startnumerosB(numero_va_e);
+
+startnumerosA(numero_va_f);
+
+
+
+drawStackChart(data_va_k);
+
+
+drawStackChart(data_va_l);
+
+
+drawStackChart(data_va_m);
+
+
+drawStackChart(data_va_n);
+
+
+drawStackChart(data_va_o);
+
+
+drawStackChart(data_va_p);
+
+
+drawStackChart(data_va_q);
+
+/////
+///////
+//// mental health
+startnumerosA(numero_mental_a);
+
+ 
+startnumerosB(numero_mental_b);
+
+startnumerosC(numero_mental_c);
+
+drawStackChart(data_mental_a);
+
+
+drawStackChart(data_mental_b);
+
+
+
+
+/////
+///////
+//// suicide 
+startnumerosA(numero_suicide_a);
+
+ 
+drawHBarChart(data_suicide_aa);
+
+///////////drawHBarChartsm(data_suicide_b);
+///////drawHBarChartsm(data_suicide_c);
+drawHBarChartsm(data_suicide_d);
+drawHBarChartsm(data_suicide_e);
+
+
+/////
+//// general health
+// 
+/// service related injuries
+///
+drawHBarChart(data_health_a);
+
+
+drawHBarChart(data_health_b);
+
+
+startnumerosA(numero_health_a);
+startnumerosB(numero_health_b);
+startnumerosC(numero_health_c);
+startnumerosA(numero_health_d);
+startnumerosB(numero_health_e);
+startnumerosC(numero_health_f);
+
+
+drawStackChart(data_health_c);
+drawStackChart(data_health_d);
+
+
+drawHBarChartsm(data_health_e);
+
+///
+//////
+///////////////
+/// transition experiences
+///////////
+
+drawStackChart(data_tran_a);
+startnumerosA(numero_tran_a);
+startnumerosB(numero_tran_b);
+startnumerosC(numero_tran_c);
+startnumerosA(numero_tran_d);
+startnumerosB(numero_tran_e);
+
+
+
+
+
+///
+/////
+/*
+
+*/
+
+ 
+////////////
+///////////////
+//////////////////
+ }
+
+
 }
 
 
