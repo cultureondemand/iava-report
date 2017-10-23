@@ -5261,6 +5261,32 @@ function onResize(h) {
   /////eBG.style.height = eBG.parentElement.clientHeight;
 
 
+    // sectionPositions will be each sections
+    // starting position relative to the top
+    // of the first section.
+    sectionPositions = [];
+    var startPos;
+    sections.each(function(d,i) {
+      var top = this.getBoundingClientRect().top;
+      var conheight = this.getBoundingClientRect().height;
+      
+ 
+//////  console.log(top);
+/////  console.log(conheight);
+
+ 
+
+      if(i === 0) {
+        startPos = top;
+      }
+      sectionPositions.push((top+conheight) - startPos);
+    });
+   containerStart = (container.node().getBoundingClientRect().top + container.node().getBoundingClientRect().height) + window.pageYOffset;  
+    containerStartB = container.node().getBoundingClientRect().top + container.node().getBoundingClientRect().height;
+    containerEnd = (container.node().getBoundingClientRect().bottom + container.node().getBoundingClientRect().height) + window.pageYOffset;  
+
+
+
 
 
 
