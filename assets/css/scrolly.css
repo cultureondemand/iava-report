@@ -335,6 +335,78 @@ video#bgvid02 {
 
  
 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+/* Center the loader */
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 99999999;
+  width: 310px;
+  height: 210px;
+  margin: -105px 0 0 -155px;
+    }
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+/* Center the loader */
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 99999999;
+  width: 310px;
+  height: 210px;
+  margin: -105px 0 0 -155px;
+    }
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+/* Center the loader */
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 99999999;
+  width: 350px;
+  height: 250px;
+  margin: -175px 0 0 -175px;
+    }
+
+
+}
+
+
+
+
+
+
+
 #play {
   position: fixed;
   top: 0;
@@ -348,19 +420,10 @@ video#bgvid02 {
   cursor: pointer;
 }
 
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 99999999;
-  width: 350px;
-  height: 250px;
-  margin: -175px 0 0 -125px;
-    }
+
  
  
-}
+ 
 
 #intro {
   font-family: 'din_regular-webfont', serif;
@@ -850,7 +913,7 @@ font-weight: 400;
 #logoOpener {
 
  top: 67px;
-left: 60px;
+left: 24px;
   text-transform: none !important;
   color: #3871C1;
   font-size: 1.4em;
@@ -883,7 +946,7 @@ position: fixed;
 
  
 top: 67px;
-left: 185px;
+left: 24px;
   text-transform: none !important;
   color: #3871C1;
   font-size: 1.4em;
@@ -1483,7 +1546,7 @@ overflow: visible !important;
 #titleOpener {
    display: inline-block;
 top: 158px;
-left: 55px;
+left: 24px;
   text-transform: uppercase;
  /*  color: #e8ddac; */
   color: #fff;
@@ -1511,7 +1574,7 @@ left: 55px;
 #titleOpener {
    display: inline-block;
 top: 158px;
-left: 185px;
+left: 24px;
   text-transform: uppercase;
   color: #fff;
   font-size: 72px;
