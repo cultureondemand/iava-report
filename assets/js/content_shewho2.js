@@ -362,24 +362,25 @@ Of survey respondents own personal firearms</span></div>
 
 
   
-  <h5>When asked the following ...</h5>
+ 
+  <h5>Would you recommend service to a family member or a close friend?</h5>
 
 
-
-<span class="barlabel">Would you recommend service to a family member or a close friend?</span> 
-<div style="display:inline-block;width:100%; "><svg id="svg30" height="75"></svg></div>
+ <div style="display:inline-block;width:100%; "><svg id="svg30" height="75"></svg></div>
 <div id="legendrow30" class="legendrow"></div>
 
+<br />
+  <h5>Do you support the creation of a national monument in Washington D.C. for veterans of the Global War on Terror?</h5>
 
 
-<span class="barlabel">Do you support the creation of a national monument in Washington D.C. for veterans of the Global War on Terror?</span> 
-<div style="display:inline-block;width:100%; "><svg id="svg31" height="75"></svg></div>
+ <div style="display:inline-block;width:100%; "><svg id="svg31" height="75"></svg></div>
 <div id="legendrow31" class="legendrow"></div>
 
+<br />
+  <h5>Are you concerned that a decrease in our military presence in Iraq and Afghanistan will decrease public attention on issues affecting Iraq and Afghanistan veterans and service members?</h5>
 
 
-<span class="barlabel">Are you concerned that a decrease in our military presence in Iraq and Afghanistan will decrease public attention on issues affecting Iraq and Afghanistan veterans and service members?</span> 
-<div style="display:inline-block;width:100%; "><svg id="svg32" height="75"></svg></div>
+ <div style="display:inline-block;width:100%; "><svg id="svg32" height="75"></svg></div>
 <div id="legendrow32" class="legendrow"></div>
 
  
@@ -433,7 +434,7 @@ Of survey respondents own personal firearms</span></div>
  <div style="display:inline-block;width:100%; "><svg id="svg36" height="75"></svg></div>
 <div id="legendrow36" class="legendrow"></div>
  
- <h5>Do you support the new DoD policy to allow military service by openly transgender troops?</h5>
+ <h5>Do you support the new DoD Policy to allow military service by openly transgender individuals?</h5>
 
  <div style="display:inline-block;width:100%; "><svg id="svg37" height="75"></svg></div>
 <div id="legendrow37" class="legendrow"></div>
@@ -459,7 +460,7 @@ Of survey respondents own personal firearms</span></div>
   {
     section: "// PERCEPTIONS",
       icon: "",
-  header: "Transitioning out of the military can be challenging, especially when services and supports aren’t in place to help. This section asks IAVA members about their perceptions of how Congress, the Administration and the community is doing in supporting them as they come home.",
+  header: "Transitioning out of the military can be challenging, especially when services and supports aren’t in place to help. This section asks IAVA members about their perceptions of how Congress, the Administration and the community are doing in supporting them as they come home.",
     bkgImage: {
       small: "12.jpg",
       medium: "12.jpg",
@@ -807,7 +808,7 @@ with respect</span>
  
 <div class="numerosA">
 <svg id="svg65" width="260" height="150"></svg>
-<div class="numerosA-words">Of women veterans are enrolled in VA health care</div>
+<div class="numerosA-words">Of women veteran respondents are enrolled in VA health care</div>
 </div>
 
 
@@ -936,7 +937,7 @@ for VA benefits</div>
 <div id="legendrow75" class="legendrow"></div>
 
  
-<h5>Survivor* of Military Sexual Assault</h5>
+<h5>Survivor* of military sexual assault</h5>
 
 <span class="barlabel">Women</span> 
 <div style="display:inline-block;width:100%; "><svg id="svg76" height="75"></svg></div>
@@ -1033,9 +1034,9 @@ for VA benefits</div>
 ,
 
   {
-    section: "// Post-9/11 GI Bill",
+    section: "// Post-9/11 GI BIll Utilization",
         icon: "",
-  header: "The GI Bill has sent nearly 2 million veterans and their dependents to school since its creation in 2008. However, despite the enormous success of the New GI Bill, there is still work to be done to both protect and enhance this critical benefit.",
+  header: "The Post-9/11 GI Bill has sent nearly 2 million veterans and their dependents to school since its creation in 2008. However, despite the enormous success of the New GI Bill, there is still work to be done to both protect and enhance this critical benefit.",
     bkgImage: {
       small: "13.jpg",
       medium: "13.jpg",
@@ -1358,7 +1359,7 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
    
 
 <div class="donut">
-<h5>Of respondents support full privatization of VA</h5>
+<h5>Support for full privatization of VA</h5>
 <svg id="svg109" width="310" height="396"></svg>    
 </div>
 
@@ -1576,20 +1577,6 @@ Use VA Benefits other than healthcare</div>
   
 
   
- 
- <h5>Top 3 Reasons Not Getting Care</h5>
-
- <span class="issuesBsm" style="height:4em; ">
-1. The stigma of seeking help is too great
-<br />
- 2. They have access to care, but not quality care
- <br />
- 3. They have access but are not seeking care
-</span>
- 
-  
- 
- 
 
 <div class="numerosA">
 <svg id="svg133" width="260" height="150"></svg>
@@ -1614,7 +1601,23 @@ Believe troops and veterans are getting the care they need for mental health inj
 <div class="numerosC-words">Sought help as a result</div>
 </div>
  
+  <br />
+  <br />
 
+ 
+ <h5>Top 3 Reasons Troops and Veterans Not Getting Care</h5>
+
+ <span class="issuesBsm" style="height:4em; ">
+1. The stigma of seeking help is too great
+<br />
+ 2. They have access to care, but not quality care
+ <br />
+ 3. They have access but are not seeking care
+</span>
+ 
+  
+ 
+ 
 
 <h5>Do you have a service-connected mental health injury?</h5>
  
@@ -1629,7 +1632,7 @@ Believe troops and veterans are getting the care they need for mental health inj
  <div style="display:inline-block;width:100%; "><svg id="svg137" height="75"></svg></div>
 <div id="legendrow137" class="legendrow"></div>
 
-  
+  <br />
  
  
  <h5>Top 3 Reasons Not Seeking Care</h5>
@@ -1677,13 +1680,12 @@ Believe troops and veterans are getting the care they need for mental health inj
 <svg id="svg138" width="260" height="150"></svg>
 </div>
 <div class="numerosB-words-h">
-Feel as a nation we are making progress in combating military/ veteran suicide</div>
+Feel as a nation we are making progress in combating military/veteran suicide</div>
  
 
 
 
- <br />
-<h5>When asked whether they had ever considered taking their own lives...</h5>
+ <h5>Respondents who have considered taking their own lives...</h5>
  
  <div style="display:block;width:100%; "><svg id="svg139" height="500"></svg></div>
  
@@ -1691,16 +1693,16 @@ Feel as a nation we are making progress in combating military/ veteran suicide</
  
 
  <br />
-<h5>When asked whether they had ever considered taking their own lives...</h5>
+<h5>Know a post-9/11 veteran who has attempted suicide...</h5>
 
-<span class="barlabel">Know a post-9/11 veteran who has attempted suicide</span> 
-
+ 
  <div style="display:block;width:100%; "><svg id="svg140" height="250"></svg></div>
  
+ <br />
 
+<h5>Know a post-9/11 veteran that has died by suicide...</h5>
 
- <span class="barlabel">Know a post-9/11 veteran that has died by suicide</span> 
-
+ 
  <div style="display:block;width:100%; "><svg id="svg141" height="250"></svg></div>
  
 
@@ -1749,13 +1751,12 @@ Feel as a nation we are making progress in combating military/ veteran suicide</
  <div style="display:block;width:100%; "><svg id="svg143" height="500"></svg></div>
  
 
-<h5>Burn Pits</h5>
-
+<br />
 
 <div class="numerosA">
 <svg id="svg144" width="260" height="150"></svg>
 <div class="numerosA-words">
-Exposed during deployment</div>
+Exposed to Burn Pits during deployment</div>
  </div>
 
 
@@ -1764,7 +1765,7 @@ Exposed during deployment</div>
 <div class="numerosB">
 <svg id="svg145" width="260" height="150"></svg>
 <div class="numerosB-words">
-Feel they have associated symptoms</div>
+Feel they have associated symptoms of Burn Pit exposure</div>
  </div>
 
 
@@ -1799,7 +1800,7 @@ Have someone helping them with some aspect of their daily care</div>
 <div class="numerosC">
 <svg id="svg149" width="260" height="150"></svg>
 <div class="numerosC-words">
-Of care givers are spouses</div>
+Of caregivers are spouses</div>
  </div>
 
 
@@ -1850,7 +1851,7 @@ Of care givers are spouses</div>
   {
     section: "// Transition Experiences",
         icon: "",
-  header: "Transition out of military service can be challenging. In addition to the stress of leaving their units, service members transitioning to civilian life must learn to manage their  nances,  nd housing and gain employment. This section asks IAVA members about their preparedness in facing these challenges as they transitioned out of service.",
+  header: "Transition out of military service can be challenging. In addition to the stress of leaving their units, service members transitioning to civilian life must learn to manage their finances, find housing and gain employment. This section asks IAVA members about their preparedness in facing these challenges as they transitioned out of service.",
     bkgImage: {
       small: "12.jpg",
       medium: "12.jpg",
@@ -1908,7 +1909,7 @@ Did not have a job before transitioning out of the military</div>
 <div class="numerosC">
 <svg id="svg156" width="260" height="150"></svg>
 <div class="numerosC-words">
-did not have a job for over a year</div>
+Did not have a job for over a year</div>
  </div>
 
 
@@ -1917,7 +1918,7 @@ did not have a job for over a year</div>
 <div class="numerosA">
 <svg id="svg157" width="260" height="150"></svg>
 <div class="numerosA-words">
-Felt prepared to manage  nances</div>
+Felt prepared to manage finances</div>
  </div>
 
  
@@ -1954,11 +1955,12 @@ Did not have housing secured</div>
 <h5>Distribution of Respondents</h5>
 
 
-The survey alpha test was distributed among IAVA sta  members from February 3-6, 2017 and later beta tested among a dozen IAVA leaders and staff members from Feb 9-10. The final survey was fielded among all IAVA veteran members from Feb 11-21. Emails were sent on Feb 11, 15, and 18. The opportunity to enter a drawing for two Southwest (SW) Airlines vouchers to fly anywhere SW flies in 2017 was provided as incentive to complete the survey. Social media was utilized to encourage post-9/11 veterans to join and take the survey. New members were also provided a link in the welcome email received during this time frame. A total of 4,345 participants completed the survey, a record number; 857 started the survey but did not complete.
+The survey alpha test was distributed among IAVA staff members from February 3-6, 2017 and later beta tested among a dozen IAVA leaders and staff members from Feb 9-10. The final survey was fielded among all IAVA veteran members from Feb 11-21. Emails were sent on Feb 11, 15, and 18. The opportunity to enter a drawing for two Southwest (SW) Airlines vouchers to fly anywhere SW flies in 2017 was provided as incentive to complete the survey. Social media was utilized to encourage post-9/11 veterans to join and take the survey. New members were also provided a link in the welcome email received during this time frame. A total of 4,345 participants completed the survey, a record number; 857 started the survey but did not complete.
  
 <div id="mapcontain" style="height:600px; margin:0 auto; text-align:center; width:100%; "></div>
 
-
+<br />
+The margin of error for this survey is +/- 2 percentage points at the 95% confidence level. 
      `
   } 
 

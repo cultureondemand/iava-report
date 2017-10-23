@@ -108,7 +108,7 @@ var dummydataset = [
 
 var data_e = [
 {a:"< $20K",b:6},
-{a:"$20K-$35",b:11},
+{a:"$20K-$35K",b:11},
 {a:"$35K-$50K",b:14},
 {a:"$50K-$75K",b:22},
 {a:"$75K-$100K",b:16},
@@ -306,13 +306,13 @@ var dummydata_k = [
 var data_l = [
 {a:"Iraq",b:66},
 {a:"CONUS",b:41},
-{a:"Afghanistan",b:13},
-{a:"Kuwait",b:12},
+{a:"Afghanistan",b:33},
+{a:"Kuwait",b:32},
 {a:"Cent. Comm. AOR",b:10},
 {a:"Qatar",b:9},
 {a:"Bahrain",b:7},
 {a:"Guantanamo Bay",b:3},
-{a:"Other",b:2}  
+{a:"Other",b:23}  
 ];
 
 
@@ -670,7 +670,7 @@ var data_guns_own_aa = [
 {a:"Locked, Unloaded, Ammunition Stored Separately",b:29},
 {a:"Locked and Loaded",b:19},
 {a:"Unlocked, Unloaded, Ammunition Stored Separately",b:17},
-{a:"would rather not say",b:15},
+{a:"Would rather not say",b:15},
 {a:"Unlocked, Loaded",b:14},
 {a:"Other",b:4},
 {a:"Unlocked, Unloaded, No Ammunition in Home",b:1},
@@ -685,7 +685,7 @@ var dummydata_guns_own_aa = [
 {a:"Locked, Unloaded, Ammunition Stored Separately",b:19},
 {a:"Locked and Loaded",b:1},
 {a:"Unlocked, Unloaded, Ammunition Stored Separately",b:27},
-{a:"would rather not say",b:15},
+{a:"Would rather not say",b:15},
 {a:"Unlocked, Loaded",b:14},
 {a:"Other",b:14},
 {a:"Unlocked, Unloaded, No Ammunition in Home",b:1},
@@ -859,14 +859,14 @@ var dummydata_equality_b = [
 
 var data_equality_c = [
 {a:"Positive",b:16},
-{a:"Negative",b:25},
-{a:"Neutral",b:59}
+{a:"Neutral",b:59},
+{a:"Negative",b:25}
 ];
 
 var dummydata_equality_c = [
 {a:"Positive",b:22},
-{a:"Negative",b:28},
-{a:"Neutral",b:50}
+{a:"Neutral",b:50},
+{a:"Negative",b:28}
 ];
 
 
@@ -874,15 +874,15 @@ var dummydata_equality_c = [
 
 var data_equality_d = [
 {a:"Positive",b:6},
-{a:"Negative",b:45},
 {a:"Neutral",b:28},
+{a:"Negative",b:45},
 {a:"Unsure",b:21}
 ];
 
 var dummydata_equality_d = [
 {a:"Positive",b:22},
-{a:"Negative",b:20},
 {a:"Neutral",b:50},
+{a:"Negative",b:20},
 {a:"Unsure",b:5}
 ];
 
@@ -1193,19 +1193,19 @@ var data_wom_j_ = [
 /////When asked whether the VA motto should be changed to be more inclusive of all who have served
 
 var dummydata_wom_k_ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_k_ = [
-{a:"Strongly Disagree",b:5},
-{a:"Disagree",b:5},
-{a:"Neutral",b:31},
+{a:"Strongly Agree",b:36},
 {a:"Agree",b:23},
-{a:"Strongly Agree",b:36}
+{a:"Neutral",b:31},
+{a:"Disagree",b:5},
+{a:"Strongly Disagree",b:5}
 ];
 
 
@@ -1596,7 +1596,7 @@ var numero_wom_g = [50];
 
 
 var dummydata_wom_s = [
-{a:"Very Good",b:3},
+{a:"Very Good",b:13},
 {a:"Good",b:19},
 {a:"Fair",b:39},
 {a:"Poor",b:26},
@@ -1614,56 +1614,56 @@ var data_wom_s = [
 
 
 var dummydata_wom_t= [
-{a:"Very Poor",b:9},
-{a:"Poor",b:16},
-{a:"Fair",b:27},
+{a:"Very Good",b:15},
 {a:"Good",b:33},
-{a:"Very Good",b:15}
+{a:"Fair",b:27},
+{a:"Very Poor",b:9},
+{a:"Poor",b:16}
 ];
 
 var data_wom_t = [
-{a:"Very Poor",b:9},
-{a:"Poor",b:16},
-{a:"Fair",b:27},
+{a:"Very Good",b:15},
 {a:"Good",b:33},
-{a:"Very Good",b:15}
+{a:"Fair",b:27},
+{a:"Poor",b:16},
+{a:"Very Poor",b:9}
 ];
 
 
 
 var dummydata_wom_u = [
-{a:"Very Poor",b:7},
-{a:"Poor",b:10},
-{a:"Fair",b:21},
+{a:"Very Good",b:22},
 {a:"Good",b:40},
-{a:"Very Good",b:22}
+{a:"Fair",b:21},
+{a:"Poor",b:10},
+{a:"Very Poor",b:7}
 ];
 
 var data_wom_u = [
-{a:"Very Poor",b:7},
-{a:"Poor",b:10},
-{a:"Fair",b:21},
+{a:"Very Good",b:22},
 {a:"Good",b:40},
-{a:"Very Good",b:22}
+{a:"Fair",b:21},
+{a:"Poor",b:10},
+{a:"Very Poor",b:7}
 ];
 
 
 
 var dummydata_wom_v = [
-{a:"Very Poor",b:6},
-{a:"Poor",b:11},
-{a:"Fair",b:29},
+{a:"Very Good",b:15},
 {a:"Good",b:39},
-{a:"Very Good",b:15}
+{a:"Fair",b:29},
+{a:"Poor",b:11},
+{a:"Very Poor",b:6}
 
 ];
 
 var data_wom_v = [
-{a:"Very Poor",b:6},
-{a:"Poor",b:11},
-{a:"Fair",b:29},
+{a:"Very Good",b:15},
 {a:"Good",b:39},
-{a:"Very Good",b:15}
+{a:"Fair",b:29},
+{a:"Poor",b:11},
+{a:"Very Poor",b:6}
 ];
 
 //////////
@@ -1671,11 +1671,11 @@ var data_wom_v = [
 
 
 var dummydata_wom_w = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_w = [
@@ -1689,19 +1689,19 @@ var data_wom_w = [
 
 
 var dummydata_wom_x= [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_x = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 
@@ -1966,7 +1966,8 @@ var dummydata_gib_a = [
 var data_gib_b = [
 {a:"Have Used",b:55},
 {a:"Transfered to Dependent",b:11},
-{a:"Intend to Use",b:24}
+{a:"Intend to Use",b:24},
+{a:"Plan not to use",b:10}
 ];
 
 
@@ -1974,7 +1975,8 @@ var data_gib_b = [
 var dummydata_gib_b = [
 {a:"Have Used",b:4},
 {a:"Transfered to Dependent",b:8},
-{a:"Intend to Use",b:88}
+{a:"Intend to Use",b:78},
+{a:"Plan not to use",b:10}
 ];
 
 
@@ -2255,8 +2257,7 @@ var dummydata_employ_e = [
 {a:"Health Care",b:8},
 {a:"Telecommunications",b:10},
 {a:"Education",b:5},
-{a:"Manufacturing",b:45},
-{a:"Other",b:4} 
+{a:"Manufacturing",b:45} 
 ];
 
 var data_employ_e = [
@@ -2264,8 +2265,7 @@ var data_employ_e = [
 {a:"Health Care",b:9},
 {a:"Telecommunications",b:5},
 {a:"Education",b:5},
-{a:"Manufacturing",b:4},
-{a:"Other",b:45} 
+{a:"Manufacturing",b:4} 
 ];
 
 ////////
@@ -2357,7 +2357,7 @@ var numero_va_a = [28];
 
 ////
 //// loans number
-var numero_va_b = [36];
+var numero_va_b = [38];
 ////
 //// loans number
 var numero_va_c = [90];
@@ -2448,7 +2448,7 @@ var data_va_g = [
 {a:"Neither Agree Nor Disagree",b:22},
 {a:"Disagree",b:7},
 {a:"Strongly Disagree",b:3},
-{a:"No Opinion",b:3}
+{a:"No Opinion",b:8}
 ];
 
 
@@ -2527,7 +2527,7 @@ var dummydata_va_j = [
 var data_va_j = [
 {a:"Excellent",b:15},
 {a:"Above Average",b:22},
-{a:"Average",b:15},
+{a:"Average",b:35},
 {a:"Below Average",b:13},
 {a:"Very Poor",b:15}
  ];
@@ -2807,7 +2807,7 @@ var dummydata_health_a = [
 {a:"Tinnitus/Hearing Loss",b:4},
 {a:"Musculoskeletal Injuries/ Chronic Pain",b:8},
 {a:"TBI",b:9},
-{a:"Pulmonary",b:9},
+{a:"Pulmonary issues",b:9},
 {a:"Burns/Scarring",b:1},
 {a:"Vision Loss",b:7},
 {a:"Other",b:1}
@@ -2820,7 +2820,7 @@ var data_health_a = [
 {a:"Tinnitus/Hearing Loss",b:41},
 {a:"Musculoskeletal Injuries/ Chronic Pain",b:38},
 {a:"TBI",b:19},
-{a:"Pulmonary",b:19},
+{a:"Pulmonary issues",b:19},
 {a:"Burns/Scarring",b:11},
 {a:"Vision Loss",b:7},
 {a:"Other",b:19}
@@ -2888,15 +2888,15 @@ var numero_health_f = [80];
  //// before
 
 var dummydata_health_c = [
-{a:"Fair",b:55},
+{a:"Excellent",b:40},
 {a:"Good",b:5},
-{a:"Excellent",b:40}
+{a:"Fair",b:55}
 ];
 
 var data_health_c = [
-{a:"Fair",b:3},
+{a:"Excellent",b:74},
 {a:"Good",b:23},
-{a:"Excellent",b:74}
+{a:"Fair",b:3}
 ];
 ////
 //
@@ -2904,17 +2904,17 @@ var data_health_c = [
  //// after
 
 var dummydata_health_d = [
-{a:"Poor",b:3},
-{a:"Fair",b:3},
+{a:"Excellent",b:5},
 {a:"Good",b:5},
-{a:"Excellent",b:5}
+{a:"Fair",b:3},
+{a:"Poor",b:3}
 ];
 
 var data_health_d = [
-{a:"Poor",b:21},
-{a:"Fair",b:43},
+{a:"Excellent",b:7},
 {a:"Good",b:29},
-{a:"Excellent",b:7}
+{a:"Fair",b:43},
+{a:"Poor",b:21}
 ];
 ////
 //
@@ -2925,14 +2925,14 @@ var data_health_d = [
 
 var dummydata_health_e = [
 {a:"Anti-depressant",b:3},
-{a:"Opiod",b:3},
+{a:"Opioid",b:3},
 {a:"Sleeping Pills",b:5},
 {a:"Anti-anxiety",b:5}
 ];
 
 var data_health_e = [
 {a:"Anti-depressant",b:23},
-{a:"Opiod",b:23},
+{a:"Opioid",b:23},
 {a:"Sleeping Pills",b:22},
 {a:"Anti-anxiety",b:20}
 ];
@@ -5189,16 +5189,16 @@ function display() {
 
     ////////////////document.body.style.backgroundImage = "url("+index+".jpg)";
 
-    d3.selectAll("#step" + index).style("visibility", function(d, i) {
-      return i == index ? "hidden" : "visible";
+    d3.selectAll("#step-" + index).style("visibility", function(d, i) {
+      return i == index ? "none" : "inline-block";
     });
 
-    d3.selectAll("#step" + (index - 1)).style("visibility", function(d, i) {
-      return i == index ? "visible" : "hidden";
+    d3.selectAll("#step-" + (index - 1)).style("visibility", function(d, i) {
+      return i == index ? "inline-block" : "none";
     });
 
-    d3.selectAll("#step" + (index + 1)).style("visibility", function(d, i) {
-      return i == index ? "visible" : "hidden";
+    d3.selectAll("#step-" + (index + 1)).style("visibility", function(d, i) {
+      return i == index ? "inline-block" : "none";
     });
 
     ///////////var getBG = document.getElementById( 'container'+index );
