@@ -2513,9 +2513,8 @@ opacity: 0;
 .bartext {
  
   fill: #000000;
-  font-size: 56%;
-font-family: 'din_bold-webfont', sans-serif;
-
+  font-size: 50%;
+ 
 }
 
 
@@ -2532,9 +2531,8 @@ font-family: 'din_bold-webfont', sans-serif;
 .bartext {
  
   fill: #000000;
-  font-size: 56%;
-font-family: 'din_bold-webfont', sans-serif;
-
+  font-size: 50%;
+ 
 }
 
 
@@ -3208,64 +3206,7 @@ display: flex;
 
 
 
-
-
-
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  
-
-
-
-
-.bartext {
  
-  fill: #000000;
-  font-size: 46%;
-font-family: 'din_bold-webfont', sans-serif;
-
-}
-
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
- 
-
-
-
-
-.bartext {
- 
-  fill: #000000;
-  font-size: 52%;
-font-family: 'din_bold-webfont', sans-serif;
-
-}
-
-
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  
-
-
-
-
-.bartext {
- 
-  fill: #000000;
-  font-size: 56%;
-font-family: 'din_bold-webfont', sans-serif;
-
-}
-
-
-}
-
 
 
 
@@ -3290,7 +3231,7 @@ font-family: 'din_bold-webfont', sans-serif;
 
 .legendrow {
  /*  display:block;  */
- min-height: 60px; 
+ min-height: 4em; 
  position: relative;
 
 line-height: .8em;
