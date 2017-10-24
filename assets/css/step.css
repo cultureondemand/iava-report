@@ -704,6 +704,7 @@ blockquote cite {
   max-width:400px;
   bottom:3vh;
   left:3vw;
+  opacity: 0;
   position:fixed;
   display:none;
   z-index:999999999999;
