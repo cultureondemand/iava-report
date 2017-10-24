@@ -705,7 +705,7 @@ blockquote cite {
   bottom:3vh;
   left:3vw;
   position:fixed;
-  display:block;
+  display:none;
   z-index:999999999999;
       text-shadow: 1px 1px 1px #000;
 
