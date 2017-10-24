@@ -3329,7 +3329,7 @@ line-height: .8em;
 
 
   margin-bottom:18px;
-  text-align:left;
+  text-align:center;
   border-bottom:8px solid #babcbf;
   border-left:1px solid #babcbf;
   border-right:1px solid #babcbf;
@@ -3497,8 +3497,6 @@ height: 15px;
 
 
 
-
-
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   
@@ -3566,6 +3564,82 @@ vertical-align: middle;
 text-align: left;
     font-family: 'din_bold-webfont', sans-serif;
     color: #000;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+
+
+
+
+
+
+.legendtextp {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+    font-size: 11px;
+vertical-align: middle;
+text-align: left;
+color: #000;
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+
+
+.legendtextp {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+       font-size: 11px;
+vertical-align: middle;
+text-align: left;
+color: #000;
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+
+
+
+
+
+.legendtextp {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+  font-size: 10px;
+vertical-align: middle;
+text-align: left;
+     color: #000;
 
 }
 
