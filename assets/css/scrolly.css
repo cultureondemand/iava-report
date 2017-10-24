@@ -68,6 +68,32 @@ background-color: #f8f6f2;
   z-index: -1;
 }
 
+
+
+@media print
+    {
+.bgbg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 12px 0;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  height: 500px;
+  display: none;
+  position: relative;
+  z-index: -1;
+}
+
+
+      }
+
 .bgbg0 {
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2612,8 +2638,9 @@ color: #294636;
     margin-bottom: .3em;
     text-align: left;
     display: block;
-    width: 220px;
+    max-width: 310px;
     padding-right: 8px;
+    padding-left: 18px;
 
 padding-bottom: 0;
 color: #294636;
@@ -2803,13 +2830,14 @@ color: #9aada6;
      font-family: "din_bold-webfont", "Arial", sans-serif;
     padding-bottom: 0;
     padding-left: 18px;
-    font-size: 18px;
+    font-size: 24px;
     margin-top: .6em;
     margin-bottom: .3em;
     text-align: left;
     display: block;
      padding-right: 1px;
     color: #9aada6;
+    max-width: 310px;
 
 
  }
@@ -2910,7 +2938,7 @@ color: #888888;
 
 
 
-.numerosB-words {
+.numerosC-words {
  
 
 
@@ -2922,9 +2950,12 @@ color: #888888;
     margin-bottom: .3em;
     text-align: left;
     display: block;
-    width: 220px;
-    padding-right: 8px;
-    color: #9aada6;
+     padding-right: 1px;
+    color: #888888;
+
+    max-width: 310px;
+
+
 
 
  }
