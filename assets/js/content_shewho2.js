@@ -167,6 +167,8 @@ Founder and CEO
  
 
  <br />
+ <br />
+ <br />
 <h5>Where did you serve (select all that apply)?</h5>
 
  <div style="display:block;width:100%; "><svg xmlns="http://www.w3.org/2000/svg" id="svg11" height="500"></svg></div>
@@ -256,7 +258,7 @@ Have considered running for public office.</div>
   </span>
   <br />
   <br />
-  
+
  <div class="numerosB-h">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg20" width="260" height="150"></svg>
 </div>
@@ -1389,6 +1391,7 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
  
  
  <br />
+ <br />
 
 <div class="numerosA">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg113" width="260" height="150"></svg>
@@ -1611,7 +1614,7 @@ Believe troops and veterans are getting the care they need for mental health inj
  
  <h5>Top 3 Reasons Troops and Veterans Not Getting Care</h5>
 
- <span class="issuesBsm" style="height:4em; ">
+ <span class="issuesBsm" style="height:5em; ">
 1. The stigma of seeking help is too great
 <br />
  2. They have access to care, but not quality care
@@ -1756,6 +1759,7 @@ Feel as a nation we are making progress in combating military/veteran suicide</d
  
 
 <br />
+<br />
 
 <div class="numerosA">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg144" width="260" height="150"></svg>
@@ -1880,7 +1884,7 @@ Of caregivers are spouses</div>
  
  <h5>Top 3 Transition Challenges</h5>
 
- <span class="issuesBsm" style="height:4em; ">
+ <span class="issuesBsm" style="height:5em; ">
 1. Health concerns
 <br />
  2. Finding/keeping employment
