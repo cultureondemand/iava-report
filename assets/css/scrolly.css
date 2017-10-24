@@ -1173,6 +1173,9 @@ background-color: #fff;
 #logoOpener img {
   margin-top: 1em;
   margin-bottom: 1.6em;
+  font-family: "din_regular-webfont",
+    "Arial",
+    sans-serif !important;
 
 }
 
@@ -1187,6 +1190,9 @@ background-color: #fff;
 #logoOpener img {
   margin-top: 1em;
   margin-bottom: .9em;
+  font-family: "din_regular-webfont",
+    "Arial",
+    sans-serif !important;
 
 }
 
@@ -1200,6 +1206,9 @@ background-color: #fff;
 #logoOpener img {
   margin-top: 1em;
   margin-bottom: .6em;
+  font-family: "din_regular-webfont",
+    "Arial",
+    sans-serif !important;
 
 }
 
@@ -1239,7 +1248,7 @@ background-color: #fff;
 display: block;
 width: 100%;
 font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4em;
   color: #666666;
   margin-top: 24px;
@@ -1260,7 +1269,7 @@ font-weight: 400;
 display: block;
 width: 100%;
 font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.4em;
   color: #666666;
   margin-top: 24px;
@@ -1280,7 +1289,7 @@ font-weight: 400;
 display: block;
 width: 100%;
 font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4em;
   color: #666666;
   margin-top: 18px;
@@ -2471,6 +2480,36 @@ text {
   font-size: 10px;
 }
 
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+.bartext {
+ 
+display: none;
+visibility: hidden;
+opacity: 0;
+
+}
+
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
 .bartext {
  
   fill: #000000;
@@ -2479,6 +2518,40 @@ font-family: 'din_bold-webfont', sans-serif;
 
 }
 
+
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+.bartext {
+ 
+  fill: #000000;
+  font-size: 56%;
+font-family: 'din_bold-webfont', sans-serif;
+
+}
+
+
+
+
+
+}
+
+
+ 
+.bartexth {
+ 
+  fill: #000000;
+  font-size: 66%;
+font-family: 'din_bold-webfont', sans-serif;
+
+}
 
 
 .bartextsm {
@@ -2587,6 +2660,7 @@ color: #294636;
     text-align: left;
     display: block;
      padding-right: 1px;
+  max-width: 290px;
 
 padding-bottom: 0;
 color: #294636;
@@ -2614,6 +2688,7 @@ color: #294636;
     text-align: left;
     display: block;
      padding-right: 1px;
+  max-width: 290px;
 
 padding-bottom: 0;
 color: #294636;
@@ -2638,7 +2713,7 @@ color: #294636;
     margin-bottom: .3em;
     text-align: left;
     display: block;
-    max-width: 310px;
+    max-width: 290px;
     padding-right: 8px;
     padding-left: 18px;
 
@@ -2776,6 +2851,7 @@ color: #9aada6;
     display: block;
      padding-right: 1px;
     color: #9aada6;
+  max-width: 290px;
 
 
  }
@@ -2806,6 +2882,7 @@ color: #9aada6;
     display: block;
      padding-right: 1px;
     color: #9aada6;
+  max-width: 290px;
 
 
  }
@@ -2868,7 +2945,7 @@ display: inline-block;
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  padding-bottom: 0;
  padding-left: 18px;
   font-size: 20px;
@@ -2879,8 +2956,9 @@ display: block;
  padding-right: 1px;
 color: #888888;
 
- }
+ max-width: 290px;
 
+ 
 
 
 
@@ -2908,7 +2986,7 @@ display: inline-block;
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  padding-bottom: 0;
  padding-left: 18px;
   font-size: 24px;
@@ -2916,9 +2994,10 @@ margin-top:.6em;
 margin-bottom:.3em;
 text-align: left;
 display: block;
-width: 220px;
-padding-right: 8px;
+ padding-right: 8px;
 color: #888888;
+ max-width: 290px;
+
 
  }
 
@@ -2942,7 +3021,7 @@ color: #888888;
  
 
 
-     font-family: "din_bold-webfont", "Arial", sans-serif;
+     font-family: "din_bold-webfont", "Arial", sans-serif !important;
     padding-bottom: 0;
     padding-left: 18px;
     font-size: 24px;
@@ -3211,7 +3290,9 @@ font-family: 'din_bold-webfont', sans-serif;
 
 .legendrow {
  /*  display:block;  */
- height: 80px; 
+ min-height: 60px; 
+ position: relative;
+
 line-height: .8em;
   width:100%;
   margin-top:10px;
@@ -3235,7 +3316,8 @@ line-height: .8em;
 
 .legendrow {
  /*  display:block;  */
- height: 60px; 
+ min-height: 40px; 
+position: relative;
 
 line-height: .8em;
   width:100%;
@@ -3264,7 +3346,8 @@ line-height: .8em;
 
 .legendrow {
  /*  display:block;  */
- height: 40px; 
+ min-height: 33px; 
+position: relative;
 
 line-height: .8em;
   width:100%;
@@ -3365,7 +3448,7 @@ margin-right: 3px;
     display: inline-block;
     margin-right: 18px;
     margin-bottom: 8px;
-
+height: 15px;
   }
 
 
@@ -3382,6 +3465,7 @@ margin-right: 3px;
     display: inline-block;
     margin-right: 12px;
     margin-bottom: 8px;
+height: 15px;
 
   }
 
@@ -3399,6 +3483,7 @@ margin-right: 3px;
   display: inline-block;
     margin-right: 18px;
     margin-bottom: 6px;
+height: 15px;
 
 }
 

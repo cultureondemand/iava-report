@@ -231,8 +231,8 @@ h3 {
   padding: 0;
    font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
-  font-size: 48px;
+    sans-serif !important;
+  font-size: 48px !important;
 line-height:1.3em;
 margin-top:.6em;
 margin-bottom:.3em;
@@ -248,9 +248,9 @@ h4 {
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  padding-bottom: 0;
-  font-size: 36px;
+  font-size: 36px !important;
 margin-top:.6em;
 margin-bottom:.3em;
 
