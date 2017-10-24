@@ -3513,11 +3513,11 @@ display: inline-block;
 /* line-height: 1em;
     font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
 */
-font-weight: 800 !important;
-  font-size: 12px;
+    font-family: 'din_bold-webfont', sans-serif;
+   font-size: 11px;
 vertical-align: middle;
 text-align: left;
-color: #555555;
+color: #000;
 
 }
 
@@ -3537,11 +3537,11 @@ display: inline-block;
 /* line-height: 1em;
     font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
 */
-font-weight: 800 !important;
-  font-size: 12px;
+    font-family: 'din_bold-webfont', sans-serif;
+      font-size: 11px;
 vertical-align: middle;
 text-align: left;
-color: #555555;
+color: #000;
 }
 
 
@@ -3561,11 +3561,11 @@ display: inline-block;
 /* line-height: 1em;
     font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
 */
-  font-size: 11px;
+  font-size: 10px;
 vertical-align: middle;
 text-align: left;
-font-weight: 800 !important;
-color: #555555;
+    font-family: 'din_bold-webfont', sans-serif;
+    color: #000;
 
 }
 
