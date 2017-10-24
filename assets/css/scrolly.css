@@ -3180,7 +3180,6 @@ font-family: 'din_bold-webfont', sans-serif;
 .legendrow {
  /*  display:block;  */
  height: 80px; 
-font-size: 110%;
 line-height: .8em;
   width:100%;
   margin-top:10px;
@@ -3332,8 +3331,10 @@ max-width: 66px;
 .legendblock {
 
     display: inline-block;
-    margin-right: 12px;
-    margin-bottom: 8px;}
+    margin-right: 18px;
+    margin-bottom: 8px;
+
+  }
 
 
 }
@@ -3348,7 +3349,9 @@ max-width: 66px;
 
     display: inline-block;
     margin-right: 12px;
-    margin-bottom: 8px;}
+    margin-bottom: 8px;
+
+  }
 
 
 }
@@ -3375,6 +3378,66 @@ margin-right: 8px;
 
 
 
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+
+
+
+
+
+
+.legendtext {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+  font-size: 12px;
+vertical-align: middle;
+text-align: left;
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+
+
+.legendtext {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+  font-size: 11px;
+vertical-align: middle;
+text-align: left;
+
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+
+
+
+
+
 .legendtext {
 display: inline-block;
 /* line-height: 1em;
@@ -3385,6 +3448,11 @@ vertical-align: middle;
 text-align: left;
 
 }
+
+
+}
+
+
 
 
 .donut {
