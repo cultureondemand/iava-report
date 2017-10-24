@@ -821,7 +821,7 @@ var namename = (d.data.b+"%"+d.data.a);
 
 
 legend.append('text')
-        .attr('class','legendtext')
+        .attr('class','legendtextp')
         .attr('x', legendRectSize + legendSpacing)
         .attr('y', (legendRectSize + legendSpacing)-2+"px")
         .text(function(d) { return d.data.a+": "+d.data.b+"%"; })
