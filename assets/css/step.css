@@ -356,8 +356,10 @@ background-color: #35443c;
       #35443c 10%, #dcf428
     ); */
 
-width: 100%;
-height: 100%;
+ left:-5%;
+ top:-5%;
+ width: 110%;
+height: 110%;
 display: block;
 position: fixed;
 opacity: 1;
@@ -372,9 +374,10 @@ background-color: #35443c;
       to bottom left, 
       #35443c 10%, #dcf428
     ); */
-
-width: 100%;
-height: 100%;
+ left:-5%;
+ top:-5%;
+ width: 110%;
+height: 110%;
 display: block;
 position: fixed;
 opacity: .6;
