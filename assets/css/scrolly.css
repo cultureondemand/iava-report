@@ -3251,6 +3251,57 @@ line-height: .8em;
 
 
 
+
+ 
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+
+
+
+.legendbox {
+ display: inline-block;  
+ height: 15px;
+margin-right: 3px;
+ width: 15px;
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+.legendbox {
+/* display: inline-block; */
+ display: inline-block;  
+ height: 15px;
+margin-right: 3px;
+ width: 15px;
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+
+
+
 .legendbox {
 /* display: inline-block; */
 width: 100%;
@@ -3258,6 +3309,55 @@ height: 15px;
 margin-right: 3px;
 max-width: 66px;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+
+
+
+.legendblock {
+
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+.legendblock {
+
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+
 
 .legendblock {
 
@@ -3268,6 +3368,12 @@ max-width: 86px;
 */ 
 margin-right: 8px;
 }
+
+
+}
+
+
+
 
 .legendtext {
 display: inline-block;
