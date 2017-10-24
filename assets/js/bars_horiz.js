@@ -47,11 +47,11 @@ var chart = d3.select("#"+name)
             });
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
             .attr("y", barHeight / 2)
             .attr("dy", ".35em") //vertical align middle
             .text(function(d){
-                return d.a;
+             /////////////////   return d.a;
             }).each(function() {
         labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
     });
@@ -100,13 +100,13 @@ var chart = d3.select("#"+name)
 ;
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
              .attr("y", barHeight / 2)
             .attr("dx", -valueMargin + labelWidth) //margin right
             .attr("dy", ".35em") //vertical align middle
             .attr("text-anchor", "end")
             .text(function(d){
-                return (d.b+"%");
+                return (d.a+" "+d.b+"%");
             })
             .attr("x", function(d){
                 var width = this.getBBox().width;
@@ -188,7 +188,7 @@ var chart = d3.select("#"+name)
             .attr("y", barHeight / 2)
             .attr("dy", ".35em") //vertical align middle
             .text(function(d){
-                return d.a;
+    ///////////////////////////////////////////            return d.a;
             }).each(function() {
         labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
     });
@@ -239,13 +239,13 @@ var chart = d3.select("#"+name)
 ;
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
              .attr("y", barHeight / 2)
             .attr("dx", -valueMargin + labelWidth) //margin right
             .attr("dy", ".35em") //vertical align middle
             .attr("text-anchor", "end")
             .text(function(d){
-                return (d.b+"%");
+                return (d.a+" "+d.b+"%");
             })
             .attr("x", function(d){
                 var width = this.getBBox().width;
@@ -319,11 +319,11 @@ var chart = d3.select("#"+name)
             });
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
             .attr("y", barHeight / 2)
             .attr("dy", ".35em") //vertical align middle
             .text(function(d){
-                return d.a;
+     //////////////////////////////////////////////////////           return d.a;
             }).each(function() {
         labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
     });
@@ -372,13 +372,13 @@ var chart = d3.select("#"+name)
 ;
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
              .attr("y", barHeight / 2)
             .attr("dx", -valueMargin + labelWidth) //margin right
             .attr("dy", ".35em") //vertical align middle
             .attr("text-anchor", "end")
             .text(function(d){
-                return (d.b+"%");
+                return (d.a+" "+d.b+"%");
             })
             .attr("x", function(d){
                 var width = this.getBBox().width;
@@ -460,7 +460,7 @@ var chart = d3.select("#"+name)
             .attr("y", barHeight / 2)
             .attr("dy", ".35em") //vertical align middle
             .text(function(d){
-                return d.a;
+   ///////////////////////////////////////////////             return d.a;
             }).each(function() {
         labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
     });
@@ -506,13 +506,13 @@ var chart = d3.select("#"+name)
 ;
 
     bar.append("text")
-            .attr("class", "bartext")
+            .attr("class", "bartexth")
              .attr("y", barHeight / 2)
             .attr("dx", -valueMargin + labelWidth) //margin right
             .attr("dy", ".35em") //vertical align middle
             .attr("text-anchor", "end")
             .text(function(d){
-                return (d.b+"%");
+                return (d.a+" "+d.b+"%");
             })
             .attr("x", function(d){
                 var width = this.getBBox().width;
@@ -574,7 +574,7 @@ iii++;
 
 
 
-      
+
     
 d3.select(window).on('resize', resize);
 

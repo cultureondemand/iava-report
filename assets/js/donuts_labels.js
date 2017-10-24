@@ -779,7 +779,7 @@ var namename = (d.data.b+"%"+d.data.a);
       var offset =  height * i;
              ///////   var offset = height + 15+"px";
             var horz = legendRectSize-46;
-            var vert = (height + offset)+86;
+            var vert = (height + offset)+92;
             return 'translate(' + (horz) + ',' + (vert) + ')';
         })
 
