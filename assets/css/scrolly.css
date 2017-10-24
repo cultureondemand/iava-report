@@ -1582,7 +1582,7 @@ left: 24px;
   /* font-family: 'din_regular-webfont', sans-serif; */
   font-family: 'din_bold-webfont', serif;
   font-weight: 800;
-
+max-width: 800px;
   margin-bottom: 0;
   margin-top: 0;
    text-align: left;
