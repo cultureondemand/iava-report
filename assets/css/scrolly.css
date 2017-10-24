@@ -1603,11 +1603,12 @@ max-width: 800px;
 
 #titleOpener {
    display: inline-block;
-top: 176px;
+top: 136px;
 left: 185px;
   text-transform: uppercase;
   color: #fff;
   font-size: 90px;
+max-width: 800px;
 
   /* font-family: 'din_regular-webfont', sans-serif; */
   font-family: 'din_bold-webfont', serif;
