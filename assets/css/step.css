@@ -270,12 +270,12 @@ h5 {
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  margin-bottom: 12px;
  
 
 
-font-size: 30px !important;
+font-size: 28px !important;
     margin-top: 36px !important;
     text-align: left;
     font-weight: 800 !important;
@@ -299,9 +299,9 @@ h5 {
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  margin-bottom: 12px;
-font-size: 36px !important;
+font-size: 30px !important;
     margin-top: 42px !important;
     text-align: left;
     font-weight: 800 !important;}
@@ -320,12 +320,12 @@ h5 {
 
   font-family: "din_bold-webfont",
     "Arial",
-    sans-serif;
+    sans-serif !important;
  margin-bottom: 12px;
  
 
 
-font-size: 36px !important;
+font-size: 30px !important;
     margin-top: 42px !important;
     text-align: left;
     font-weight: 800 !important;
