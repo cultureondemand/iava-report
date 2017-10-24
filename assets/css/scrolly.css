@@ -608,7 +608,7 @@ path.slice {
 }
 
 polyline {
-  opacity: .3;
+  opacity: .1;
   stroke: #212121;
   stroke-width: 1px;
   fill: none;
