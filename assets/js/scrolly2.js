@@ -5266,7 +5266,9 @@ function onResize(h) {
     // of the first section.
     
 
+   resize();
 
+ 
 
 
 
@@ -5539,8 +5541,6 @@ changeStackChart(data_wom_g,"svg51");
 /*
 
 */
-    resize();
-
  
 ////////////
 ///////////////
