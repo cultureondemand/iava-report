@@ -3400,9 +3400,9 @@ drawStackChart(data_equality_a);
 //   
 drawStackChart(data_equality_c);
 //   
-drawStackChart(data_equality_b);
+//////////////////drawStackChart(data_equality_b);
 // impact  
-drawStackChart(data_equality_d);
+/////////////drawStackChart(data_equality_d);
 
 
 
@@ -4366,9 +4366,9 @@ changeStackChart(data_equality_a,"svg35");
 //   
 changeStackChart(data_equality_c,"svg36");
 //   
-changeStackChart(data_equality_b,"svg37");
+///////////////changeStackChart(data_equality_b,"svg37");
 // impact  
-changeStackChart(data_equality_d,"svg38");
+///////////////////changeStackChart(data_equality_d,"svg38");
 
 
 
@@ -4381,7 +4381,7 @@ changeStackChart(data_equality_d,"svg38");
   ///////////////////////
 
   function showTitle9() {
-iii=39;
+iii=37;
 
 
 
@@ -4390,21 +4390,21 @@ iii=39;
 ///////perceptions numbers
   
 
-   startnumerosA(numeroSupport,"svg39");
+   startnumerosA(numeroSupport,"svg37");
 
-   startnumerosB(numeroUnderstand,"svg40");
+   startnumerosB(numeroUnderstand,"svg38");
 
-   startnumerosC(numeroHire,"svg41");
+   startnumerosC(numeroHire,"svg39");
 
 /////////////
 //////////
  ////////////////
 //obama  
-changeStackChart(data_p_obama,"svg42");
+changeStackChart(data_p_obama,"svg40");
 //trump  
-changeStackChart(data_p_trump,"svg43");
+changeStackChart(data_p_trump,"svg41");
 //congress  
-changeStackChart(data_p_congress,"svg44");
+changeStackChart(data_p_congress,"svg42");
 
 
 
@@ -4417,7 +4417,7 @@ changeStackChart(data_p_congress,"svg44");
   function showTitle10() {
 
 
-iii=45;
+iii=43;
 
 
 
@@ -4425,22 +4425,22 @@ iii=45;
 ///////womens
 /////////////////
   //issues  
-changeStackChart(data_wom_a,"svg45");
+changeStackChart(data_wom_a,"svg43");
 //////////
 /////////////
 //women in military questions  
-changeStackChart(data_wom_b,"svg46");
+changeStackChart(data_wom_b,"svg44");
 //womens  
-changeStackChart(data_wom_c,"svg47");
+changeStackChart(data_wom_c,"svg45");
 //womens  
-changeStackChart(data_wom_d,"svg48");
+changeStackChart(data_wom_d,"svg46");
 
 //womens  
-changeStackChart(data_wom_e,"svg49");
+changeStackChart(data_wom_e,"svg47");
 //womens  
-changeStackChart(data_wom_f,"svg50");
+changeStackChart(data_wom_f,"svg48");
 //womens  
-changeStackChart(data_wom_g,"svg51");
+changeStackChart(data_wom_g,"svg49");
 //womens
 //////
 /////
@@ -4455,7 +4455,7 @@ changeStackChart(data_wom_g,"svg51");
 
   function showTitle11() {
 
-iii=52;
+iii=50;
 
     //womens
 //////
@@ -4463,9 +4463,9 @@ iii=52;
 
 ///////////////
  
-startnumerosA(numero_wom_a,"svg52");
+startnumerosA(numero_wom_a,"svg50");
 ///
-startnumerosB(numero_wom_b,"svg53");
+startnumerosB(numero_wom_b,"svg51");
  /////////////////
 //////////////////////////////////////////////////////////////////
 
@@ -4474,18 +4474,18 @@ startnumerosB(numero_wom_b,"svg53");
 //When asked their level of agreement with the following statement  
 //womens  
 /// The civilian public treats women veterans with respect
-changeStackChart(data_wom_g_,"svg54");
+changeStackChart(data_wom_g_,"svg52");
 //womens  
 //// Fellow service members treat women service members with respect
-changeStackChart(data_wom_h_,"svg55");
+changeStackChart(data_wom_h_,"svg53");
 //womens  
-changeStackChart(data_wom_i_,"svg56");
+changeStackChart(data_wom_i_,"svg54");
 //womens  
-changeStackChart(data_wom_j_,"svg57");
+changeStackChart(data_wom_j_,"svg55");
 //womens  
-changeStackChart(data_wom_k_,"svg58");
+changeStackChart(data_wom_k_,"svg56");
 //womens  
-changeStackChart(data_wom_k__,"svg59");
+changeStackChart(data_wom_k__,"svg57");
 //womens
 
  /////////////
@@ -4494,15 +4494,15 @@ changeStackChart(data_wom_k__,"svg59");
  ///// When asked whether VA adequately provides
  //////////////////////
 //womens  
-changeStackChart(data_wom_n,"svg60");
+changeStackChart(data_wom_n,"svg58");
 //womens  
-changeStackChart(data_wom_o,"svg61");
+changeStackChart(data_wom_o,"svg59");
 //womens  
-changeStackChart(data_wom_p,"svg62");
+changeStackChart(data_wom_p,"svg60");
 //womens  
-changeStackChart(data_wom_q,"svg63");
+changeStackChart(data_wom_q,"svg61");
 //womens  
-changeStackChart(data_wom_r,"svg64");
+changeStackChart(data_wom_r,"svg62");
 //womens
 ///////////////////
 ///////////////
@@ -4517,18 +4517,18 @@ changeStackChart(data_wom_r,"svg64");
 
   function showTitle12() {
 
-iii=65;
+iii=63;
 
     //womens
 ///////////////////
 ///////////////
 
 
-startnumerosA(numero_wom_c,"svg65");
+startnumerosA(numero_wom_c,"svg63");
 ///
-startnumerosB(numero_wom_d,"svg66");
+startnumerosB(numero_wom_d,"svg64");
 ///
-startnumerosC(numero_wom_e,"svg67");
+startnumerosC(numero_wom_e,"svg65");
 /////////////
  /////////////////
 
@@ -4539,19 +4539,19 @@ startnumerosC(numero_wom_e,"svg67");
  /////////////////
 //womens  
 ///// va support for women
-changeStackChart(data_wom_s,"svg68");
+changeStackChart(data_wom_s,"svg66");
 //womens  
-changeStackChart(data_wom_t,"svg69");
+changeStackChart(data_wom_t,"svg67");
 //womens  
-changeStackChart(data_wom_u,"svg70");
+changeStackChart(data_wom_u,"svg68");
 //womens  
 //// Quality of VA Benefits
-changeStackChart(data_wom_v,"svg71");
+changeStackChart(data_wom_v,"svg69");
 /////
 ///
-startsmallnumerosA(numero_wom_f,"svg72");
+startsmallnumerosA(numero_wom_f,"svg70");
 ///
-startsmallnumerosA(numero_wom_g,"svg73");
+startsmallnumerosA(numero_wom_g,"svg71");
 ////
 //////////////////////////////////
 
@@ -4568,43 +4568,43 @@ startsmallnumerosA(numero_wom_g,"svg73");
   function showTitle13() {
 
 
-iii=74;
+iii=72;
 
 
  /////////////
  ///// sexuak assault
  /////////////////
 //womens  
-changeStackChart(data_wom_y,"svg74");
+changeStackChart(data_wom_y,"svg72");
 //womens  
-changeStackChart(data_wom_z,"svg75");
+changeStackChart(data_wom_z,"svg73");
 //womens  
-changeStackChart(data_wom_aa,"svg76");
+changeStackChart(data_wom_aa,"svg74");
 //womens  
-changeStackChart(data_wom_bb,"svg77");
+changeStackChart(data_wom_bb,"svg75");
 
 //womens  
-changeStackChart(data_wom_cc,"svg78");
+changeStackChart(data_wom_cc,"svg76");
 //womens  
-changeStackChart(data_wom_dd,"svg79");
+changeStackChart(data_wom_dd,"svg77");
 //womens 
 /// Survivors who experienced retaliation after reporting 
-changeStackChart(data_wom_ee,"svg80");
+changeStackChart(data_wom_ee,"svg78");
 //womens  
 // Survivors who experienced retaliation after reporting
-changeStackChart(data_wom_ff,"svg81");
+changeStackChart(data_wom_ff,"svg79");
 /////////
 //////
-changeStackChart(data_wom_gg,"svg82");
+changeStackChart(data_wom_gg,"svg80");
 //////////
 /////
-changeStackChart(data_wom_hh,"svg83");
+changeStackChart(data_wom_hh,"svg81");
 //////////
 /////
-changeStackChart(data_wom_ii,"svg84");
+changeStackChart(data_wom_ii,"svg82");
 //////////
 /////
-changeStackChart(data_wom_jj,"svg85");
+changeStackChart(data_wom_jj,"svg83");
 //////////
 /////
 
@@ -4623,7 +4623,7 @@ changeStackChart(data_wom_jj,"svg85");
    ///// var greenoverlay = document.getElementById("greenoverlay");
    ///// greenoverlay.setAttribute("style", "visibility:hidden; ");
 
-iii=86;
+iii=84;
 
 
 
@@ -4632,23 +4632,23 @@ iii=86;
 //// post 9/11 gi bill
 /////
 
-changePieChart(data_gib_a,"svg86");
+changePieChart(data_gib_a,"svg84");
 
-changePieChart(data_gib_b,"svg87");
+changePieChart(data_gib_b,"svg85");
 
-changePieChart(data_gib_c,"svg88");
+changePieChart(data_gib_c,"svg86");
 
 //////////
-startsmallnumerosA(numero_gib_nocuts,"svg89");
+startsmallnumerosA(numero_gib_nocuts,"svg87");
 
 /////
-changeStackChart(data_gib_d,"svg90");
+changeStackChart(data_gib_d,"svg88");
 
 
-changeStackChart(data_gib_e,"svg91");
+changeStackChart(data_gib_e,"svg89");
 
 
-changeStackChart(data_gib_f,"svg92");
+changeStackChart(data_gib_f,"svg90");
 
 
  //////////
@@ -4663,30 +4663,30 @@ changeStackChart(data_gib_f,"svg92");
 
   function showTitle15() {
 
-iii=93;
+iii=91;
 
     //////////
 /////
 ////// education
 ///
  //////////
-startnumerosA(numero_ed_a,"svg93");
+startnumerosA(numero_ed_a,"svg91");
 
-startnumerosB(numero_ed_b,"svg94");
+startnumerosB(numero_ed_b,"svg92");
 
-startnumerosC(numero_ed_c,"svg95");
-
-
-changeStackChart(data_ed_a,"svg96");
-
-changeStackChart(data_ed_b,"svg97");
-
-changeStackChart(data_ed_c,"svg98");
+startnumerosC(numero_ed_c,"svg93");
 
 
+changeStackChart(data_ed_a,"svg94");
+
+changeStackChart(data_ed_b,"svg95");
+
+changeStackChart(data_ed_c,"svg96");
 
 
-changeHBarChart(data_ed_d,"svg99");
+
+
+changeHBarChart(data_ed_d,"svg97");
 
  //////////
 /////
@@ -4700,7 +4700,7 @@ changeHBarChart(data_ed_d,"svg99");
 
   function showTitle16() {
 
-iii=100;
+iii=98;
 
 
  //////////
@@ -4708,27 +4708,27 @@ iii=100;
 //////////
 //// employment
 
-changeStackChart(data_employ_a,"svg100");
+changeStackChart(data_employ_a,"svg98");
 
-changeStackChart(data_employ_b,"svg101");
+changeStackChart(data_employ_b,"svg99");
 
-changeStackChart(data_employ_c,"svg102");
-
-
+changeStackChart(data_employ_c,"svg100");
 
 
- changeStackChart(data_employ_d,"svg103");
 
 
-changeHBarChart(data_employ_e,"svg104");
+ changeStackChart(data_employ_d,"svg101");
 
-startnumerosA(numero_employ_a,"svg105");
 
-startnumerosB(numero_employ_b,"svg106");
+changeHBarChart(data_employ_e,"svg102");
 
-startnumerosA(numero_employ_d,"svg107");
+startnumerosA(numero_employ_a,"svg103");
 
-startnumerosC(numero_employ_c,"svg108");
+startnumerosB(numero_employ_b,"svg104");
+
+startnumerosA(numero_employ_d,"svg105");
+
+startnumerosC(numero_employ_c,"svg106");
 
 
 
@@ -4744,7 +4744,7 @@ startnumerosC(numero_employ_c,"svg108");
   function showTitle17() {
 
 
-iii=109;
+iii=107;
 
 
 ////////
@@ -4752,47 +4752,47 @@ iii=109;
 ///////
 
   //age  
-changePieChart(data_va_a,"svg109");
+changePieChart(data_va_a,"svg107");
 //gender
-changePieChart(data_va_b,"svg110");
+changePieChart(data_va_b,"svg108");
 
 //?
-changePieChart(data_va_c,"svg111");
+changePieChart(data_va_c,"svg109");
 
 
 /// bar chart
-changeHBarChart(data_va_bars,"svg112");
+changeHBarChart(data_va_bars,"svg110");
 
 
-startnumerosA(numero_va_a,"svg113");
+startnumerosA(numero_va_a,"svg111");
 
 
 
-startnumerosB(numero_va_b,"svg114");
+startnumerosB(numero_va_b,"svg112");
 
-startnumerosC(numero_va_c,"svg115");
+startnumerosC(numero_va_c,"svg113");
 
 
 //////////
 ////
 //// va health care utilization
 
-changeStackChart(data_va_d,"svg116");
+changeStackChart(data_va_d,"svg114");
 
-changeStackChart(data_va_e,"svg117");
+changeStackChart(data_va_e,"svg115");
 
-changeStackChart(data_va_f,"svg118");
+changeStackChart(data_va_f,"svg116");
 
-changeStackChart(data_va_g,"svg119");
+changeStackChart(data_va_g,"svg117");
 
-changeStackChart(data_va_h,"svg120");
+changeStackChart(data_va_h,"svg118");
 
-changeStackChart(data_va_i,"svg121");
-changeStackChart(data_va_j,"svg122");
+changeStackChart(data_va_i,"svg119");
+changeStackChart(data_va_j,"svg120");
 
-startsmallnumerosA(numero_va_d,"svg123");
+startsmallnumerosA(numero_va_d,"svg121");
 
-startsmallnumerosA(numero_va_e,"svg124");
+startsmallnumerosA(numero_va_e,"svg122");
 
 ////
 
@@ -4809,32 +4809,32 @@ startsmallnumerosA(numero_va_e,"svg124");
 
     ////
 ////
-iii=125;
+iii=123;
 
 
-startnumerosA(numero_va_f,"svg125");
+startnumerosA(numero_va_f,"svg123");
 
 
 
-changeStackChart(data_va_k,"svg126");
+changeStackChart(data_va_k,"svg124");
 
 
-changeStackChart(data_va_l,"svg127");
+changeStackChart(data_va_l,"svg125");
 
 
-changeStackChart(data_va_m,"svg128");
+changeStackChart(data_va_m,"svg126");
 
 
-changeStackChart(data_va_n,"svg129");
+changeStackChart(data_va_n,"svg127");
 
 
-changeStackChart(data_va_o,"svg130");
+changeStackChart(data_va_o,"svg128");
 
 
-changeStackChart(data_va_p,"svg131");
+changeStackChart(data_va_p,"svg129");
 
 
-changeStackChart(data_va_q,"svg132");
+changeStackChart(data_va_q,"svg130");
 
 /////
 ///////
@@ -4850,22 +4850,22 @@ changeStackChart(data_va_q,"svg132");
 
   function showTitle19() {
 
-iii=133;
+iii=131;
 
     /////
 ///////
 //// mental health
-startnumerosA(numero_mental_a,"svg133");
+startnumerosA(numero_mental_a,"svg131");
 
-startnumerosB(numero_mental_b,"svg134");
+startnumerosB(numero_mental_b,"svg132");
 
-startnumerosC(numero_mental_c,"svg135");
+startnumerosC(numero_mental_c,"svg133");
 
  
-changeStackChart(data_mental_a,"svg136");
+changeStackChart(data_mental_a,"svg134");
 
 
-changeStackChart(data_mental_b,"svg137");
+changeStackChart(data_mental_b,"svg135");
 
 
 
@@ -4879,17 +4879,17 @@ changeStackChart(data_mental_b,"svg137");
 
   function showTitle20() {
 
-iii=138;
+iii=136;
 
-    startnumerosA(numero_suicide_a,"svg138");
+    startnumerosA(numero_suicide_a,"svg136");
 
  
-changeHBarChart(data_suicide_aa,"svg139");
+changeHBarChart(data_suicide_aa,"svg137");
 
 /////////////// changeHBarChartsm(data_suicide_b,"svg140");
 /////////////// changeHBarChartsm(data_suicide_c,"svg141");
-changeHBarChartsm(data_suicide_d,"svg140");
-changeHBarChartsm(data_suicide_e,"svg141");
+changeHBarChartsm(data_suicide_d,"svg138");
+changeHBarChartsm(data_suicide_e,"svg139");
 
 
 
@@ -4902,27 +4902,27 @@ changeHBarChartsm(data_suicide_e,"svg141");
 
   function showTitle21() {
 
-iii=142;
+iii=140;
 
-    changeHBarChart(data_health_a,"svg142");
-
-
-changeHBarChart(data_health_b,"svg143");
+    changeHBarChart(data_health_a,"svg140");
 
 
-startnumerosA(numero_health_a,"svg144");
-startnumerosB(numero_health_b,"svg145");
-startnumerosC(numero_health_c,"svg146");
-startnumerosA(numero_health_d,"svg147");
-startnumerosB(numero_health_e,"svg148");
-startnumerosC(numero_health_f,"svg149");
+changeHBarChart(data_health_b,"svg141");
+
+
+startnumerosA(numero_health_a,"svg142");
+startnumerosB(numero_health_b,"svg143");
+startnumerosC(numero_health_c,"svg144");
+startnumerosA(numero_health_d,"svg145");
+startnumerosB(numero_health_e,"svg146");
+startnumerosC(numero_health_f,"svg147");
 
 
 
-changeStackChart(data_health_c,"svg150");
-changeStackChart(data_health_d,"svg151");
+changeStackChart(data_health_c,"svg148");
+changeStackChart(data_health_d,"svg149");
  
-    changeHBarChartsm(data_health_e,"svg152");
+    changeHBarChartsm(data_health_e,"svg150");
 
   }
 
@@ -4934,7 +4934,7 @@ changeStackChart(data_health_d,"svg151");
   function showTitle22() {
 
       
-iii=153;
+iii=151;
 
 
 ///
@@ -4943,12 +4943,12 @@ iii=153;
 /// transition experiences
 ///////////
 
-changeStackChart(data_tran_a,"svg153");
-startnumerosA(numero_tran_a,"svg154");
-startnumerosB(numero_tran_b,"svg155");
-startnumerosC(numero_tran_c,"svg156");
-startnumerosA(numero_tran_d,"svg157");
-startnumerosB(numero_tran_e,"svg158");
+changeStackChart(data_tran_a,"svg151");
+startnumerosA(numero_tran_a,"svg152");
+startnumerosB(numero_tran_b,"svg153");
+startnumerosC(numero_tran_c,"svg154");
+startnumerosA(numero_tran_d,"svg155");
+startnumerosB(numero_tran_e,"svg156");
 
 
 d3.select("#mapcontain").select("svg").remove();
@@ -5464,16 +5464,16 @@ changeStackChart(data_equality_a,"svg35");
 //   
 changeStackChart(data_equality_c,"svg36");
 //   
-changeStackChart(data_equality_b,"svg37");
+/////////////changeStackChart(data_equality_b,"svg37");
 // impact  
-changeStackChart(data_equality_d,"svg38");
+//////////changeStackChart(data_equality_d,"svg38");
 
 
 
 
 
  
-iii=39;
+iii=37;
 
 
 
@@ -5482,27 +5482,27 @@ iii=39;
 ///////perceptions numbers
   
 
-   startnumerosA(numeroSupport,"svg39");
+   startnumerosA(numeroSupport,"svg37");
 
-   startnumerosB(numeroUnderstand,"svg40");
+   startnumerosB(numeroUnderstand,"svg38");
 
-   startnumerosC(numeroHire,"svg41");
+   startnumerosC(numeroHire,"svg39");
 
 /////////////
 //////////
  ////////////////
 //obama  
-changeStackChart(data_p_obama,"svg42");
+changeStackChart(data_p_obama,"svg40");
 //trump  
-changeStackChart(data_p_trump,"svg43");
+changeStackChart(data_p_trump,"svg41");
 //congress  
-changeStackChart(data_p_congress,"svg44");
+changeStackChart(data_p_congress,"svg42");
 
 
 
    
 
-iii=45;
+iii=43;
 
 
 
@@ -5510,22 +5510,22 @@ iii=45;
 ///////womens
 /////////////////
   //issues  
-changeStackChart(data_wom_a,"svg45");
+changeStackChart(data_wom_a,"svg43");
 //////////
 /////////////
 //women in military questions  
-changeStackChart(data_wom_b,"svg46");
+changeStackChart(data_wom_b,"svg44");
 //womens  
-changeStackChart(data_wom_c,"svg47");
+changeStackChart(data_wom_c,"svg45");
 //womens  
-changeStackChart(data_wom_d,"svg48");
+changeStackChart(data_wom_d,"svg46");
 
 //womens  
-changeStackChart(data_wom_e,"svg49");
+changeStackChart(data_wom_e,"svg47");
 //womens  
-changeStackChart(data_wom_f,"svg50");
+changeStackChart(data_wom_f,"svg48");
 //womens  
-changeStackChart(data_wom_g,"svg51");
+changeStackChart(data_wom_g,"svg49");
 //womens
 //////
 /////
