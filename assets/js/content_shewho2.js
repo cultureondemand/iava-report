@@ -228,6 +228,27 @@ Founder and CEO
 </div>
 
  
+
+
+
+
+ 
+
+ <h5>Top 5 Issues Influencing for Political Candidates</h5>
+  <span class="issuesBsm" style="height:6em; ">
+ 1. Veterans Issues
+<br />
+2. Economy
+<br />
+3. Health Care
+<br />
+4. Homeland Security/ Terrorism
+<br />
+5. Military/Defense Issues
+ </span>
+  
+
+  <br /><br />
 <div class="numerosB-h">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg19" width="260" height="150"></svg>
 </div>
@@ -674,8 +695,7 @@ Of survey respondents own personal firearms</span></div>
 
  
  
-<h5>When asked their level of agreement with the following statement...</h5>
-
+ 
 <span class="barlabel">Fellow service members treat women service
 members with respect</span> 
 <div style="display:inline-block;width:100%; "><svg xmlns="http://www.w3.org/2000/svg" id="svg55" height="75"></svg></div>
@@ -685,8 +705,7 @@ members with respect</span>
 
  
  
-<h5>When asked their level of agreement with the following statement...</h5>
-
+ 
 
 
 <span class="barlabel">Male military service members treat women
@@ -698,8 +717,7 @@ service members with respect</span>
 
  
  
-<h5>When asked their level of agreement with the following statement...</h5>
-
+ 
 
 
 <span class="barlabel">VA employees treat women veterans
@@ -746,8 +764,6 @@ with respect</span>
 
 
  
-<h5>When asked whether VA adequately provides …</h5>
-
 <span class="barlabel">Access to Women Practitioners</span> 
 <div style="display:inline-block;width:100%; "><svg xmlns="http://www.w3.org/2000/svg" id="svg61" height="75"></svg></div>
 
@@ -757,8 +773,7 @@ with respect</span>
 
  
  
-<h5>When asked whether VA adequately provides …</h5>
-
+ 
 
 
 <span class="barlabel">Quality Mental Health Care</span> 
@@ -767,8 +782,7 @@ with respect</span>
  </div>
 
  
-<h5>When asked whether VA adequately provides …</h5>
-
+ 
 
 
 <span class="barlabel">Quality General Health Care</span> 
@@ -777,8 +791,7 @@ with respect</span>
 </div>
 
  
-<h5>When asked whether VA adequately provides …</h5>
-
+ 
 
 
 <span class="barlabel">Peer Mentor Support</span> 
@@ -915,9 +928,9 @@ for VA benefits</div>
           icon: "",
   header: "The FY2012 annual report from the DoD’s Sexual Assault Prevention and Response Office (SAPR) was a wake-up call to the nation, revealing an estimated 26,000 cases of unwanted sexual contact in the military. While attention on this issue since then has been high, progress has been fleeting. Military sexual assault impacts both men and women in uniform. By understanding the past experiences of these survivors, IAVA can better combat sexual assault in the future.",
     bkgImage: {
-      small: "06.jpg",
-      medium: "06.jpg",
-      large: "06.jpg"
+      small: "8.jpg",
+      medium: "8.jpg",
+      large: "8.jpg"
     },
     body:`
 
@@ -1059,7 +1072,7 @@ for VA benefits</div>
 
 
 <div class="donut">
-<h5>Of 92% of Respondents Eligible</h5>
+<h5>Post-9/11 GI BIll Utilization</h5>
 <svg xmlns="http://www.w3.org/2000/svg" id="svg87" width="310" height="396"></svg>    
 </div>
 
@@ -1241,7 +1254,7 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
 
  <span class="issuesBsm" style="height:4em; ">
 
-1. Medical Issues
+1. Medical issues
 
  <br />
  
@@ -1249,7 +1262,7 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
 
  <br />
  
-3. Competitive Work Force/Current Economic Situation
+3. Competitive work force/Current economic situation
  </span>
    
  
@@ -1313,16 +1326,18 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
 
 <div class="numerosC">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg107" width="260" height="150"></svg>
+<div class="numerosA-words">Of respondents are interested in starting their own business. Start up capital is the biggest concern to do so</div>
+</div>
+ 
+
+
+<div class="numerosA">
+<svg xmlns="http://www.w3.org/2000/svg" id="svg108" width="260" height="150"></svg>
 <div class="numerosC-words">Are aware of the Department of Labor small business support programs</div>
 </div>
 
  
 
-<div class="numerosA">
-<svg xmlns="http://www.w3.org/2000/svg" id="svg108" width="260" height="150"></svg>
-<div class="numerosA-words">Of respondents are interested in starting their own business. Start up capital is the biggest concern to do so</div>
-</div>
- 
 
   
 
@@ -1356,10 +1371,10 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
  1. Accountability
 <br />
  
-2. Consolidation of Community Care
+2. Consolidation of community care
 <br />
  
-3. Information Technology Updates
+3. Information technology updates
  </span>
    
 <br />
@@ -1595,20 +1610,6 @@ Believe troops and veterans are getting the care they need for mental health inj
 
 
 
-<div class="numerosB">
-<svg xmlns="http://www.w3.org/2000/svg" id="svg134" width="260" height="150"></svg>
-<div class="numerosB-words">Had someone close to them recommend they seek care</div>
-</div>
- 
-
-
-
-<div class="numerosC">
-<svg xmlns="http://www.w3.org/2000/svg" id="svg135" width="260" height="150"></svg>
-<div class="numerosC-words">Sought help as a result</div>
-</div>
- 
-  <br />
   <br />
 
  
@@ -1623,8 +1624,48 @@ Believe troops and veterans are getting the care they need for mental health inj
 </span>
  
   
+
+  <br />
+  <br />
+
+ 
+<div class="numerosB">
+<svg xmlns="http://www.w3.org/2000/svg" id="svg134" width="260" height="150"></svg>
+<div class="numerosB-words">Had someone close to them recommend they seek care</div>
+</div>
+ 
+
+
+
+<div class="numerosC">
+<svg xmlns="http://www.w3.org/2000/svg" id="svg135" width="260" height="150"></svg>
+<div class="numerosC-words">Sought help as a result</div>
+</div>
  
  
+
+  <br />
+
+ 
+ <h5>Top 5 Resources for Seeking Care</h5>
+
+ <span class="issuesBsm" style="height:5em; ">
+24% VA Mental Health Professional
+<br />
+ 9% Vet Center Counselor
+ <br />
+ 6% Peer Support Group
+ <br />
+ 6% Civilian Mental Health Counselor
+ <br />
+5% Religious/Spiritual Leader
+</span>
+ 
+  
+
+  <br />
+  <br />
+
 
 <h5>Do you have a service-connected mental health injury?</h5>
  
@@ -1642,7 +1683,7 @@ Believe troops and veterans are getting the care they need for mental health inj
   <br />
  
  
- <h5>Top 3 Reasons Not Seeking Care</h5>
+ <h5>Top 3 Reasons Individuals Not Seeking Care</h5>
 
  <span class="issuesBsm" style="height:5em; ">
 1. Started treatment, but stopped
@@ -1672,9 +1713,9 @@ Believe troops and veterans are getting the care they need for mental health inj
         icon: "",
   header: "The VA estimates that 20 veterans die from suicide each day. The DoD reports that 478 service members (active and reserve components) died by suicide in FY 2016. IAVA’s members are on the front lines of this critical issue. This section asks IAVA members about their very real concerns about suicide in the veteran community.",
     bkgImage: {
-      small: "09.jpg",
-      medium: "09.jpg",
-      large: "09.jpg"
+      small: "06.jpg",
+      medium: "06.jpg",
+      large: "06.jpg"
     },
     body:`
  
@@ -1782,7 +1823,7 @@ Feel they have associated symptoms of Burn Pit exposure</div>
 <div class="numerosC">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg146" width="260" height="150"></svg>
 <div class="numerosC-words">
-Are registered in the VA’s Air- borne Hazards and Open Burn Pits registry</div>
+Are registered in the VA’s Airborne Hazards and Open Burn Pits registry</div>
  </div>
 
 
@@ -2140,27 +2181,34 @@ Alvin Dworman
       large: "10.jpg"
     },
     body: `
-
  
+
+<div class="sectionlede">
+IAVA relies on the generosity of our corporate and foundation partnerships and the support of individual contributors to amass the resources necessary to fulfill our mission.  This Member Survey is the most comprehensive non governmental survey of Post-9/11 veterans and is an important snapshots of the veteran community that no other organization has the ability to replicate.  IAVA is the leading voice advocating on behalf of Post-9/11 veterans because our community takes the time to share their point of view and they trust IAVA to execute on their behalf.   Help us continue this vital work, by donating to support IAVA’s mission today!
+<br /><br />
+
  <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="width:60%;font-size:135%;font-weight:800;margin-bottom:6px; " onclick="window.open('https://iava.org/donate')">
 Donate!
 </button>
+</div>
+<br />
 
-<div class="sectionlede">
+<br />
 
-
- 2017 IAVA MEMBER SURVEY
+ 
 NATIONAL HEADQUARTERS
-114 West 41st Street, 19th Floor New York, NY 10036 Phone 212-982-9699
-Fax 212-982-8645
+<br />114 West 41st Street, 19th Floor New York, NY 10036 
+<br />Phone 212-982-9699
+<br />Fax 212-982-8645
+<br /><br />
 WASHINGTON, D.C. OFFICE
-777 North Capitol St. NW, Suite 403 Washington, D.C. 20002 Phone 202-544-7692
-Fax 202-544-7694
-FOR MEDIA INQUIRIES
-Please contact IAVA’s Communications Department at 212-982-9699 or press@iava.org
+777 North Capitol St. NW, Suite 403 Washington, D.C. 20002 
+<br />Phone 202-544-7692
+<br />Fax 202-544-7694
+<br />FOR MEDIA INQUIRIES
+<br />Please contact IAVA’s Communications Department at 212-982-9699 or press@iava.org
 
 
-<div id="sectionlede">
 
 
 

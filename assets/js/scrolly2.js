@@ -1026,8 +1026,8 @@ var data_wom_b = [
 
 
 var data_wom_c = [
-{a:"Agree",b:39},
-{a:"Disagree",b:50},
+{a:"Agree",b:50},
+{a:"Disagree",b:39},
 {a:"No Opinion",b:11} 
 ];
 
@@ -1480,19 +1480,19 @@ var data_wom_l = [
 
 
 var dummydata_wom_m = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_m = [
-{a:"Strongly Disagree",b:10},
-{a:"Disagree",b:10},
-{a:"Neutral",b:40},
+{a:"Strongly Agree",b:14},
 {a:"Agree",b:26},
-{a:"Strongly Agree",b:14}
+{a:"Neutral",b:40},
+{a:"Disagree",b:10},
+{a:"Strongly Disagree",b:10}
 ];
 
 ////////
@@ -1605,10 +1605,10 @@ var dummydata_wom_s = [
 
 var data_wom_s = [
 {a:"Very Good",b:13},
-{a:"Good",b:20},
-{a:"Fair",b:33},
-{a:"Poor",b:15},
-{a:"Very Poor",b:10}
+{a:"Good",b:19},
+{a:"Fair",b:39},
+{a:"Poor",b:26},
+{a:"Very Poor",b:13}
 ];
 
 
@@ -4726,9 +4726,9 @@ startnumerosA(numero_employ_a,"svg105");
 
 startnumerosB(numero_employ_b,"svg106");
 
-startnumerosC(numero_employ_c,"svg107");
+startnumerosA(numero_employ_d,"svg107");
 
-startnumerosA(numero_employ_d,"svg108");
+startnumerosC(numero_employ_c,"svg108");
 
 
 
