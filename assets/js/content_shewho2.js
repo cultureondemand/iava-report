@@ -2180,19 +2180,26 @@ Donate!
 <br />
 
  
-NATIONAL HEADQUARTERS
-<br />114 West 41st Street
+<h5>NATIONAL HEADQUARTERS</h5>
+ 114 West 41st Street
 <br />19th Floor 
 <br />New York, NY 10036 
 <br />Phone 212-982-9699
 <br />Fax 212-982-8645
 <br /><br />
-WASHINGTON, D.C. OFFICE
-777 North Capitol St. NW
+<h5>WASHINGTON, D.C. OFFICE</h5>
+ 777 North Capitol St. NW
 <br />Suite 403 
 <br />Washington, D.C. 20002 
 <br />Phone 202-544-7692
 <br />Fax 202-544-7694
+
+<br />
+
+<br />
+
+
+
 <br />FOR MEDIA INQUIRIES
 <br />Please contact IAVA’s Communications Department at 212-982-9699 or press@iava.org
 
