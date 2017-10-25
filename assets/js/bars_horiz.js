@@ -102,16 +102,17 @@ var chart = d3.select("#"+name)
     bar.append("text")
             .attr("class", "bartexth")
              .attr("y", barHeight / 2)
-            .attr("dx", -valueMargin + labelWidth) //margin right
+       /////////////     .attr("dx", -valueMargin + labelWidth) //margin right
+            .attr("x", 15) //margin right
             .attr("dy", ".35em") //vertical align middle
-            .attr("text-anchor", "end")
+            .attr("text-anchor", "start")
             .text(function(d){
-                return (d.a+" "+d.b+"%");
+                return (d.a+": "+d.b+"%");
             })
-            .attr("x", function(d){
-                var width = this.getBBox().width;
-                return Math.max(width + valueMargin, scale(d.b));
-            });
+       ////////// .attr("x", function(d){
+          ///////      var width = this.getBBox().width;
+      ///////////          return Math.max(width + valueMargin, scale(d.b));
+      ///////////      });
 
  
           
@@ -241,16 +242,18 @@ var chart = d3.select("#"+name)
     bar.append("text")
             .attr("class", "bartexth")
              .attr("y", barHeight / 2)
-            .attr("dx", -valueMargin + labelWidth) //margin right
+     /////////       .attr("dx", -valueMargin + labelWidth) //margin right
+            .attr("x", 15) //margin right
             .attr("dy", ".35em") //vertical align middle
-            .attr("text-anchor", "end")
+            .attr("text-anchor", "start")
             .text(function(d){
-                return (d.a+" "+d.b+"%");
+                return (d.a+": "+d.b+"%");
             })
-            .attr("x", function(d){
-                var width = this.getBBox().width;
-                return Math.max(width + valueMargin, scale(d.value));
-            });
+                   ////////// .attr("x", function(d){
+          ///////      var width = this.getBBox().width;
+      ///////////          return Math.max(width + valueMargin, scale(d.b));
+      ///////////      });
+
 
      
 
@@ -374,16 +377,17 @@ var chart = d3.select("#"+name)
     bar.append("text")
             .attr("class", "bartexth")
              .attr("y", barHeight / 2)
-            .attr("dx", -valueMargin + labelWidth) //margin right
+   ///////////////////////         .attr("dx", -valueMargin + labelWidth) //margin right
+            .attr("x", 15) //margin right
             .attr("dy", ".35em") //vertical align middle
-            .attr("text-anchor", "end")
+            .attr("text-anchor", "start")
             .text(function(d){
-                return (d.a+" "+d.b+"%");
+                return (d.a+": "+d.b+"%");
             })
-            .attr("x", function(d){
-                var width = this.getBBox().width;
-                return Math.max(width + valueMargin, scale(d.b));
-            });
+       ////////// .attr("x", function(d){
+          ///////      var width = this.getBBox().width;
+      ///////////          return Math.max(width + valueMargin, scale(d.b));
+      ///////////      });
 
  
           
@@ -508,16 +512,18 @@ var chart = d3.select("#"+name)
     bar.append("text")
             .attr("class", "bartexth")
              .attr("y", barHeight / 2)
-            .attr("dx", -valueMargin + labelWidth) //margin right
+     ///////////////       .attr("dx", -valueMargin + labelWidth) //margin right
+            .attr("x", 15) //margin right
             .attr("dy", ".35em") //vertical align middle
-            .attr("text-anchor", "end")
+            .attr("text-anchor", "start")
             .text(function(d){
-                return (d.a+" "+d.b+"%");
+                return (d.a+": "+d.b+"%");
             })
-            .attr("x", function(d){
-                var width = this.getBBox().width;
-                return Math.max(width + valueMargin, scale(d.value));
-            });
+                   ////////// .attr("x", function(d){
+          ///////      var width = this.getBBox().width;
+      ///////////          return Math.max(width + valueMargin, scale(d.b));
+      ///////////      });
+
 
      
 
@@ -551,7 +557,7 @@ iii++;
             lineHeight = 1.1, //em
             y = text.attr("y"),
             dy = parseFloat(text.attr("dy")),
-            tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+            tspan = text.text(null).append("tspan").attr("x", 15).attr("y", y).attr("dy", dy + "em");
           while (word = words.pop()) {
             line.push(word);
             tspan.text(line.join(" "));
@@ -559,7 +565,7 @@ iii++;
               line.pop();
               tspan.text(line.join(" "));
               line = [word];
-              tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+              tspan = text.append("tspan").attr("x", 15).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
             } 
           }
         })
