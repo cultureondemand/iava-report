@@ -259,6 +259,30 @@ margin-bottom:.3em;
 
 
 
+@media print {
+
+
+
+h5 {
+
+  font-family: "din_bold-webfont",
+    "Arial",
+    sans-serif !important;
+ margin-bottom: 12px;
+ 
+
+
+font-size: 30px !important;
+    margin-top: 42px !important;
+    text-align: left;
+    font-weight: 800 !important;
+
+
+}
+
+
+}
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
