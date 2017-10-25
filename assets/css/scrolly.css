@@ -3840,6 +3840,20 @@ font-weight: 700;
 
 
 
+
+
+.mdc-temporary-drawer .mdc-list-item {
+
+
+  text-transform: uppercase !important;
+    font-family: "din_bold-webfont",
+    "Arial",
+    sans-serif !important;
+
+}
+
+
+
 .mdc-button--raised {
 
   background-color: #dcf428 !important;
