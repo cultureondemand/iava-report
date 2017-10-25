@@ -1037,7 +1037,7 @@ for VA benefits</div>
 ,
 
   {
-    section: "// Post-9/11 GI BIll Utilization",
+    section: "// Post-9/11 GI Bill Utilization",
         icon: "",
   header: "The Post-9/11 GI Bill has sent nearly 2 million veterans and their dependents to school since its creation in 2008. However, despite the enormous success of the New GI Bill, there is still work to be done to both protect and enhance this critical benefit.",
     bkgImage: {
@@ -1057,7 +1057,7 @@ for VA benefits</div>
 
 
 <div class="donut">
-<h5>Post-9/11 GI BIll Utilization</h5>
+<h5>Post-9/11 GI Bill Utilization</h5>
 <svg xmlns="http://www.w3.org/2000/svg" id="svg85" width="310" height="396"></svg>    
 </div>
 
