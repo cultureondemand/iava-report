@@ -1351,7 +1351,7 @@ Of respondents oppose/strongly oppose cuts to the GI Bill.</div>
 
  
   
- <h5>When asked to identify the top 3 issues for reforming VA...</h5>
+ <h5>Top 3 Issues for Reforming the VA...</h5>
  <span class="issuesBsm" style="height:4em; ">
  1. Accountability
 <br />
@@ -1811,7 +1811,7 @@ Feel they have associated symptoms of Burn Pit exposure</div>
 Are registered in the VA’s Airborne Hazards and Open Burn Pits registry</div>
  </div>
 
-
+<div style="display:block;width:100%;height:10px;opacity:0; ">&nbsp;</div>
 
 
 <div class="numerosA">

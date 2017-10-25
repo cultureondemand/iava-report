@@ -1213,19 +1213,19 @@ var data_wom_k_ = [
 
 
 var dummydata_wom_k__ = [
-{a:"Strongly Disagree",b:9},
-{a:"Disagree",b:6},
-{a:"Neutral",b:22},
+{a:"Strongly Agree",b:34},
 {a:"Agree",b:29},
-{a:"Strongly Agree",b:34}
+{a:"Neutral",b:22},
+{a:"Disagree",b:6},
+{a:"Strongly Disagree",b:9}
 ];
 
 var data_wom_k__ = [
-{a:"Strongly Disagree",b:10},
-{a:"Disagree",b:10},
-{a:"Neutral",b:40},
+{a:"Strongly Agree",b:14},
 {a:"Agree",b:26},
-{a:"Strongly Agree",b:14}
+{a:"Neutral",b:40},
+{a:"Disagree",b:10},
+{a:"Strongly Disagree",b:10}
 ];
 
 
@@ -1596,7 +1596,7 @@ var numero_wom_g = [50];
 
 
 var dummydata_wom_s = [
-{a:"Very Good",b:13},
+{a:"Very Good",b:3},
 {a:"Good",b:19},
 {a:"Fair",b:39},
 {a:"Poor",b:26},
@@ -1604,7 +1604,7 @@ var dummydata_wom_s = [
 ];
 
 var data_wom_s = [
-{a:"Very Good",b:13},
+{a:"Very Good",b:3},
 {a:"Good",b:19},
 {a:"Fair",b:39},
 {a:"Poor",b:26},
