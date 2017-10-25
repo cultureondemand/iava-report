@@ -2175,19 +2175,22 @@ IAVA relies on the generosity of our corporate and foundation partnerships and t
  <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="width:60%;font-size:135%;font-weight:800;margin-bottom:6px; " onclick="window.open('https://iava.org/donate')">
 Donate!
 </button>
-</div>
 <br />
 
 <br />
 
  
 NATIONAL HEADQUARTERS
-<br />114 West 41st Street, 19th Floor New York, NY 10036 
+<br />114 West 41st Street
+<br />19th Floor 
+<br />New York, NY 10036 
 <br />Phone 212-982-9699
 <br />Fax 212-982-8645
 <br /><br />
 WASHINGTON, D.C. OFFICE
-777 North Capitol St. NW, Suite 403 Washington, D.C. 20002 
+777 North Capitol St. NW
+<br />Suite 403 
+<br />Washington, D.C. 20002 
 <br />Phone 202-544-7692
 <br />Fax 202-544-7694
 <br />FOR MEDIA INQUIRIES
@@ -2195,6 +2198,7 @@ WASHINGTON, D.C. OFFICE
 
 
 
+</div>
 
 
      `
