@@ -2057,63 +2057,185 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
     body: `
 
  
-<div class="sectionlede">
-
-
-
  
-Foundations & Community Partners
+
+
+ <h5>Foundations & Community Partners</h5>
 $250,000 +
-Wounded Warrior Project (WWP) Resnick Family Foundation
+Wounded Warrior Project (WWP) 
+<br />
+Resnick Family Foundation
+<br />
+<br />
+$100,000 - $249,999
+Ford Foundation
+<br />
+Clark Charitable Foundation 
+<br />
+Langeloth Foundation
+<br />
+
+
+
+<br /><br />
 $10,000 - $99,999
-The Kahlert Foundation, Inc. Schultz Family Foundation Rosenthal Family Foundation CA Mental Insight Foundation Select Equity Group Foundation
+<br />
+The Kahlert Foundation, Inc. 
+<br />
+Schultz Family Foundation 
+<br />
+Rosenthal Family Foundation 
+<br />
+CA Mental Insight Foundation 
+<br />
+Select Equity Group Foundation
+<BR />
 
-Corporate Partnerships
+Triad Foundation
+<br />
+Bob Woodruff Foundation
+<br />
+New York State Health Foundation 
+<br />
+The Wunderkinder Foundation 
+<br />
+Others First
+<br />
+Begin Today For Tomorrow
+<br />
+The Scoob Trust Foundation 
+<br />
+National Council for Behavioral Health 
+<br />
+The National Christian Foundation 
+<br />
+Brad Lemons Foundation
+<br />
+Travis Manion Foundation
+<br />
+Million Dollar Round Table Foundation The Wasserman Foundation
+<br />
+Colbert Family Fund
+
+<br />
+Agua Fund, Inc.
+
+
+<br />
+
+<br />
+
+
+
+<h5>Corporate Partnerships</h5>
 
 $250,000 +
-Salesforce Foundation Victory Motorcycles
+<br />
+Salesforce Foundation 
+<br />
+Victory Motorcycles
+<BR />
+<BR />
 
+ $100,000 - $249,999
+
+<br />
+Southwest Airlines Google
+
+<br />
+ICAP
+
+
+<br />
+<br />
 $25,000 - $99,999
 
 Rogue Fitness
 USAA CityNationalBankUnitedWayCampaign Aspiration
 Vencore
 
-Individual Donors
+
+
+<br />
+
+<br />
+
+<h5>Individual Donors</h5>
 
 $100,000 +
+<br />
 Anonymous
-Craig Newmark Klatsky Family Trust
+<br />
+Craig Newmark 
+<br />
+Klatsky Family Trust
+
+
+<br />
+
+<br />
+
 
 $10,000 - $49,999
+
+<br />
 Christine Hauser
+
+<br />
 Mike Leven
+
+<br />
 Scott Feldmayer
+
+<br />
 Katie Nolan
+
+<br />
 George Loening
+
+<br />
 Brian Williams
+
+<br />
 Adam Clampitt Robert & Martha Cohn Abigail Disney
-Triad Foundation
-Bob Woodru  Foundation
-New York State Health Foundation The Wunderkinder Foundation Others First
 
-$100,000 - $249,999
-Ford Foundation
-Clark Charitable Foundation Langeloth Foundation
-Begin Today For Tomorrow
-The Scoob Trust Foundation National Council for Behavioral Health The National Christian Foundation Brad Lemons Foundation
-
-$100,000 - $249,999
-Southwest Airlines Google
-ICAP
 Oscar Mike LLC
-Retail Ready Career Center WesternAssetManagementCompany The District Communications Group NBC Universal, Inc.
+
+<br />
+Retail Ready Career Center 
+<br />
+Western Asset Management Company 
+<br />
+The District Communications Group 
+<br />
+NBC Universal, Inc.
+
+<br />
+
 MSNBC
 
+<br />
+
+MillerCoors
+
+<br />
+Fox Sports 1
+
+<br />
+Discovery Communications Cushman & Wakefield
+
+<br />
+CNN c/o Turner Broadcasting Barbaricum
+
+
+
+<br /><br />
 $50,000 - $99,999
 Trevanion Pope Anonymous
 Roger Evans
 Lear Family Foundation
+
+
 David Wright
 Ji Bi
 Shai Bandner
@@ -2121,30 +2243,57 @@ Je  Marshall
 Bill Tovell
 Susan & Scott Lord Vincent Mai
 Ted Segal Rachel Maddow
-Travis Manion Foundation
-Million Dollar Round Table Foundation The Wasserman Foundation
-Colbert Family Fund
-Agua Fund, Inc.
+
+
+
+
     Uber
 TriWest Healthcare Alliance PVH Foundation
 Venables, Bell & Partners LLC eBay
-Cushman & Wake eld
-MillerCoors
-Fox Sports 1
-Discovery Communications Cushman & Wake eld
-CNN c/o Turner Broadcasting Barbaricum
+Cushman & Wakefield
+
+
+
   Jim Hirschmann Dick Beattie Susan Mikula Ron Katz Joseph Sanberg Eli Elefant
 David Perkins Dan Streetman Anonymous
+
+
+
+
+
+Jim Hirschmann Dick Beattie Susan Mikula Ron Katz Joseph Sanberg Eli Elefant
+David Perkins Dan Streetman Anonymous
+
+
+
+
+Christine Hauser
+Mike Leven
+Scott Feldmayer
+Katie Nolan
+George Loening
+Brian Williams
+Adam Clampitt Robert & Martha Cohn Abigail Disney
+
+
+
+
+
+
+David Wright
+Ji Bi
+Shai Bandner
+Je  Marshall
+Bill Tovell
+Susan & Scott Lord Vincent Mai
+Ted Segal Rachel Maddow
+
+
 Peter Berg
 Leslie Gelb
 Glenn DeKraker
 Fisher Brothers Foundation Blake Entertainment
 Alvin Dworman
-
- 
-
-</div>
- 
 
 
 
