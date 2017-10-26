@@ -2069,20 +2069,18 @@ Wounded Warrior Project (WWP)
 Resnick Family Foundation
 <br />
 <br />
-$100,000 - $249,999
+<h5>$100,000 - $249,999</h5>
 Ford Foundation
 <br />
 Clark Charitable Foundation 
 <br />
 Langeloth Foundation
-<br />
-
+ 
 
 
 <br /><br />
 <h5>$10,000 - $99,999</h5>
-<br />
-The Kahlert Foundation, Inc. 
+ The Kahlert Foundation, Inc. 
 <br />
 Schultz Family Foundation 
 <br />
@@ -2134,8 +2132,7 @@ Agua Fund, Inc.
 <h4>Corporate Partnerships</h4>
 
 <h5>$250,000 +</h5>
-<br />
-Salesforce Foundation 
+ Salesforce Foundation 
 <br />
 Victory Motorcycles
 <BR />
@@ -2143,8 +2140,7 @@ Victory Motorcycles
 
  <h5>$100,000 - $249,999</h5>
 
-<br />
-Southwest Airlines 
+ Southwest Airlines 
 <br />
 Google
 
@@ -2219,8 +2215,7 @@ CNN c/o Turner Broadcasting
 <h4>Individual Donors</h4>
 
 <h5>$100,000 +</h5>
-<br />
-Anonymous
+ Anonymous
 <br />
 Craig Newmark 
 <br />
@@ -2231,8 +2226,7 @@ Klatsky Family Trust
 <br /><br />
 <h5>$50,000 - $99,999</h5>
 
-<br />
-Trevanion Pope 
+ Trevanion Pope 
 <br />
 Anonymous
 
@@ -2247,10 +2241,9 @@ Lear Family Foundation
 <br />
 
 
-<strong>$10,000 - $49,999</strong>
+<h5>$10,000 - $49,999</h5>
 
-<br />
-Christine Hauser
+ Christine Hauser
 
 <br />
 Mike Leven
