@@ -892,7 +892,7 @@ font-weight: 400;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .step {
-    margin-bottom: 26vh;
+    margin-bottom: 36vh;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
