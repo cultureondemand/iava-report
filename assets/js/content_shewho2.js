@@ -2055,7 +2055,7 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
       large: "10.jpg"
     },
     body: `
-<div class="sectionlede">
+<div class="sectionledeB">
 
  IAVA is incredibly thankful for the donors that have made this report possible with their contributions to IAVA.
  
@@ -2357,11 +2357,11 @@ Alvin Dworman
     body: `
  
 
-<div class="sectionlede">
+<div class="sectionledeB">
 IAVA relies on the generosity of our corporate and foundation partnerships and the support of individual contributors to amass the resources necessary to fulfill our mission.  This Member Survey is the most comprehensive non governmental survey of Post-9/11 veterans and is an important snapshots of the veteran community that no other organization has the ability to replicate.  IAVA is the leading voice advocating on behalf of Post-9/11 veterans because our community takes the time to share their point of view and they trust IAVA to execute on their behalf.   Help us continue this vital work, by donating to support IAVA’s mission today!
 <br /><br />
 
- <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="width:60%;font-size:135%;font-weight:800;margin-bottom:6px; " onclick="window.open('https://iava.org/donate')">
+ <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="width:30%;font-size:135%;font-weight:800;margin-bottom:6px; padding:6px; " onclick="window.open('https://iava.org/donate')">
 Donate!
 </button>
 <br />
