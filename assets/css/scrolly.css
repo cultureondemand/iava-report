@@ -313,17 +313,17 @@ video#bgvid {
 
 .videobig {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  top: 55%;
+  left: 55%;
+  min-width: 110%;
+  min-height: 110%;
   width: auto;
   height: auto;
   z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-55%) translateY(-55%);
+  -moz-transform: translateX(-55%) translateY(-55%);
+  -webkit-transform: translateX(-55%) translateY(-55%);
+  transform: translateX(-55%) translateY(-55%);
 
   transition: 1s opacity;
   display: block;
