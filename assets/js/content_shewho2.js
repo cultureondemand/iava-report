@@ -1992,9 +1992,19 @@ Did not have housing secured</div>
 The survey alpha test was distributed among IAVA staff members from February 3-6, 2017 and later beta tested among a dozen IAVA leaders and staff members from Feb 9-10. The final survey was fielded among all IAVA veteran members from Feb 11-21. Emails were sent on Feb 11, 15, and 18. The opportunity to enter a drawing for two Southwest (SW) Airlines vouchers to fly anywhere SW flies in 2017 was provided as incentive to complete the survey. Social media was utilized to encourage post-9/11 veterans to join and take the survey. New members were also provided a link in the welcome email received during this time frame. A total of 4,345 participants completed the survey, a record number; 857 started the survey but did not complete.
  
 <div id="mapcontain"></div>
+<div id="legendcontain"></div>
+<div id="keycontain">
+<span style="display:inline-block;float:left;">0%</span>
+<span style="display:inline-block;float:right;">10%</span>
 
+</div>
+<br />
 <br />
 The margin of error for this survey is +/- 2 percentage points at the 95% confidence level. 
+
+
+
+
      `
   } 
 

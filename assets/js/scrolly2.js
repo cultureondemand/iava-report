@@ -4955,6 +4955,15 @@ d3.select("#mapcontain").select("svg").remove();
 d3.select("#mapcontain").select("g").remove();
 
 
+
+
+d3.select("#legendcontain").select("svg").remove();
+d3.select("#legendcontain").select("rect").remove();
+
+
+    
+
+
     
 
   }
@@ -4975,7 +4984,7 @@ d3.select("#mapcontain").select("g").remove();
 
   //Width and height
       var w = window.innerWidth;
-      var h = 600;
+      var h = (window.innerHeight/1.5);
 
       //Define map projection
       var projection = d3.geo.albersUsa()
@@ -4994,6 +5003,54 @@ d3.select("#mapcontain").select("g").remove();
  
               //////////  .range(["#fef0d9","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#990000"]);
                  //Colors taken from colorbrewer.js, included in the D3 download
+
+
+
+
+      //Create SVG element
+      var legsvg = d3.select("#legendcontain")
+            .append("svg")
+            .attr("width", (window.innerWidth/1.1)+"px")
+            .attr("height", "40px");
+
+//Append a defs (for definition) element to your SVG
+var defs = legsvg.append("defs");
+
+//Append a linearGradient element to the defs and give it a unique id
+var linearGradient = defs.append("linearGradient")
+    .attr("id", "linear-gradient");
+
+
+
+//Draw the rectangle and fill with gradient
+legsvg.append("rect")
+  .attr("width", (window.innerWidth/1.1))
+  .attr("height", 40)
+  .style("fill", "url(#linear-gradient)");
+
+
+
+
+
+//A color scale
+var colorScale = d3.scale.linear()
+    .range(["#294636","#2f513e", "#39634c","#416250","#4a705b","#5b836d", "#afb48b", "#ced49e", "#deea81", "#d0e05a", "#dcf428"]);
+
+//Append multiple color stops by using D3's data/enter step
+linearGradient.selectAll("stop") 
+    .data( colorScale.range() )                  
+    .enter().append("stop")
+    .attr("offset", function(d,i) { return i/(colorScale.range().length-1); })
+    .attr("stop-color", function(d) { return d; });
+
+
+
+    
+
+
+
+
+
 
       //Create SVG element
       var svg = d3.select("#mapcontain")
@@ -5069,6 +5126,13 @@ d3.select("#mapcontain").select("g").remove();
 
 
 
+
+
+
+
+
+
+
   }
 
   ////////////////
@@ -5087,6 +5151,12 @@ d3.select("#mapcontain").select("g").remove();
 
 
  
+
+
+d3.select("#legendcontain").select("svg").remove();
+d3.select("#legendcontain").select("rect").remove();
+
+
 
 
   }
