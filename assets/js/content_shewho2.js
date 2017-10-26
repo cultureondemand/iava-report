@@ -2061,8 +2061,9 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
  
 
 
- <h5>Foundations & Community Partners</h5>
-$250,000 +
+ <h4>Foundations & Community Partners</h4>
+<h5>$250,000 +</h5>
+
 Wounded Warrior Project (WWP) 
 <br />
 Resnick Family Foundation
@@ -2079,7 +2080,7 @@ Langeloth Foundation
 
 
 <br /><br />
-$10,000 - $99,999
+<h5>$10,000 - $99,999</h5>
 <br />
 The Kahlert Foundation, Inc. 
 <br />
@@ -2114,7 +2115,9 @@ Brad Lemons Foundation
 <br />
 Travis Manion Foundation
 <br />
-Million Dollar Round Table Foundation The Wasserman Foundation
+Million Dollar Round Table Foundation 
+<br />
+The Wasserman Foundation
 <br />
 Colbert Family Fund
 
@@ -2128,9 +2131,9 @@ Agua Fund, Inc.
 
 
 
-<h5>Corporate Partnerships</h5>
+<h4>Corporate Partnerships</h4>
 
-$250,000 +
+<h5>$250,000 +</h5>
 <br />
 Salesforce Foundation 
 <br />
@@ -2138,7 +2141,7 @@ Victory Motorcycles
 <BR />
 <BR />
 
- $100,000 - $249,999
+ <h5>$100,000 - $249,999</h5>
 
 <br />
 Southwest Airlines 
@@ -2151,7 +2154,7 @@ ICAP
 
 <br />
 <br />
-$25,000 - $99,999
+<h5>$25,000 - $99,999</h5>
 
 Rogue Fitness
 <br />USAA 
@@ -2203,17 +2206,19 @@ MillerCoors
 Fox Sports 1
 
 <br />
-Discovery Communications Cushman & Wakefield
+Discovery Communications 
+<br />Cushman & Wakefield
 
 <br />
-CNN c/o Turner Broadcasting Barbaricum
+CNN c/o Turner Broadcasting 
+<br />Barbaricum
 <br />
 
 <br />
 
-<h5>Individual Donors</h5>
+<h4>Individual Donors</h4>
 
-$100,000 +
+<h5>$100,000 +</h5>
 <br />
 Anonymous
 <br />
@@ -2224,7 +2229,7 @@ Klatsky Family Trust
 
 
 <br /><br />
-$50,000 - $99,999
+<h5>$50,000 - $99,999</h5>
 
 <br />
 Trevanion Pope 
@@ -2242,7 +2247,7 @@ Lear Family Foundation
 <br />
 
 
-$10,000 - $49,999
+<strong>$10,000 - $49,999</strong>
 
 <br />
 Christine Hauser
@@ -2285,12 +2290,13 @@ Ron Katz
 Joseph Sanberg 
 <br />
 Eli Elefant
+<br />
 David Perkins 
 <br />
 Dan Streetman 
 <br />
 Anonymous
-
+<br />
 
 David Wright
 
