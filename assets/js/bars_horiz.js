@@ -30,7 +30,8 @@
 
 
 var chart = d3.select("#"+name)
-            .attr("width", width+"px")
+          ////  .attr("width", width+"px")
+          .attr("width", "100%")
             .attr("height", "500px");
          ////   .style("margin-right", "80px")
 
@@ -168,7 +169,8 @@ iii++;
 
 
 var chart = d3.select("#"+name)
-            .attr("width", width+"px")
+           //// .attr("width", width+"px")
+           .attr("width", "100%")
             .attr("height", "500px");
        /////     .style("margin-right", "80px")
 
@@ -305,7 +307,8 @@ iii++;
 
 
 var chart = d3.select("#"+name)
-            .attr("width", width+"px")
+         //////   .attr("width", width+"px")
+         .attr("width", "100%")
             .attr("height", "250px");
        //////////////////////     .style("margin-right", "80px")
 
@@ -443,7 +446,7 @@ iii++;
 
 
 var chart = d3.select("#"+name)
-            .attr("width", width+"px")
+            .attr("width", "100%")
             .attr("height", "250px");
          //////////   .style("margin-right", "80px")
 
