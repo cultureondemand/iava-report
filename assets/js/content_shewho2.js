@@ -283,7 +283,7 @@ Have considered running for public office.</div>
  <div class="numerosB-h">
 <svg xmlns="http://www.w3.org/2000/svg" id="svg20" width="260" height="150"></svg>
 </div>
-<div class="numerosB-words-h">
+<div class="numerosB-words-h" style="min-height:6em; ">
 Support an amendment to the U.S. Constitution that would allow Congress to prohibit flag
 burning by statute and allow for punishment for the physical desecration of the U.S. flag.
 </div>
@@ -1991,7 +1991,7 @@ Did not have housing secured</div>
 
 The survey alpha test was distributed among IAVA staff members from February 3-6, 2017 and later beta tested among a dozen IAVA leaders and staff members from Feb 9-10. The final survey was fielded among all IAVA veteran members from Feb 11-21. Emails were sent on Feb 11, 15, and 18. The opportunity to enter a drawing for two Southwest (SW) Airlines vouchers to fly anywhere SW flies in 2017 was provided as incentive to complete the survey. Social media was utilized to encourage post-9/11 veterans to join and take the survey. New members were also provided a link in the welcome email received during this time frame. A total of 4,345 participants completed the survey, a record number; 857 started the survey but did not complete.
  
-<div id="mapcontain" style="height:600px; margin:0 auto; text-align:center; width:100%; "></div>
+<div id="mapcontain"></div>
 
 <br />
 The margin of error for this survey is +/- 2 percentage points at the 95% confidence level. 
@@ -2048,15 +2048,16 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
   {
     section: "// THANK YOU ",
      icon: "",
-    header: "IAVA is incredibly thankful for the donors that have made this report possible with their contributions to IAVA.",
+    header: "",
     bkgImage: {
       small: "10.jpg",
       medium: "10.jpg",
       large: "10.jpg"
     },
     body: `
+<div class="sectionlede">
 
- 
+ IAVA is incredibly thankful for the donors that have made this report possible with their contributions to IAVA.
  
 
 
@@ -2140,7 +2141,9 @@ Victory Motorcycles
  $100,000 - $249,999
 
 <br />
-Southwest Airlines Google
+Southwest Airlines 
+<br />
+Google
 
 <br />
 ICAP
@@ -2151,11 +2154,59 @@ ICAP
 $25,000 - $99,999
 
 Rogue Fitness
-USAA CityNationalBankUnitedWayCampaign Aspiration
+<br />USAA 
+<br />CityNationalBankUnitedWayCampaign 
+<br />Aspiration
 Vencore
 
 
+<br />
 
+    Uber
+
+<br />
+TriWest Healthcare Alliance 
+<br />
+PVH Foundation
+
+<br />
+Venables, Bell & Partners LLC 
+<br />
+eBay
+
+<br />
+Cushman & Wakefield
+
+<br />
+
+Oscar Mike LLC
+
+<br />
+Retail Ready Career Center 
+<br />
+Western Asset Management Company 
+<br />
+The District Communications Group 
+<br />
+NBC Universal, Inc.
+
+<br />
+
+MSNBC
+
+
+<br />
+
+MillerCoors
+
+<br />
+Fox Sports 1
+
+<br />
+Discovery Communications Cushman & Wakefield
+
+<br />
+CNN c/o Turner Broadcasting Barbaricum
 <br />
 
 <br />
@@ -2170,6 +2221,21 @@ Craig Newmark
 <br />
 Klatsky Family Trust
 
+
+
+<br /><br />
+$50,000 - $99,999
+
+<br />
+Trevanion Pope 
+<br />
+Anonymous
+
+<br />
+Roger Evans
+
+<br />
+Lear Family Foundation
 
 <br />
 
@@ -2197,105 +2263,79 @@ George Loening
 Brian Williams
 
 <br />
-Adam Clampitt Robert & Martha Cohn Abigail Disney
+Adam Clampitt 
+<br />
+Robert & Martha Cohn 
+<br />
+Abigail Disney
 
-Oscar Mike LLC
-
-<br />
-Retail Ready Career Center 
-<br />
-Western Asset Management Company 
-<br />
-The District Communications Group 
-<br />
-NBC Universal, Inc.
 
 <br />
 
-MSNBC
 
+
+  Jim Hirschmann 
 <br />
-
-MillerCoors
-
+Dick Beattie 
 <br />
-Fox Sports 1
-
+Susan Mikula 
 <br />
-Discovery Communications Cushman & Wakefield
-
+Ron Katz 
 <br />
-CNN c/o Turner Broadcasting Barbaricum
-
-
-
-<br /><br />
-$50,000 - $99,999
-Trevanion Pope Anonymous
-Roger Evans
-Lear Family Foundation
+Joseph Sanberg 
+<br />
+Eli Elefant
+David Perkins 
+<br />
+Dan Streetman 
+<br />
+Anonymous
 
 
 David Wright
+
+<br />
 Ji Bi
+
+<br />
 Shai Bandner
+
+<br />
 Je  Marshall
+
+<br />
 Bill Tovell
-Susan & Scott Lord Vincent Mai
-Ted Segal Rachel Maddow
 
+<br />
+Susan & Scott Lord 
+<br />
+Vincent Mai
 
+<br />
+Ted Segal 
+<br />
+Rachel Maddow
 
-
-    Uber
-TriWest Healthcare Alliance PVH Foundation
-Venables, Bell & Partners LLC eBay
-Cushman & Wakefield
-
-
-
-  Jim Hirschmann Dick Beattie Susan Mikula Ron Katz Joseph Sanberg Eli Elefant
-David Perkins Dan Streetman Anonymous
-
-
-
-
-
-Jim Hirschmann Dick Beattie Susan Mikula Ron Katz Joseph Sanberg Eli Elefant
-David Perkins Dan Streetman Anonymous
-
-
-
-
-Christine Hauser
-Mike Leven
-Scott Feldmayer
-Katie Nolan
-George Loening
-Brian Williams
-Adam Clampitt Robert & Martha Cohn Abigail Disney
-
-
-
-
-
-
-David Wright
-Ji Bi
-Shai Bandner
-Je  Marshall
-Bill Tovell
-Susan & Scott Lord Vincent Mai
-Ted Segal Rachel Maddow
+<br />
 
 
 Peter Berg
+
+<br />
 Leslie Gelb
+
+<br />
 Glenn DeKraker
-Fisher Brothers Foundation Blake Entertainment
+
+<br />
+Fisher Brothers Foundation 
+<br />
+Blake Entertainment
+
+<br />
 Alvin Dworman
 
-
+</div>
 
 
      `
@@ -2349,8 +2389,8 @@ Donate!
 
 
 
-<br />FOR MEDIA INQUIRIES
-<br />Please contact IAVA’s Communications Department at 212-982-9699 or press@iava.org
+<h5>FOR MEDIA INQUIRIES</h5>
+Please contact IAVA’s Communications Department at (212)982-9699 or press@iava.org
 
 
 

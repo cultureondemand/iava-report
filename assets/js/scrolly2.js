@@ -4974,7 +4974,7 @@ d3.select("#mapcontain").select("g").remove();
 
 
   //Width and height
-      var w = 960;
+      var w = window.innerWidth;
       var h = 600;
 
       //Define map projection
@@ -4990,10 +4990,10 @@ d3.select("#mapcontain").select("g").remove();
       var color = d3.scale.quantize()
 
       ///      .range(["#9aada6", "#c2cec9","#efefef","#888888","#333333","#294636", "#3a634d", "#000000", "#e2d497", "#417a4f", "#cddeb7", "#78933f", "#284635"]);
-    .range(["#dcf428","#9aada6", "#c2cec9","#efefef","#888888","#333333","#294636", "#3a634d", "#000000", "#e2d497", "#417a4f", "#cddeb7", "#78933f", "#284635"]);
-
+    .range(["#294636","#2f513e", "#39634c","#416250","#4a705b","#5b836d", "#afb48b", "#ced49e", "#deea81", "#d0e05a", "#dcf428"]);
+ 
               //////////  .range(["#fef0d9","#fdd49e","#fdbb84","#fc8d59","#ef6548","#d7301f","#990000"]);
-                //Colors taken from colorbrewer.js, included in the D3 download
+                 //Colors taken from colorbrewer.js, included in the D3 download
 
       //Create SVG element
       var svg = d3.select("#mapcontain")
