@@ -854,7 +854,7 @@ font-weight: 400;
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   .step {
-    margin-bottom: 600px;
+    margin-bottom: 460px;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -872,7 +872,7 @@ font-weight: 400;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .step {
-    margin-bottom: 86vh;
+    margin-bottom: 26vh;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -1301,11 +1301,12 @@ font-weight: 400;
 }
 
 
-
-
-
-
-
+ 
+ 
+@media (max-width: 599px)
+ .mdc-toolbar__title {
+    margin-left: 166px !important;
+}
 
 
 /* Mobile Styles */
@@ -1380,9 +1381,9 @@ overflow: visible !important;
   font-family: "din_bold-webfont",
     "Arial",
     sans-serif;
-  font-size: 48px;
+  font-size: 56px;
  
-   padding-left: 60px;
+   padding-left: 26px;
   padding-right: 16px;
   padding-top: 16px;
   padding-bottom: 6px;
@@ -1415,7 +1416,7 @@ overflow: visible !important;
    font-family: "din_bold-webfont",
     "Arial",
     sans-serif;
-  font-size: 28px;
+  font-size: 24px;
    margin: 0 auto;
   padding-left: 24px;
   padding-right: 16px;
@@ -1438,7 +1439,7 @@ overflow: visible !important;
 .topbar {
   position: fixed;
   display: block;
-  top: 56px;
+  top: 50px;
     line-height: 1em;
   left: 0;
    text-transform: uppercase;
@@ -1469,7 +1470,7 @@ overflow: visible !important;
 .topbar {
   position: fixed;
   display: block;
-  top: 63px;
+  top: 60px;
     line-height: 1em;
   left: 0;
    text-transform: uppercase;
@@ -1798,7 +1799,7 @@ top:152px;
   font-weight: 100;
 color:#fff;
   margin-bottom: .1em;
-
+max-width: 880px;
   line-height: 1.2em;
   width:96%;
 }
@@ -1827,6 +1828,7 @@ top:145px;
   font-weight: 100;
 color:#fff;
   margin-bottom: .1em;
+max-width: 1200px;
 
   line-height: 1.2em;
   width:96%;
@@ -4192,3 +4194,69 @@ height: 41px;
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+ 
+
+
+
+#mapcontain {
+
+height:400px; margin:0 auto; text-align:center; width:100%; 
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+
+#mapcontain {
+
+height:600px; margin:0 auto; text-align:center; width:100%; 
+
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+ 
+
+
+
+#mapcontain {
+
+height:600px; margin:0 auto; text-align:center; width:100%; 
+
+}
+
+
+}
+
+
+
+
+
+
+
