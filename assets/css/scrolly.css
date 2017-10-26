@@ -4269,3 +4269,116 @@ height:600px; margin:0 auto; text-align:center; width:100%;
 
 
 
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+ 
+
+
+
+#legendcontain {
+
+height:40px; margin-top:33px; text-align:center; width:100%; 
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+
+#legendcontain {
+
+height:60px; margin-top:33px; text-align:center; width:100%; 
+
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+ 
+
+
+
+#legendcontain {
+
+height:60px; margin-top:33px; text-align:center; width:100%; 
+
+}
+
+
+}
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+ 
+
+
+
+#keycontain {
+
+margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+
+
+
+
+#keycontain {
+
+margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
+
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+ 
+
+
+
+#keycontain {
+
+margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
