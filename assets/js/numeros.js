@@ -41,13 +41,13 @@ qSVG.selectAll(".txt")
                 round = (prec.length > 1) ? Math.pow(10, prec[1].length) : 1;
 
 
-console.log(data);
+////console.log(data);
 
 
-console.log(start_val);
+///console.log(start_val);
 
 
-console.log(prec);
+///console.log(prec);
 
 
  
@@ -56,7 +56,7 @@ console.log(prec);
 
             return function(t) {
                 this.textContent = (Math.round(i(t) * round) / round) +"%";
-console.log(this.textContent);
+////////console.log(this.textContent);
             };
         });
 
@@ -172,7 +172,7 @@ qSVG.selectAll(".txt")
         ////////
         ////////////
         ////////
-console.log(name+"->number svg name")
+////////console.log(name+"->number svg name")
 
     iii++;
 
@@ -225,7 +225,7 @@ qSVG.selectAll(".txttxt")
         ////////
         ////////////
         ////////
-console.log(name)
+///////console.log(name)
 
     iii++;
 
@@ -277,7 +277,7 @@ qSVG.selectAll(".txttxt")
         ////////
         ////////////
         ////////
-console.log(name)
+////////console.log(name)
 
     iii++;
 
