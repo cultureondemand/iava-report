@@ -2058,7 +2058,7 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
   {
     section: "// THANK YOU ",
      icon: "",
-    header: "",
+    header: "IAVA is incredibly thankful for the donors that have made this report possible with their contributions to IAVA.",
     bkgImage: {
       small: "10.jpg",
       medium: "10.jpg",
@@ -2067,7 +2067,7 @@ Dr. Maffucci currently serves on multiple advisory and steering committees, incl
     body: `
 <div class="sectionledeB">
 
- IAVA is incredibly thankful for the donors that have made this report possible with their contributions to IAVA.
+ 
  
 
 
@@ -2357,7 +2357,7 @@ Alvin Dworman
   {
     section: "// SUPPORT IAVA",
      icon: "",
-    header: ".",
+    header: "",
     bkgImage: {
       small: "10.jpg",
       medium: "10.jpg",
