@@ -4975,25 +4975,81 @@ d3.select("#legendcontain").select("rect").remove();
 
   function showTitle23() {
  
-
-
-
-
-
-
+ // media query event handler
+if (window.matchMedia("(max-width: 400px)").matches) {
 
   //Width and height
-      var w = window.innerWidth;
-      var h = (window.innerHeight/1.5);
+      var w = (window.innerWidth/1.3);
+ /////////////////////////     var h = (window.innerHeight/1.3);
+      var h = 300;
 
       //Define map projection
       var projection = d3.geo.albersUsa()
                    .translate([w/2, h/2])
-                   .scale([1280]);
+                   .scale([400]);
+    //Define path generator
+      var path = d3.geo.path()
+               .projection(projection); 
+
+  /* the viewport is at least 400 pixels wide */
+} 
+
+
+else if (window.matchMedia("(min-width: 401px) and (max-width: 960px)").matches) {
+
+  //Width and height
+      var w = window.innerWidth;
+ /////////////////////////     var h = (window.innerHeight/1.3);
+      var h = 400;
+
+      //Define map projection
+      var projection = d3.geo.albersUsa()
+                   .translate([w/2, h/2])
+                   .scale([700]);
+    //Define path generator
+      var path = d3.geo.path()
+               .projection(projection); 
+
+  /* the viewport is at least 400 pixels wide */
+} 
+
+
+else  {
+
+
+
+  //Width and height
+      var w = (window.innerWidth/1.3);
+ //////////////////////     var h = (window.innerHeight/1.3);
+      var h = 600;
+
+      //Define map projection
+      var projection = d3.geo.albersUsa()
+                   .translate([w/2, h/2])
+                   .scale([1080]);
+
+    //Define path generator
+      var path = d3.geo.path()
+               .projection(projection); 
+
+}
+ 
+
+ 
+
+/*
+  //Width and height
+      var w = (window.innerWidth/1.3);
+      var h = (window.innerHeight/1.3);
+
+      //Define map projection
+      var projection = d3.geo.albersUsa()
+                   .translate([w/2, h/2])
+                   .scale([960]);
 
       //Define path generator
       var path = d3.geo.path()
-               .projection(projection);
+               .projection(projection); */
 
       //Define quantize scale to sort data values into buckets of color
       var color = d3.scale.quantize()
@@ -5010,7 +5066,7 @@ d3.select("#legendcontain").select("rect").remove();
       //Create SVG element
       var legsvg = d3.select("#legendcontain")
             .append("svg")
-            .attr("width", (window.innerWidth/1.1)+"px")
+            .attr("width", (window.innerWidth/1.3)+"px")
             .attr("height", "40px");
 
 //Append a defs (for definition) element to your SVG
@@ -5024,7 +5080,7 @@ var linearGradient = defs.append("linearGradient")
 
 //Draw the rectangle and fill with gradient
 legsvg.append("rect")
-  .attr("width", (window.innerWidth/1.1))
+  .attr("width", (window.innerWidth/1.3))
   .attr("height", 40)
   .style("fill", "url(#linear-gradient)");
 
@@ -5103,6 +5159,25 @@ linearGradient.selectAll("stop")
              .enter()
              .append("path")
              .attr("d", path)
+             .attr("class","stateouts")
+
+
+
+        .on("mousemove", function(d){
+            div.style("left", d3.event.pageX-60+"px");
+            div.style("top", (d3.event.pageY)-136+"px");
+            div.style("display", "inline-block");
+            div.style("position", "absolute");
+            div.html((d.properties.name)+"<h4>"+(d.properties.value)+"%</h4>");
+         })
+
+        .on("mouseout", function(d){
+            div.style("display", "none");
+        })
+
+
+
+
              .style("fill", function(d) {
                 //Get data value
                 var value = d.properties.value;
@@ -5114,13 +5189,24 @@ linearGradient.selectAll("stop")
                   //If value is undefined…
                   return "#ccc";
                 }
+
+
+
+
              });
+
+
+
+
+
+
 
         });
 
       });
 
 
+var div = d3.select("body").append("div").attr("class", "toolTip");
 
 
 
