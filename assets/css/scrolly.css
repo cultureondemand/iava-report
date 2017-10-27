@@ -4518,7 +4518,7 @@ margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
 }
 
 
-@media (max-width: 599px) {
+@media (min-width: 401px) and (max-width: 599px) {
  .mdc-toolbar__title  {
 
   visibility: hidden;
@@ -4528,8 +4528,18 @@ margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
 
 
 
+@media (max-width: 400px) {
+ .mdc-toolbar__title  {
 
-.mdc-toolbar a:hover {
+  visibility: visible;
+}
+
+}
+
+
+
+
+.mdc-toolbar a {
 
 color:#ffffff !important;
 text-decoration: none !important;
