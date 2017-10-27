@@ -1647,7 +1647,7 @@ left: 24px;
   /* font-family: 'din_regular-webfont', sans-serif; */
   font-family: 'din_bold-webfont', serif;
   font-weight: 800;
-max-width: 800px;
+max-width: 500px;
   margin-bottom: 0;
   margin-top: 0;
    text-align: left;
@@ -1673,7 +1673,7 @@ left: 185px;
   text-transform: uppercase;
   color: #fff;
   font-size: 12vh;
-max-width: 900px;
+max-width: 800px;
 
   /* font-family: 'din_regular-webfont', sans-serif; */
   font-family: 'din_bold-webfont', serif;
@@ -2436,6 +2436,143 @@ color:#dbf529;
 
 
 
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+ 
+
+
+
+.sectionledeB {
+
+
+  display:block;width:100%; padding-left:24px;padding-top:26px;padding-right:24px;padding-bottom:26px;
+  line-height: 1.6em;
+  font-size: 16px;
+ }
+
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+
+
+
+.sectionledeB {
+
+
+  display:block;width:100%; padding-left:24px;padding-top:26px;padding-right:24px;padding-bottom:26px;
+  line-height: 1.6em;
+  font-size: 18px;
+ }
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+
+.sectionledeB {
+
+
+  display:block;width:100%; padding-left:185px;padding-top:26px;padding-right:66px;padding-bottom:26px;
+  line-height: 1.6em;
+  font-size: 20px;
+ }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+ 
+
+
+
+.sectionlede:first-child:first-letter {
+
+
+  color: #dcf428;
+  display: inline;
+  float: left;
+  font-size: 102px;
+font-family: 'din_bold-webfont', sans-serif;
+font-style: normal;
+font-weight: 700;
+  line-height: .66em;
+  margin: 0.03em 0.04em 0 0;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+
+
+
+
+.sectionlede:first-child:first-letter {
+
+
+  color: #dcf428;
+  display: inline;
+  float: left;
+  font-size: 142px;
+font-family: 'din_bold-webfont', sans-serif;
+font-style: normal;
+font-weight: 700;
+  line-height: .66em;
+  margin: 0.03em 0.04em 0 0;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+
+
 .sectionlede:first-child:first-letter {
 
 
@@ -2450,6 +2587,19 @@ font-weight: 700;
   margin: 0.03em 0.04em 0 0;
   text-transform: uppercase;
 }
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -3357,10 +3507,10 @@ display: flex;
 
 .legendrow {
  /*  display:block;  */
- min-height: 4em; 
+ min-height: 6em; 
  position: relative;
 
-line-height: .8em;
+line-height: 1em;
   width:100%;
   margin-top:10px;
   padding-left: 8px;
@@ -3383,10 +3533,10 @@ line-height: .8em;
 
 .legendrow {
  /*  display:block;  */
- min-height: 40px; 
+ min-height: 3em; 
 position: relative;
 
-line-height: .8em;
+line-height: 1em;
   width:100%;
   margin-top:10px;
 
@@ -3512,10 +3662,11 @@ margin-right: 3px;
 
 .legendblock {
 
-    display: inline-block;
+    display: block;
     margin-right: 18px;
     margin-bottom: 8px;
 height: 15px;
+width: 100%;
   }
 
 
@@ -4371,12 +4522,12 @@ margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
 }
 
 
+@media (max-width: 599px) {
+ .mdc-toolbar__title  {
 
+  visibility: hidden;
+}
 
-
-
-
-
-
+}
 
 
