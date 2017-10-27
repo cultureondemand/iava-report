@@ -4963,6 +4963,7 @@ d3.select("#legendcontain").select("rect").remove();
 
     
 
+d3.select("body").selectAll("toolTip").remove();
 
     
 
@@ -5231,6 +5232,9 @@ var div = d3.select("body").append("div").attr("class", "toolTip");
 
   function showTitle24() {
  
+
+d3.select("body").selectAll("toolTip").remove();
+
 
 d3.select("#mapcontain").select("svg").remove();
 d3.select("#mapcontain").select("g").remove();
