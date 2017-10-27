@@ -73,8 +73,8 @@ var chart = d3.select("#"+name)
 
 
  .on("mousemove", function(d){
-            div.style("left", d3.event.pageX-1+"px");
-            div.style("top", (d3.event.pageY)-30+"px");
+            div.style("left", d3.event.pageX+10+"px");
+            div.style("top", (d3.event.pageY)-25+"px");
             div.style("display", "inline-block");
             div.style("position", "absolute");
             div.html((d.a)+"<h4>"+(d.b)+"%</h4>");
@@ -211,8 +211,8 @@ var chart = d3.select("#"+name)
 
 
  .on("mousemove", function(d){
-            div.style("left", d3.event.pageX-1+"px");
-            div.style("top", (d3.event.pageY)-30+"px");
+            div.style("left", d3.event.pageX+10+"px");
+            div.style("top", (d3.event.pageY)-25+"px");
             div.style("display", "inline-block");
             div.style("position", "absolute");
             div.html((d.a)+"<h4>"+(d.b)+"%</h4>");
@@ -350,8 +350,8 @@ var chart = d3.select("#"+name)
 
 
  .on("mousemove", function(d){
-            div.style("left", d3.event.pageX-1+"px");
-            div.style("top", (d3.event.pageY)-30+"px");
+            div.style("left", d3.event.pageX+10+"px");
+            div.style("top", (d3.event.pageY)-25+"px");
             div.style("display", "inline-block");
             div.style("position", "absolute");
             div.html((d.a)+"<h4>"+(d.b)+"%</h4>");
@@ -487,8 +487,8 @@ var chart = d3.select("#"+name)
 
 
  .on("mousemove", function(d){
-            div.style("left", d3.event.pageX-1+"px");
-            div.style("top", (d3.event.pageY)-30+"px");
+            div.style("left", d3.event.pageX+10+"px");
+            div.style("top", (d3.event.pageY)-25+"px");
             div.style("display", "inline-block");
             div.style("position", "absolute");
             div.html((d.a)+"<h4>"+(d.b)+"%</h4>");
