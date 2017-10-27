@@ -892,7 +892,7 @@ font-weight: 400;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .step {
-    margin-bottom: 126vh;
+    margin-bottom: 96vh;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -1898,15 +1898,13 @@ max-width: 1200px;
   font-family: "din_bold-webfont",
     "Arial",
     sans-serif;
-  margin-top: .1em;
-
+ 
 
   font-weight: 800;
 
   margin-bottom: .1em;
 
-  line-height: 1.3em;
-
+ 
    padding-bottom: .1em;
   text-align: left;
   position: relative;
@@ -1934,15 +1932,13 @@ max-width: 1200px;
   font-family: "din_bold-webfont",
     "Arial",
     sans-serif;
-  margin-top: .1em;
-
+ 
 
   font-weight: 800;
 
   margin-bottom: .1em;
 
-  line-height: 1.3em;
-
+ 
    padding-bottom: .1em;
   text-align: left;
   position: relative;
@@ -4529,5 +4525,19 @@ margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
 }
 
 }
+
+
+
+
+.mdc-toolbar a:hover {
+
+color:#ffffff !important;
+text-decoration: none !important;
+
+}
+
+
+
+
 
 
