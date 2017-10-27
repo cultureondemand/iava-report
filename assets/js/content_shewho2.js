@@ -2037,7 +2037,7 @@ The margin of error for this survey is +/- 2 percentage points at the 95% confid
 
 Jacqueline Maffucci, Ph.D. is the Research Director for Iraq and Afghanistan Veterans of America. She holds a Bachelor of Science from Cornell University and a Doctorate of Philosophy in Neuroscience from The University of Texas at Austin. Prior to her position at IAVA, Dr. Maffucci spent three years as a consultant to the Pentagon focusing on behavioral health policy for the Army. This included two years spent on the Army Suicide Prevention Task Force. Among other responsibilities, she acted as the liaison to the Department of Defense research community working to translate research into policy, work she continues in her current role.
 <br /><br />
-<img src="assets/images/j_maffucci.jpg" border="0" alt="Jaqueline Maffucci, Ph.D." align="right">
+<img src="assets/images/j_maffucci.jpg" border="0" alt="Jaqueline Maffucci, Ph.D." align="right" style="height:340px;margin:12px; ">
 Dr. Maffucci currently serves on multiple advisory and steering committees, including the National Center for PTSD Education Advisory Board, the Department of Veterans Affairs Women’s Health CREATE Veterans Council and the National Academic Affiliations Council. As IAVA’s Research Director, Dr. Maffucci has published on a variety of issues critical to the veteran community, including the VA disability compensation backlog, mental health, suicide prevention and women veterans. She has contributed to CNN, the Chicago Tribune, Yahoo News and the Baltimore Sun as well as other television, print and radio outlets.
 
 
@@ -2370,7 +2370,7 @@ Alvin Dworman
 IAVA relies on the generosity of our corporate and foundation partnerships and the support of individual contributors to amass the resources necessary to fulfill our mission.  This Member Survey is the most comprehensive non governmental survey of Post-9/11 veterans and is an important snapshots of the veteran community that no other organization has the ability to replicate.  IAVA is the leading voice advocating on behalf of Post-9/11 veterans because our community takes the time to share their point of view and they trust IAVA to execute on their behalf.   Help us continue this vital work, by donating to support IAVA’s mission today!
 <br /><br />
 
- <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="width:30%;font-size:135%;font-weight:800;margin-bottom:6px; padding:6px; " onclick="window.open('https://iava.org/donate')">
+ <button class="mdc-button mdc-button--raised" data-demo-no-js="" style="min-width: 236px;width:30%;font-size:135%;font-weight:800;margin-bottom:6px; padding:6px; " onclick="window.open('https://iava.org/donate')">
 Donate!
 </button>
 <br />
