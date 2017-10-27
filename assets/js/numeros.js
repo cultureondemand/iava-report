@@ -65,7 +65,7 @@ qSVG.selectAll(".txt")
         ////////
         ////////////
         ////////
-console.log(name)
+//////////console.log(name)
 
 
 
@@ -119,7 +119,7 @@ qSVG.selectAll(".txt")
         ////////
         ////////////
         ////////
-console.log(name)
+/////// console.log(name)
 
     iii++;
 
