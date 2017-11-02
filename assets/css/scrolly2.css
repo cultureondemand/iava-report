@@ -3709,6 +3709,38 @@ line-height: .8em;
  
 
 
+/* Desktop Styles */
+@media print {
+  
+
+
+
+
+.legendrow {
+ /*  display:block;  */
+ min-height: 33px; 
+position: relative;
+
+line-height: .8em;
+  width:100%;
+  margin-top:10px;
+  margin-bottom:18px;
+  text-align:center;
+  border-bottom:8px solid #babcbf;
+  border-left:1px solid #babcbf;
+  border-right:1px solid #babcbf;
+}
+
+}
+
+
+
+
+
+
+ 
+
+
 
 
 
