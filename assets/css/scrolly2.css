@@ -2,14 +2,14 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 background-color: #f8f6f2;
-  background-attachment: fixed;
+ /* background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 
@@ -65,7 +65,11 @@ background-color: #f8f6f2;
   height: 100%;
   display: inline-block;
   position: fixed;
-  z-index: -1;
+  z-index: 1;
+
+     transition: all .02s ease;
+  -webkit-transition:all .02s ease;
+
 }
 
 
@@ -872,7 +876,7 @@ font-weight: 400;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .step {
-    margin-bottom: 126vh;
+    margin-bottom: 86%;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -892,7 +896,7 @@ font-weight: 400;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .step {
-    margin-bottom: 96vh;
+    margin-bottom: 86%;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -1865,12 +1869,12 @@ max-width: 1200px;
 
   font-weight: 800;
 
-  margin-bottom: .1em;
+  margin-bottom: 1em;
   margin-top: .1em;
 
   line-height: 1.3em;
 
-   padding-bottom: .1em;
+   padding-bottom: 1em;
   text-align: left;
   position: relative;
   display: block;
@@ -1900,12 +1904,11 @@ max-width: 1200px;
     sans-serif;
  
 
-  font-weight: 800;
-
-  margin-bottom: .1em;
+ 
+  margin-bottom: 1em;
 
  
-   padding-bottom: .1em;
+   padding-bottom: 1em;
   text-align: left;
   position: relative;
   display: block;
@@ -1933,13 +1936,12 @@ max-width: 1200px;
     "Arial",
     sans-serif;
  
-
-  font-weight: 800;
-
-  margin-bottom: .1em;
+line-height: 2.6em;
+ 
+  margin-bottom: 1em;
 
  
-   padding-bottom: .1em;
+   padding-bottom: 1em;
   text-align: left;
   position: relative;
   display: block;
@@ -4029,15 +4031,53 @@ font-weight: 700;
   text-transform: uppercase;
 }
 
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+ .stepspan {
+
+  display: block;
+  position: relative;
+  width: 100%;
+  background:none;
+  height:25%;
+}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
 .stepspan {
 
   display: block;
   position: relative;
   width: 100%;
   background:none;
-  height:93px;
+  height:25%;
+}
 }
 
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+ .stepspan {
+
+  display: block;
+  position: relative;
+  width: 100%;
+  background:none;
+  height:25%;
+}
+}
+
+@media print {
+.stepspan {
+
+  display: none;
+ }
+
+}
+
+ 
 
 
 
