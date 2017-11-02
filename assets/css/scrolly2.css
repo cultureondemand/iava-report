@@ -1419,6 +1419,24 @@ overflow: visible !important;
 }
 
 
+/* Desktop Styles */
+@media print {
+
+
+
+.mdc-toolbar__title
+
+
+
+ {
+display: none !important;
+visibility: none;
+}
+
+
+}
+
+
 @media print {
 
 
@@ -3896,6 +3914,29 @@ margin-right: 3px;
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  
+
+
+
+
+.legendbox {
+/* display: inline-block; */
+ display: inline-block;  
+ height: 15px;
+margin-right: 3px;
+ width: 23px;
+}
+
+
+}
+
+
+
+
+
+
+/* Desktop Styles */
+@media print {
   
 
 
