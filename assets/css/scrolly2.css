@@ -315,6 +315,18 @@ video#bgvid {
   display: block;
 }
 
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
 .videobig {
   position: fixed;
   top: 60%;
@@ -333,6 +345,92 @@ video#bgvid {
   display: block;
 }
 
+
+
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+ 
+ 
+.videobig {
+  position: fixed;
+  top: 60%;
+  left: 60%;
+  min-width: 120%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-60%) translateY(-60%);
+  -moz-transform: translateX(-60%) translateY(-60%);
+  -webkit-transform: translateX(-60%) translateY(-60%);
+  transform: translateX(-60%) translateY(-60%);
+
+  transition: 1s opacity;
+  display: block;
+}
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+.videobig {
+  position: fixed;
+  top: 60%;
+  left: 60%;
+  min-width: 120%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-60%) translateY(-60%);
+  -moz-transform: translateX(-60%) translateY(-60%);
+  -webkit-transform: translateX(-60%) translateY(-60%);
+  transform: translateX(-60%) translateY(-60%);
+
+  transition: 1s opacity;
+  display: block;
+}
+
+
+
+
+}
+
+
+
+
+/* Desktop Styles */
+@media print {
+
+.videobig {
+  position: relative;
+   display: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 video#bgvid02 {
   position: fixed;
   top: 50%;
@@ -350,6 +448,27 @@ video#bgvid02 {
   transition: 1s opacity;
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .stopfade {
   opacity: .5;
