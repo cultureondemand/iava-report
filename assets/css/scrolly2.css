@@ -876,7 +876,7 @@ font-weight: 400;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .step {
-    margin-bottom: 86%;
+    margin-bottom: 96%;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -896,7 +896,7 @@ font-weight: 400;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .step {
-    margin-bottom: 86%;
+    margin-bottom: 96%;
     font-family: 
       "din_regular-webfont", "Arial",
       sans-serif;
@@ -4041,7 +4041,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:50%;
+  height:66%;
 }
 }
 
@@ -4053,7 +4053,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:50%;
+  height:66%;
 }
 }
 
@@ -4065,7 +4065,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:50%;
+  height:66%;
 }
 }
 
