@@ -1054,6 +1054,57 @@ position: fixed;
 
 
 
+/* Desktop Styles */
+@media print {
+
+
+#logoOpener {
+
+ 
+top: 67px;
+left: 185px;
+  text-transform: none !important;
+  color: #3871C1;
+  font-size: 1.4em;
+display: inline-block;
+     font-family: "din_bold-webfont",
+      "Arial",
+      sans-serif;
+  font-weight: 400;
+position: fixed;
+  margin-bottom: 0;
+  margin-top: 0;
+   text-align: center;
+ min-width: 210px;
+
+
+  line-height: 1em;
+  /* width: 28%; */
+   z-index: 9999999;
+ }
+ 
+ 
+ 
+
+
+}
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
 
 
 
@@ -1701,6 +1752,40 @@ max-width: 800px;
 
 
 
+/* Desktop Styles */
+@media print {
+
+#titleOpener {
+   display: inline-block;
+top: 136px;
+left: 185px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12vh;
+max-width: 800px;
+
+  /* font-family: 'din_regular-webfont', sans-serif; */
+  font-family: 'din_bold-webfont', serif;
+
+  margin-bottom: 0;
+  margin-top: 0;
+   text-align: left;
+  line-height: 1em;
+    position: relative;
+  width: 100%;
+  z-index: 99999999;
+}
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -1872,8 +1957,7 @@ max-width: 1200px;
   margin-bottom: 1em;
   margin-top: .1em;
 
-  line-height: 1.3em;
-
+ 
    padding-bottom: 1em;
   text-align: left;
   position: relative;
@@ -1936,7 +2020,46 @@ max-width: 1200px;
     "Arial",
     sans-serif;
  
-line-height: 2.6em;
+line-height: 1.3em;
+ 
+  margin-bottom: 1em;
+
+ 
+   padding-bottom: 1em;
+  text-align: left;
+  position: relative;
+  display: block;
+  width: 100%;
+ 
+}
+
+
+
+}
+
+
+
+
+
+
+/* Desktop Styles */
+@media print {
+
+ 
+
+
+
+.subline {
+ /* text-transform: uppercase; */
+   color: #E0F433;
+
+  font-size: .3em;
+
+  font-family: "din_bold-webfont",
+    "Arial",
+    sans-serif;
+ 
+line-height: 1.3em;
  
   margin-bottom: 1em;
 
@@ -4301,10 +4424,75 @@ margin: auto;
 
  }
 
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+
+
 #coverstep {
       -webkit-box-shadow: none !important;
     box-shadow: none !important;
  }
+
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+#coverstep {
+      -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }
+
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+
+#coverstep {
+      -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+ }
+
+
+
+}
+
+
+
+/* Desktop Styles */
+@media print {
+  
+
+
+#coverstep {
+      -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+    position: relative;
+    page-break-after: always;
+ }
+
+
+
+}
+
+
+
 
 
 
