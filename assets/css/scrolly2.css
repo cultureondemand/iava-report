@@ -2822,6 +2822,23 @@ font-family: 'din_bold-webfont', sans-serif;
 }
 
 
+/* Desktop Styles */
+@media print {
+
+
+ 
+.bartexth {
+ 
+  fill: #000000;
+  font-size: 76%;
+font-family: 'din_bold-webfont', sans-serif;
+
+}
+
+
+
+}
+
 
 
 
@@ -3948,6 +3965,32 @@ color: #000;
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  
+
+
+
+
+
+
+.legendtextp {
+display: inline-block;
+/* line-height: 1em;
+    font-family: 'stint_ultra_condensedregular', sans-serif; margin-right: 8px;
+*/
+  font-size: 10px;
+vertical-align: middle;
+text-align: left;
+     color: #000;
+
+}
+
+
+}
+
+
+
+/* Desktop Styles */
+@media print {
   
 
 
