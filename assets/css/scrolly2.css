@@ -1597,7 +1597,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed;
+  position: fixed !important;
   display: block;
   top: 40px;
     line-height: 1em;
@@ -1627,7 +1627,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed;
+  position: fixed !important;
   display: block;
   top: 48px;
     line-height: 1em;
@@ -1658,7 +1658,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed;
+  position: fixed !important;
   display: block;
   top: 54px;
     line-height: 1em;
