@@ -894,8 +894,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #sections {
-    position: absolute;
-    color: #000;
+     color: #000;
      top: 0px;
     z-index: 10;
 text-align: left;
@@ -912,8 +911,7 @@ text-align: left;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   #sections {
-    position: absolute;
-    color: #000;
+     color: #000;
  
     top: 0px;
     z-index: 10;
@@ -931,8 +929,7 @@ text-align: left;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   #sections {
-    position: absolute;
-    color: #000;
+     color: #000;
 text-align: left;
     top: 0px;
     z-index: 10;
@@ -1597,7 +1594,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed !important;
+  position: fixed;
   display: block;
   top: 40px;
     line-height: 1em;
@@ -1627,7 +1624,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed !important;
+  position: fixed;
   display: block;
   top: 48px;
     line-height: 1em;
@@ -1658,7 +1655,7 @@ visibility: none;
  
 
 .topbar {
-  position: fixed !important;
+  position: fixed;
   display: block;
   top: 54px;
     line-height: 1em;
