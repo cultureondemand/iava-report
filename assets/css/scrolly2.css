@@ -5121,6 +5121,21 @@ text-decoration: none !important;
 }
 
 
+.mdc-toolbar__icon a {
+
+color:#F0F0F2 !important;
+text-decoration: none !important;
+
+
+}
+
+.mdc-toolbar__icon a:hover {
+
+color:#F0F0F2 !important;
+text-decoration: none !important;
+
+
+}
 
 
 
