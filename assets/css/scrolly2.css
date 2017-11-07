@@ -2094,7 +2094,7 @@ max-width: 1200px;
   margin-bottom: 1em;
   margin-top: .1em;
 
- 
+ line-height: 1em;
    padding-bottom: 1em;
   text-align: left;
   position: relative;
@@ -2124,7 +2124,7 @@ max-width: 1200px;
     "Arial",
     sans-serif;
  
-
+line-height: 1em;
  
   margin-bottom: 1em;
 
