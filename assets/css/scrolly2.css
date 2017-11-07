@@ -5121,7 +5121,7 @@ text-decoration: none !important;
 }
 
 
-.mdc-toolbar__icon a {
+.mdc-toolbar__icon {
 
 color:#F0F0F2 !important;
 text-decoration: none !important;
@@ -5129,7 +5129,7 @@ text-decoration: none !important;
 
 }
 
-.mdc-toolbar__icon a:hover {
+.mdc-toolbar__icon {
 
 color:#F0F0F2 !important;
 text-decoration: none !important;
