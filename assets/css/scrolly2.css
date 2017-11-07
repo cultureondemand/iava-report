@@ -894,7 +894,8 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #sections {
-     color: #000;
+    position: absolute;
+    color: #000;
      top: 0px;
     z-index: 10;
 text-align: left;
@@ -911,7 +912,8 @@ text-align: left;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   #sections {
-     color: #000;
+    position: absolute;
+    color: #000;
  
     top: 0px;
     z-index: 10;
@@ -929,7 +931,8 @@ text-align: left;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   #sections {
-     color: #000;
+    position: absolute;
+    color: #000;
 text-align: left;
     top: 0px;
     z-index: 10;
