@@ -2094,7 +2094,7 @@ max-width: 1200px;
   margin-bottom: 1em;
   margin-top: .1em;
 
- line-height: 1em;
+ 
    padding-bottom: 1em;
   text-align: left;
   position: relative;
@@ -2124,7 +2124,7 @@ max-width: 1200px;
     "Arial",
     sans-serif;
  
-line-height: 1em;
+
  
   margin-bottom: 1em;
 
@@ -4390,7 +4390,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:30vh;
+  height:70vh;
 }
 }
 
@@ -4402,7 +4402,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:30vh;
+  height:70vh;
 }
 }
 
@@ -4414,7 +4414,7 @@ font-weight: 700;
   position: relative;
   width: 100%;
   background:none;
-  height:30vh;
+  height:70vh;
 }
 }
 
@@ -5106,7 +5106,17 @@ margin-top:0; text-align:center; width:100%; font-size: 36px;font-weight: 800;
 
 .mdc-toolbar a {
 
-color:#ffffff !important;
+color:#F0F0F2 !important;
+text-decoration: none !important;
+
+}
+
+
+
+
+.mdc-toolbar a:hover {
+
+color:#F0F0F2 !important;
 text-decoration: none !important;
 
 }
