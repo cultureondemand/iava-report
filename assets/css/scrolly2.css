@@ -2088,7 +2088,7 @@ max-width: 1200px;
     "Arial",
     sans-serif;
 
-
+line-height: 1em;
   font-weight: 800;
 
   margin-bottom: 1em;
@@ -2120,10 +2120,9 @@ max-width: 1200px;
 
   font-size: .2em;
 
-  font-family: "din_bold-webfont",
-    "Arial",
-    sans-serif;
+  font-family: "din_bold-webfont","Arial", sans-serif;
  
+line-height: 1em;
 
  
   margin-bottom: 1em;
