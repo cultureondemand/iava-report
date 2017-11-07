@@ -9,6 +9,10 @@
 .numerosA#sections .step:first-child .bgbg {
   z-index: 0;
 position: fixed;
+
+   transition: all 0s ease;
+  -webkit-transition:all 0s ease;
+
  }
 
 
@@ -28,6 +32,10 @@ position: fixed;
  #sections .step:first-child .bgbg {
   z-index: 0;
 position: fixed;
+
+   transition: all 0s ease;
+  -webkit-transition:all 0s ease;
+
  }
 
 
@@ -47,6 +55,10 @@ position: fixed;
 #sections .step:first-child .bgbg {
   z-index: 0;
 position: fixed;
+
+   transition: all 0s ease;
+  -webkit-transition:all 0s ease;
+
  }
 
 
@@ -99,6 +111,8 @@ display: inline-block !important;
 
 
 .step {
+   transition: all 0s ease;
+  -webkit-transition:all 0s ease;
 
  
   /*
